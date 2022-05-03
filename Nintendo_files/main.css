@@ -1,0 +1,715 @@
+@charset "UTF-8";
+
+/* 공통 */
+.main h2.etc {
+	text-align: center;
+}
+
+.main h2.etc .desc {
+	margin-top: 11px;
+	margin-left: 0;
+	display: block;
+}
+
+.newSw_cate.typeB .item + .item {
+	margin-left: 32px;
+}
+
+.newSw_cate.typeB .sw_item:nth-child(n+5) {
+	margin-top: 34px;
+}
+
+.newSw_cate.typeB .sw_item:nth-child(4n+1) {
+	margin-left: 0;
+}
+
+.article {
+	position: relative;
+	margin: auto;
+	width: 1200px;
+}
+
+.main.contents {
+	padding-bottom: 100px;
+}
+
+.main .inner {
+	position: relative;
+}
+
+.main .article {
+	margin-top: 80px;
+}
+
+/* ellip */
+.ellip {
+	text-overflow:ellipsis;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+}
+
+.ellip-line {
+	display: inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	max-width: 100%;
+}
+
+.ellip,
+.ellip-line {
+	position: relative;
+	overflow: hidden;
+}
+
+
+/* main slide */
+.main_slide img {
+	max-width: 100%;
+}
+
+.main_slide.owl-carousel .owl-item img.mobile_img {
+	display: none;
+}
+
+.main_slide.owl-carousel .owl-nav > div {
+	position: absolute;
+	top: 50%;
+	/*margin-top: -34px;*/
+	margin-top: 0px;
+	width: 44px;
+	height: 68px;
+	text-indent: -9999px;
+	background: url(/images/renew/main/main_slide_btn.png) no-repeat 0 0;
+}
+
+.main_slide.owl-carousel .owl-nav .owl-prev {
+	left: 4.95%;
+}
+
+.main_slide.owl-carousel .owl-nav .owl-next {
+	right: 4.95%;
+	background-position: 100% 0;
+}
+
+
+.main_slide.owl-carousel .owl-nav > div {
+	top: calc(100% + 12px);
+	width: 20px;
+	height: 31px;
+	background-size: 200%;
+}
+
+.main_slide.owl-carousel .owl-nav .owl-prev {
+	left: 45%;
+}
+
+.main_slide.owl-carousel .owl-nav .owl-next {
+	right: 45%;
+}
+
+.num-nav {
+	position: relative;
+	top: 12px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* software */
+.news_list {
+	padding-bottom: 80px;
+}
+
+/* row banner */
+.row_banner img {
+	max-width: 100%;
+}
+
+.row_banner .pc {
+	display: block;
+}
+
+.row_banner .m {
+	display: none;
+}
+
+/* news & update */
+.newSw_cate.board_news .sw_item {
+	letter-spacing: -0.085em;
+}
+
+.newSw_cate.board_news .sw_item .tit {
+	height: 66px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+}
+
+.newSw_cate.board_news .sw_item .releaseInfo {
+	margin-top: 3px;
+}
+
+/* banner */
+.main .banner_wrap {
+	padding-top: 94px;
+}
+
+/* 배너 3개인 경우 - 20180702 */
+.banner.list_3 {
+	position: relative;
+	padding-top: 11.66666666666667%;
+	width: 34.41666666666667%;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.banner.list_3:first-of-type{background-image:url(/images/renew/main/banner_main_bottom01.jpg);}
+.banner.list_3:nth-of-type(2){background-image:url(/images/renew/main/banner_main_bottom02.jpg);}
+.banner.list_3:last-of-type{width:24.5%; background-image:url(/images/renew/main/banner_main_bottom03.jpg);}
+
+.banner.list_3 + .list_3 {
+	margin-left: 3.33%;
+}
+
+.banner.list_3 a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* 배너 3개가 모두 영상 배너인 경우 - 20190621 */
+.banner.list_3 {
+	width: 31.113333333333%;
+}
+
+.banner.list_3:last-of-type {
+	width: 31.113333333333%;
+}
+
+/* online_store */
+.main h2.etc br {
+	display: none;
+}
+
+.online_store .st_tbl_border {
+	margin: 30px 0 20px;
+}
+
+.online_store > p {
+	padding-bottom: 60px;
+	font-size: 14px;
+}
+
+/* news ticker */
+.news_ticker_wrap {
+	margin-top: 50px;
+	padding: 21px 20px;
+	border: 1px solid #d6d6d6;
+	border-width: 1px 0;
+	overflow: hidden;
+}
+
+.news_ticker_wrap .tit {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px 30px 20px 0;
+	line-height: 18px;
+}
+
+.news_ticker_wrap .tit .more_view_typeB {
+	top: 50%;
+	margin-top: -10px;
+}
+
+.news_ticker_wrap .news_ticker {
+	margin-left: 18.1%;
+}
+
+.news_ticker .item {
+	float: left;
+	padding-left: 10px;
+	width: 50%;
+	background: #fff;
+}
+
+.news_ticker .item a {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #737373;
+	display: block;
+	overflow: hidden;
+	line-height: 120%;
+}
+
+.banner_eshop {
+	display: block;
+	height: 140px;
+	background: #fe7c0a url(/images/renew/main/main_banner_eshop.gif) no-repeat top center;
+	font-size: 0;
+	text-indent: -999999px;
+}
+
+/* .banner_eshop{display:block;height:140px; background:#a83635 url(/images/renew/main/main_banner_eshop_2019_event.jpg) no-repeat top center; font-size:0; text-indent:-999999px;} */
+
+@media screen and (max-width: 1240px) {
+	.online_store.article {
+		margin-left: 20px;
+		margin-right: 20px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	h2.main_h2 {
+		padding: 0 20px;
+	}
+
+	.article {
+		width: auto;
+	}
+
+	.article .more_view {
+		right: 20px;
+	}
+
+	.newSw_cate.typeB .item + .item {
+		margin-left: 20px;
+	}
+
+	.newSw_cate.typeB .sw_item:nth-child(4n+1) {
+		margin-left: 0;
+	}
+
+	/* banner */
+	.main .banner_wrap {
+		padding-top: 25px;
+	}
+
+	/* news & update */
+	.newSw_cate.board_news .sw_item .tit {
+		height: 54px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	/* 공통 */
+	h2.main_h2 {
+		font-size: 22px;
+	}
+
+	h2.main_h2 .desc,
+	h2.main_h2.etc .desc {
+		display: none;
+	}
+
+	.main h2 {
+		font-size: 22px;
+		letter-spacing: -0.09em;
+	}
+
+	.main .article {
+		margin-top: 30px;
+	}
+
+	.main.contents {
+		padding-bottom: 30px;
+	}
+
+	.newSw_cate.typeB .sw_item:nth-child(n+5) {
+		margin-top: 17px;
+	}
+
+	/* main slide */
+	.main_slide.owl-carousel .owl-nav > div {
+		/*margin-top: -15px;*/
+		/*width: 30px;*/
+		/*background-size: 60px;*/
+		margin-top: auto;
+		width: 20px;
+		height: 31px;
+	}
+
+	.main_slide.owl-carousel .owl-nav .owl-prev {
+		left: 3%;
+	}
+
+	.main_slide.owl-carousel .owl-nav .owl-next {
+		right: 3%;
+	}
+
+	/* software */
+	.main .btn_more {
+		display: none !important;
+	}
+
+	.news_list {
+		padding-bottom: 30px;
+	}
+
+	.software_list.newSw_cate {
+		margin: 20px 0 0;
+	}
+
+	/* row banner - 20171130 (젤다) 배너 교체 시 삭제 */
+	.row_banner .inner {
+		padding: 15px 0;
+		height: 140px;
+	}
+
+	.row_banner .inner img {
+		max-height: 100%;
+	}
+
+	.row_banner {
+		height: 100px;
+	}
+
+	.banner_eshop {
+		height: 100px;
+		background-size: cover;
+	}
+
+	/* news & update */
+	.online_store .st_tbl_border {
+		margin: 20px 0 10px;
+	}
+
+	.online_store > p {
+		padding-bottom: 30px;
+	}
+
+	.main .board_news .sw_item:nth-child(n+5) {
+		display: none;
+	}
+
+	.main .newSw_cate.board_news .sw_item:last-child {
+		display: none;
+	}
+
+	/* news ticker */
+	.news_ticker {
+		width: auto;
+		overflow: hidden;
+	}
+
+	.news_ticker .item {
+		float: none;
+		width: auto !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* 공통 */
+	.newSw_cate.typeB .sw_item {
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	.newSw_cate.typeB .item + .item {
+		margin-left: 0;
+	}
+
+	.newSw_cate.typeB .sw_item:nth-of-type(n+3) {
+		margin-top: 20px;
+	}
+
+	.newSw_cate.typeB .sw_item:nth-of-type(2n+1) {
+		margin-left: 0
+	}
+
+	.newSw_cate.typeB .sw_item:nth-child(odd) {
+		margin-right: 20px;
+	}
+
+	.main.contents {
+		padding-bottom: 0;
+	}
+
+	/* main slide */
+	.main_slide.owl-carousel .owl-item img.pc_img {
+		display: none;
+	}
+
+	.main_slide.owl-carousel .owl-item img.mobile_img {
+		display: block;
+	}
+
+	.main_slide.owl-carousel .owl-nav {
+		display: none;
+	}
+
+	/* software */
+	.software_wrap.inner {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.software_wrap h2 {
+		padding: 0 20px;
+	}
+
+	.software_wrap .more_view {
+		right: 20px;
+	}
+
+	/* news ticker */
+	.news_ticker_wrap.inner {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.news_ticker_wrap {
+		border-width: 1px 0 0;
+	}
+
+	.news_ticker_wrap .news_ticker {
+		margin-left: 0;
+	}
+
+	.news_ticker_wrap .tit {
+		display: none;
+	}
+
+	.news_ticker .item a {
+		font-size: 15px;
+	}
+
+	.main .software_list .item {
+		margin-right: 0 !important;
+		padding-bottom: 0;
+	}
+
+	.main .software_list .item .thumb img {
+		display: inline-block;
+	}
+
+	.main .software_list .item div {
+		display: none;
+	}
+
+	.main .software_list .item .tit {
+		display: none;
+	}
+
+	.main .software_list .item .btn_view_qrCode {
+		display: none;
+	}
+
+	.main .software_list .item .ico_lang {
+		display: none;
+	}
+
+	.main .sw_item.ico_new.ico_new:before {
+		display: none;
+	}
+
+	.main .software_wrap .newSw_cate {
+		padding: 0;
+		text-align: center;
+	}
+
+	/* 배너 2개인 경우 */
+	.banner.left {
+		float: none;
+		width: 100%;
+		margin: 0 !important;
+	}
+
+	.banner.right {
+		float: none;
+		width: 100%;
+		margin: 0 !important;
+		margin-top: 10px !important;
+	}
+
+	.banner a img {
+		width: 100%;
+	}
+
+	/* 배너 3개인 경우 */
+	.banner.list_3 {
+		padding-top: 24.13793103448276%;
+		width: 100%;
+		background-size: 100% auto;
+	}
+
+	.banner.list_3 + .list_3 {
+		margin-top: 12px;
+		margin-left: 0;
+	}
+
+	.banner.list_3:first-of-type {
+		background-image: url(/images/renew/main/m_banner_main_bottom01.jpg);
+	}
+
+	.banner.list_3:nth-of-type(2) {
+		background-image: url(/images/renew/main/m_banner_main_bottom02.jpg);
+	}
+
+	.banner.list_3:last-of-type {
+		width: 100%;
+		background-image: url(/images/renew/main/m_banner_main_bottom03.jpg);
+	}
+
+	/* row banner */
+	.row_banner .pc {
+		display: none;
+	}
+
+	.row_banner .m {
+		display: block;
+	}
+
+	/* row banner - 20171130 (젤다) 배너 교체 시 삭제 */
+	.row_banner {
+		height: 100px;
+		background-size: contain;
+	}
+
+	.row_banner .inner {
+		padding: 12px 0;
+		height: 100px;
+	}
+
+	.row_banner .pc {
+		display: inline;
+	}
+
+	.row_banner .m {
+		display: none;
+	}
+
+	/* online_store */
+	.main h2.etc br {
+		display: block;
+	}
+
+	.online_store > p {
+		padding-left: 12px;
+		text-indent: -12px;
+		line-height: 1.2;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	/* row banner - 20171130 (젤다) 배너 교체 시 삭제 */
+	.row_banner .inner {
+		padding: 18px 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.main h2.etc br {
+		display: none;
+	}
+}
+
+/* @media screen and (max-width: 620px) {
+	.banner_eshop{background:#c7001f url(/images/renew/main/event_row_banner_mo.jpg); background-size: contain; background-repeat: no-repeat; background-position: center;} 
+}; */
+
+
+/* 2019.05.07 추가 */
+.layer_popup_main {position:absolute; border:1px solid #d1d2d9; background:#fafdff; z-index:9999; box-shadow:0 0 10px 0px rgba(0,0,0,.2);}
+.layer_popup_main.current_mo {display:none;}
+.layer_popup_main .thumbnail {margin:10px; border:1px solid #f1f2f2;}
+.layer_popup_main .no_more_today {overflow:hidden; padding:0 10px 10px;}
+.layer_popup_main .no_more_today .btn_nomore {font-size:13px; color:#666;}
+.layer_popup_main .btn_close {float:right; width:auto; height:20px; padding: 0 10px; border:1px solid #ccc; border-radius:2px; font-size: 10px; line-height: 18px;}
+.layer_popup_main .btn_close.btn_nomore {float: left; width: auto; font-size: 10px; padding: 0 10px;}
+
+
+
+/* 가로모드 이슈 수정 css */
+@media screen and (max-width: 720px) {
+	.layer_popup_main.current_pc {display:none;}
+	.layer_popup_main.current_mo {position:fixed; top:0; bottom:0; left:0; right:0; display:block; background:rgba(0,0,0,.7);}
+	.layer_popup_main .layer-inner {content:''; position:absolute; top:50%; left:80px; right:80px; border:1px solid #d1d2d9; transform:translateY(-50%); background:#fafdff; box-shadow:0 0 10px 0px rgba(0,0,0,.2);}
+	.layer_popup_main .owl-carousel {margin-bottom:5px;}
+
+	/*.layer_popup_main .owl-carousel .slide-item img {max-height: 80vh;}*/
+	/*.layer_popup_main .owl-carousel .slide-item img {display: inline-block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; max-width: 100%; max-height: 100%; width: auto; height: auto;}*/
+}
+
+@media screen and (orientation:landscape) {
+	.layer_popup_main .layer-inner {left: 100px; right: 100px;}
+	.layer_popup_main .owl-carousel .owl-item {position: relative; max-height: 80vh; min-height: 80vh; vertical-align: middle;}
+	.layer_popup_main .owl-carousel .slide-item img {display: inline-block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; max-width: 100%; max-height: 100%; width: auto; height: auto; margin: auto;}
+}
+/* 가로모드 이슈 수정 css */
+
+.layer_popup_main .layer-inner .owl-carousel {text-align: center}
+.layer_popup_main .layer-inner .owl-dots {display: inline-block; margin: 10px auto 0 auto;}
+.layer_popup_main .layer-inner .owl-dots .owl-dot {display: inline-block; margin: 0 3px;}
+.layer_popup_main .layer-inner .owl-dots .owl-dot span {
+	display: block;
+	width: 6px; height: 6px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.5)
+}
+.layer_popup_main .layer-inner .owl-dots .owl-dot.active span {
+	background-color: #e60012;
+}
+
+
+/* 모바일 팝업 로딩 */
+.layer_popup_main.current_mo .owl-carousel {display: none;}
+.layer_popup_main.current_mo .loading-box {position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; background-color: #fff; transform: translate(-50%, -50%); z-index: 2;}
+.layer_popup_main.current_mo .spinner {position: relative; top: 50%; left: 50%; width: 40px; height: 10px; transform: translate(-50%, -50%);}
+.layer_popup_main.current_mo .spinner > div {background-color: #e60012; height: 100%; width: 4px; display: inline-block; -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out; animation: sk-stretchdelay 1.2s infinite ease-in-out;}
+.layer_popup_main.current_mo .spinner .rect2 {-webkit-animation-delay: -1.1s; animation-delay: -1.1s;}
+.layer_popup_main.current_mo .spinner .rect3 {-webkit-animation-delay: -1.0s; animation-delay: -1.0s;}
+.layer_popup_main.current_mo .spinner .rect4 {-webkit-animation-delay: -0.9s; animation-delay: -0.9s;}
+.layer_popup_main.current_mo .spinner .rect5 {-webkit-animation-delay: -0.8s; animation-delay: -0.8s;}
+
+@-webkit-keyframes sk-stretchdelay {
+	0%, 40%, 100% { -webkit-transform: scaleY(0.4);}
+	20% { -webkit-transform: scaleY(1.0);}
+}
+
+@keyframes sk-stretchdelay {
+	0%, 40%, 100% {transform: scaleY(0.4); -webkit-transform: scaleY(0.4);}
+	20% {transform: scaleY(1.0); -webkit-transform: scaleY(1.0);}
+}
+
+.mb_75 {margin-bottom:75px;}
+
+/* 20.10.19 메인 하단 배너 3개 추가에 따른 css 추가 */
+.main .new-banner{
+	padding-top:44px;
+}
+.new-banner .banner.list_3:nth-of-type(1) {
+	background-image: url("/images/renew/main/banner_main_bottom04.jpg");
+}
+.new-banner .banner.list_3:nth-of-type(2){
+	background-image: url("/images/renew/main/banner_main_bottom05.jpg");
+}
+.new-banner .banner.list_3:nth-of-type(3){
+	background-image: url("/images/renew/main/banner_main_bottom06.jpg");
+}
+@media screen and (max-width:767px) {
+	.main .new-banner{
+		padding-top:12px;
+	}
+	.new-banner .banner.list_3:nth-of-type(1) {
+		background-image: url("/images/renew/main/m_banner_main_bottom04.jpg");
+	}
+	.new-banner .banner.list_3:nth-of-type(2){
+		background-image: url("/images/renew/main/m_banner_main_bottom05.jpg");
+	}
+	.new-banner .banner.list_3:nth-of-type(3){
+		background-image: url("/images/renew/main/m_banner_main_bottom06.jpg");
+	}
+}

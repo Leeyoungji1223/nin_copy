@@ -1,0 +1,661 @@
+@charset "UTF-8";
+
+/* 공통 */
+.amiibo {
+	text-align: center;
+	letter-spacing: -0.07em;
+	overflow: hidden;
+}
+
+.amiibo h2 {
+	padding-bottom: 34px;
+	font-size: 32px;
+	font-weight: 700;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.amiibo img {
+	max-width: 100%;
+}
+
+.amiibo .container {
+	margin: auto;
+	max-width: 1200px;
+}
+
+.amiibo .desc {
+	font-size: 16px;
+	line-height: 28px;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.btn_view_wrap {
+	text-align: center;
+}
+
+.btn_view_wrap .btn_view {
+	display: inline-block;
+}
+
+.w280 {
+	width: 280px;
+}
+
+.w380 {
+	width: 380px;
+}
+
+.mgl20 {
+	margin-left: 20px;
+}
+
+
+/* amiibo_top */
+.amiibo_top {
+	padding: 80px 0 100px;
+	height: 695px;
+	background: url(/images/renew/amiibo/main/amiibo-mainvisual-bg.png) repeat 0 0;
+	background-size: cover;
+}
+
+.amiibo_top h2 {
+	padding-bottom: 0;
+}
+
+.amiibo_top h2 span {
+	font-size: 30px;
+	letter-spacing: -0.07em;
+	display: block;
+}
+
+.amiibo_logo {
+	padding: 40px 0 118px;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.amiibo_slide .item {
+	float: left;
+}
+
+.amiibo_slide .item img {
+	max-width: inherit;
+	width: auto;
+}
+
+/* .contents_gnb */
+.contents_gnb {
+	border: 1px solid #d6d6d6;
+	border-width: 1px 0;
+	overflow: auto;
+}
+
+.contents_gnb ul {
+	display: -webkit-flex;
+	-webkit-flex-wrap: nowrap;
+	display: -moz-flex;
+	-moz-flex-wrap: nowrap;
+	display: -ms-flex;
+	-ms-flex-wrap: nowrap;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.contents_gnb ul li {
+	position: relative;
+	float: left;
+}
+
+.contents_gnb ul li:after {
+	content: '';
+	position: absolute;
+	top: 30px;
+	left: 0;
+	bottom: 25px;
+	width: 1px;
+	background-image: -webkit-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -moz-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -o-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: linear-gradient(to bottom, #999, #999 1px, transparent 1px, transparent 3px);
+	background-repeat: repeat-y;
+	background-position: left top;
+	-moz-background-size: 1px 3px;
+	-o-background-size: 1px 3px;
+	background-size: 1px 3px;
+}
+
+.contents_gnb ul li:first-child:after {
+	display: none;
+}
+
+.contents_gnb ul li a {
+	padding: 30px 48px;
+	font-weight: 700;
+	color: #000;
+	display: block;
+}
+
+.contents_gnb ul li.on a {
+	color: #e60012;
+}
+
+/* section1 */
+.amiibo .section1 {
+	padding-bottom: 100px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.amiibo .section1 h2,
+.amiibo .section1 .desc {
+	color: #fff;
+}
+
+.section1_top {
+	position: relative;
+	padding: 100px 0 513px;
+	background-color: #e60012;
+}
+
+.section1_top .container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+	width: 100%;
+	height: 100%;
+}
+
+.section1_top .bg {
+	position: absolute;
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.section1_top .bg1 {
+	left: -45px;
+	bottom: -11px;
+	width: 27.92%;
+	height: 244px;
+	background-image: url(/images/renew/amiibo/main/top_bg1.png)
+}
+
+.section1_top .bg2 {
+	left: 50%;
+	bottom: -17px;
+	margin-left: -238px;
+	width: 53.92%;
+	height: 463px;
+	background-image: url(/images/renew/amiibo/main/top_bg2.png)
+}
+
+.section1_top .bg3 {
+	right: -245px;
+	bottom: -34px;
+	width: 18.92%;
+	height: 190px;
+	background-image: url(/images/renew/amiibo/main/top_bg3.png)
+}
+
+.section1_top .bg1:after {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 11px;
+	background-color: #fff;
+	content: '';
+}
+
+.amiibo .feat_list {
+	padding: 86px 0 36px;
+}
+
+.amiibo .feat_list li {
+	float: left;
+	width: 33.333%;
+	font-size: 15px;
+}
+
+.amiibo .feat_list .picto {
+	margin: 0 auto 34px;
+	padding-top: 115px;
+	width: 176px;
+	height: 176px;
+	color: #fff;
+	border-radius: 50%;
+	border-width: 8px;
+	border-style: solid;
+	background: url(/images/renew/amiibo/main/feat_picto.png) no-repeat 0 0;
+}
+
+.amiibo .feat_list .txt {
+	line-height: 24px;
+}
+
+.amiibo .feat_list .feat1 .picto {
+	background-color: #e6001e;
+	border-color: #ffe8eb;
+}
+
+.amiibo .feat_list .feat2 .picto {
+	background-color: #009ae9;
+	border-color: #ceecfc;
+	background-position: -160px 0;
+}
+
+.amiibo .feat_list .feat3 .picto {
+	background-color: #009581;
+	border-color: #dbf1ef;
+	background-position: -320px 0;
+}
+
+
+/* section2 */
+.amiibo .section2 {
+	position: relative;
+	padding: 100px 0;
+	height: 1213px;
+}
+
+.device {
+	position: absolute;
+	left: 50%;
+	font-size: 14px;
+	color: #e60012;
+}
+
+.device:after {
+	position: relative;
+}
+
+.device img {
+	max-width: inherit;
+}
+
+.device1 {
+	top: 277px;
+	margin-left: -952px;
+	z-index: 30;
+}
+
+.device2 {
+	top: 247px;
+	margin-left: -180px;
+	z-index: 10;
+}
+
+.device3 {
+	top: 592px;
+	margin-left: 8.83%;
+	width: 31.9%;
+	z-index: 20;
+}
+
+.device1:after {
+	content: '※1';
+	top: 520px;
+	left: 6px;
+}
+
+.device2:after {
+	content: '※2';
+	top: 270px;
+	left: -50px;
+}
+
+.device3:after {
+	content: '※3';
+	top: -76px;
+	left: 246px;
+}
+
+.amiibo .explan {
+	margin-bottom: 34px;
+	padding-top: 733px;
+	padding-left: 12.4%;
+	text-align: left;
+}
+
+.amiibo .explan li {
+	padding-left: 20px;
+	text-indent: -25px;
+	line-height: 28px;
+}
+
+.amiibo .explan li span {
+	font-weight: 700;
+	color: #e60012;
+}
+
+
+@media screen and (max-width: 1840px) {
+	.device3:after {
+		top: -58px;
+		left: -104px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.amiibo .container {
+		max-width: 100%;
+	}
+
+	.section1_top .container {
+		left: auto;
+		margin-left: 0;
+	}
+
+	.section1_top .bg1 {
+		left: -9999px;
+	}
+
+	.section1_top .bg2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	/*tablet*/
+	.amiibo h2 {
+		padding-bottom: 16px;
+		font-size: 20px;
+	}
+
+	.amiibo .desc {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.w280 {
+		width: 230px;
+	}
+
+	.amiibo_top {
+		padding: 41px 0 0;
+		height: 341px;
+	}
+
+	.amiibo_top h2 span {
+		font-size: 17px;
+	}
+
+	.amiibo_logo {
+		padding: 19px 0 50px;
+		width: 187px;
+	}
+
+	.amiibo_slide .item img {
+		max-width: 100%;
+	}
+
+	.contents_gnb ul li a {
+		padding: 21px 20px;
+		font-size: 15px;
+		white-space: nowrap;
+	}
+
+	.contents_gnb ul li:after {
+		top: 22px;
+		bottom: 22px;
+	}
+
+	.amiibo .section1 {
+		padding-bottom: 40px;
+	}
+
+	.section1_top {
+		padding: 40px 0 482px;
+	}
+
+	.amiibo .feat_list {
+		padding: 40px 0 0;
+	}
+
+	.amiibo .feat_list li {
+		float: none;
+		margin-bottom: 27px;
+		width: 100%;
+	}
+
+	.amiibo .feat_list .picto {
+		margin: 0 auto 11px;
+		padding-top: 95px;
+		width: 150px;
+		height: 150px;
+		background-size: cover;
+	}
+
+	.amiibo .feat_list .feat1 .txt br,
+	.amiibo .feat_list .feat2 .txt br {
+		display: none;
+	}
+
+	.amiibo .feat_list .txt span {
+		display: block;
+	}
+
+	.amiibo .feat_list .feat2 .picto {
+		background-position: -132px 0;
+	}
+
+	.amiibo .feat_list .feat3 .picto {
+		background-position: -266px 0;
+	}
+
+	.device1 {
+		top: 174px;
+	}
+
+	.device2 {
+		top: 143px;
+		margin-left: -210px;
+	}
+
+	.device:after {
+		font-size: 14px;
+	}
+
+	.device3:after {
+		top: -44px;
+		left: 78px;
+	}
+
+
+	.amiibo .section2 {
+		padding: 40px 0;
+		height: auto;
+	}
+
+	.device3 {
+		top: 470px;
+		left: auto;
+		right: 0;
+		margin-left: auto;
+		margin-right: -2%;
+		width: 57.5%;
+	}
+
+	.amiibo .explan {
+		font-size: 14px;
+	}
+
+	.amiibo .btn_view_wrap > a:last-of-type {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/*mobile*/
+	.amiibo .desc span {
+		display: block;
+	}
+
+	.amiibo .desc br {
+		display: none;
+	}
+
+	.section1_top {
+		padding: 40px 0 60%
+	}
+
+	.section1_top .bg2 {
+		margin-left: -30%;
+		width: 80%;
+		height: inherit;
+		bottom: -10px;
+		background-size: 100%;
+	}
+
+	.contents_gnb ul {
+		justify-content: left;
+	}
+
+	.amiibo .feat_list {
+		padding: 40px 20px 0;
+		font-size: 14px;
+	}
+
+	.amiibo .feat_list .txt {
+		line-height: 21px;
+	}
+
+	.device {
+		left: 0;
+	}
+
+	.device1 {
+		top: 21%;
+		margin-left: -61%;
+		width: 100%;
+	}
+
+	.device2 {
+		margin-left: 11%;
+		width: 63%;
+	}
+
+	.device3 {
+		top: 45%;
+		margin-right: -26%;
+		width: 86.5%
+	}
+
+	.device:after {
+		position: absolute;
+		top: auto;
+		left: auto;
+	}
+
+	.device1:after {
+		right: -3%;
+		bottom: 18%;
+	}
+
+	.device2:after {
+		right: 7%;
+		bottom: 21%;
+	}
+
+	.device3:after {
+		top: 82%;
+		right: 40%;
+	}
+
+	.device img {
+		max-width: 100%;
+	}
+
+	.amiibo .explan {
+		padding: 75% 20px 0;
+	}
+
+	.amiibo .explan li {
+		line-height: 21px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.device1 {
+		top: 20%;
+		margin-left: -59%;
+	}
+
+	.device2 {
+		width: 60%;
+		margin-left: 14%
+	}
+
+	.device3 {
+		top: 43%;
+		margin-right: -13%;
+		width: 71%
+	}
+
+	.device1:after {
+		right: -5%;
+		bottom: 17%;
+	}
+
+	.device2:after {
+		right: 3%;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	/* iPhone Plus */
+	.device1 {
+		top: 22.5%;
+	}
+
+	.device3 {
+		margin-right: -19%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.amiibo .feat_list .txt span {
+		display: inline;
+	}
+
+	.amiibo .feat_list .txt br {
+		display: none;
+	}
+
+	.device1 {
+		top: 21%;
+	}
+
+	.device3 {
+		top: 37%;
+	}
+
+	.device1:after {
+		right: -6%;
+	}
+
+	.device2:after {
+		right: 2%;
+		bottom: 19%;
+	}
+
+	.amiibo .explan li {
+		text-indent: -20px;
+	}
+}

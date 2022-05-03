@@ -1,0 +1,4653 @@
+@charset "UTF-8";
+
+/* 공통 */
+.main_3ds .container {
+	margin: auto;
+	min-width: 1300px;
+	max-width: 1300px;
+}
+
+.main_3ds .section {
+	padding-top: 90px;
+}
+
+.main_3ds h2 {
+	font-size: 32px;
+	line-height: 50px;
+	letter-spacing: -0.075em;
+	font-weight: normal;
+	text-align: center;
+}
+
+.main_3ds h2 strong {
+	font-weight: 700;
+	letter-spacing: -0.075em;
+}
+
+.main_3ds .desc {
+	margin-top: 23px;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.main_3ds .section03 .container,
+.main_3ds .section04 .container,
+.main_3ds .section05 .container,
+.main_3ds .section07 .container {
+	padding: 0 50px;
+}
+
+.main_3ds .txt {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -0.07em;
+	text-align: center;
+}
+
+.main_3ds {
+	overflow: hidden;
+}
+
+.w160 {
+	width: 160px;
+}
+
+.w180 {
+	width: 180px;
+}
+
+.w200 {
+	width: 200px
+}
+
+.w250 {
+	width: 250px;
+}
+
+.w280 {
+	width: 280px;
+}
+
+.w300 {
+	width: 300px;
+}
+
+/* button */
+.btn_bd_bk {
+	padding-left: 60px;
+	height: 56px;
+	font-size: 18px;
+	line-height: 48px;
+	letter-spacing: -0.07em;
+	color: #181818;
+	border: 4px solid;
+	display: block;
+}
+
+.btn_bd_bk span {
+	padding-left: 28px;
+	background: url(/images/renew/common/ico_btn_link_bk.png) no-repeat left center;
+}
+
+.btn_arr_cir {
+	padding-left: 20px;
+	height: 15px;
+	font-size: 15px;
+	color: #333;
+	background: url(/images/renew/common/btn_arrow_cir.png) no-repeat 0 center;
+	display: inline-block;
+}
+
+.btn_zoom {
+	padding-left: 43px;
+	height: 29px;
+	font-size: 14px;
+	line-height: 29px;
+	text-align: left;
+	background-image: url(/images/renew/common/ico_btn_zoom.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+.btn_zoom.bk {
+	background-color: #000;
+	color: #fff;
+}
+
+.adapt {
+	padding-left: 37px;
+	height: 33px;
+	font-size: 15px;
+	line-height: 33px;
+	text-align: left;
+	background-image: url(/images/renew/common/ico_btn_adapt.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+	display: inline-block;
+	border-radius: 17px;
+}
+
+.adapt.red {
+	background-color: #ce181e;
+	color: #fff;
+}
+
+.gt_arr span {
+	padding-left: 16px;
+	background: url(/images/renew/common/gt_arrow.png) no-repeat left center;
+}
+
+/* main visual slide */
+.main_visual_slide .item {
+	position: relative;
+	height: 740px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.main_visual_slide .img {
+	position: absolute;
+}
+
+.main_visual_slide .info_text {
+	font-size: 25px;
+	line-height: 38px;
+	text-transform: uppercase;
+	-webkit-transition: padding 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: padding 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: padding 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: padding 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: padding 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.main_visual_slide .info_text strong {
+	font-weight: 700;
+}
+
+.main_visual_slide .info_text em {
+	display: block;
+	letter-spacing: -0.06em;
+}
+
+.main_visual_slide .price {
+	font-size: 20px;
+	letter-spacing: -0.075em;
+}
+
+.main_visual_slide .price span {
+	position: relative;
+	top: -3px;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: -0.025em;
+}
+
+.main_visual_slide .btn_view {
+	margin: 44px 0 0;
+}
+
+.main_visual_slide .slide01 {
+	background: #07162b url(/images/renew/3ds/main/slide01_bg.png) no-repeat 10% 0;
+}
+
+.main_visual_slide .slide01 .img {
+	top: 50%;
+	margin-top: -282px;
+}
+
+.main_visual_slide .slide01 .img img {
+	margin-left: -35px;
+}
+
+.main_visual_slide .slide01 .info_text {
+	padding-top: 160px;
+	padding-left: 44.30769230769231%;
+	letter-spacing: 0.06em;
+	color: #fff;
+}
+
+.main_visual_slide .slide01 .info_text em {
+	margin-top: 25px;
+	font-size: 28px;
+}
+
+.main_visual_slide .slide01 .price {
+	margin-top: 70px;
+}
+
+.main_visual_slide .slide02 {
+	background: url(/images/renew/3ds/main/slide02_bg.png) repeat-x;
+}
+
+.main_visual_slide .slide02 .img {
+	top: 174px;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.main_visual_slide .slide02 .obj {
+	position: relative;
+}
+
+.main_visual_slide .slide02 .img1 {
+	left: 203px;
+}
+
+.main_visual_slide .slide02 .img2 {
+	top: -22px;
+}
+
+.main_visual_slide .slide02 .img1:after,
+.main_visual_slide .slide02 .img2:after {
+	position: absolute;
+	display: block;
+	width: 117px;
+	height: 127px;
+	text-indent: -9999px;
+}
+
+.main_visual_slide .slide02 .img1:after {
+	top: -86px;
+	right: -80px;
+	background: url(/images/renew/3ds/main/2DS_XL_decs2.png) no-repeat;
+	content: '큰 화면';
+}
+
+.main_visual_slide .slide02 .img2:after {
+	bottom: 184px;
+	left: -74px;
+	background: url(/images/renew/3ds/main/2DS_XL_decs1.png) no-repeat;
+	content: '가볍게';
+}
+
+.main_visual_slide .slide02 .info_text {
+	padding-top: 170px;
+	padding-left: 53.23076923076923%;
+}
+
+.main_visual_slide .slide02 .info_text em {
+	margin-bottom: 33px;
+	font-size: 40px;
+}
+
+.main_visual_slide .slide02 .info_text i {
+	font-style: normal;
+}
+
+.main_visual_slide .slide02 .price {
+	margin-top: 130px;
+}
+
+.main_visual_slide .owl-dots {
+	position: relative;
+	top: -80px;
+	margin: auto;
+	width: 1300px;
+	line-height: 0;
+	text-align: right;
+}
+
+.main_visual_slide .owl-dots .owl-dot span {
+	margin-left: 5px;
+	width: 39px;
+	height: 5px;
+	background: #bcbcbc;
+}
+
+.main_visual_slide .owl-dots .owl-dot.active span {
+	background: #e60012;
+}
+
+/* section02 */
+.section02 {
+	position: relative;
+	background: url(/images/renew/3ds/main/section02_bg.png) no-repeat 50% 100%;
+	background-size: 100%;
+}
+
+.section02 .container {
+	position: relative;
+}
+
+.section02 .btn_view {
+	margin-top: 32px;
+}
+
+.section02 .chara {
+	position: absolute;
+	left: 50%;
+	z-index: 10;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.section02 .chara img {
+	max-width: 100%;
+}
+
+.section02 .chara01 {
+	top: 290px;
+	left: -28px;
+	width: 38.3%
+}
+
+.section02 .chara02 {
+	top: -25px;
+	margin-left: 31.25%;
+	width: 26.38%
+}
+
+.section02 .chara03 {
+	bottom: -17px;
+	margin-left: 280px;
+	width: 13%;
+}
+
+.section02 .chara04 {
+	bottom: -37px;
+	margin-left: 24.06%;
+	width: 25%;
+}
+
+.mario {
+	margin-top: 137px;
+	padding: 0 15.15%;
+	text-align: center;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.mario img {
+	margin-left: -22%;
+	max-width: 100%;
+}
+
+/* section03 */
+.main_3ds .feat_list {
+	margin: 87px 0 100px;
+}
+
+.main_3ds .feat_list li {
+	float: left;
+	padding-top: 10px;
+	width: 25%;
+	height: 244px;
+	background: url(/images/renew/3ds/main/dot_line.png) repeat-y 0 0;
+}
+
+.main_3ds .feat_list li:first-child {
+	background: none;
+}
+
+.main_3ds .feat_list .feat {
+	margin: 0 auto 15px;
+	padding-top: 67px;
+	width: 117px;
+	height: 117px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	background: #e60012 url(/images/renew/3ds/main/feat_icon.png) no-repeat;
+	border-radius: 50%;
+}
+
+.main_3ds .feat_list .feat02 {
+	background-position: -117px 0;
+}
+
+.main_3ds .feat_list .feat03 {
+	background-position: -234px 0;
+}
+
+.main_3ds .feat_list .feat04 {
+	background-position: -351px 0;
+}
+
+/* section04 */
+.section04 {
+	padding-bottom: 100px;
+	background-color: #f8f8f8;
+}
+
+.built_in {
+	margin-top: 70px;
+	margin-bottom: 16px;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.built_in > li {
+	position: relative;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 24px;
+	padding-top: 36px;
+	width: 23.5%;
+	height: 274px;
+	text-align: center;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .04)
+}
+
+.built_in > li img {
+	max-width: 100%;
+}
+
+.built_in > li.list > span {
+	font-size: 20px;
+	letter-spacing: -0.07em;
+}
+
+.built_in li.mgl0 {
+	margin-left: 0;
+}
+
+.built_in li .txt {
+	position: absolute;
+	bottom: 37px;
+	width: 100%;
+}
+
+.func_list {
+	margin-top: 30px;
+	padding: 0 16px;
+}
+
+.func_list li {
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 14px;
+	width: 40.8%;
+	text-align: left;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.func_list li:nth-child(even) {
+	width: 59.2%
+}
+
+.func_list li img {
+	width: 20px;
+}
+
+.func_list li span {
+	margin-left: 6px;
+}
+
+/* section05 */
+.series_wrap {
+	padding: 92px 0 40px;
+	margin: auto;
+	max-width: 1300px;
+}
+
+.series li {
+	float: left;
+	padding: 30px 0;
+	width: 33.33%;
+	text-align: center;
+	background: url(/images/renew/3ds/main/dot_line.png) repeat-y 0 0;
+}
+
+.series li:first-child {
+	background: none;
+}
+
+.series li img {
+	max-width: 100%;
+}
+
+.series li .title {
+	margin: 30px 0;
+	height: 43px;
+	font-size: 18px;
+	line-height: 43px;
+	letter-spacing: -0.085em;
+	display: block;
+}
+
+.series li .title span {
+	font-weight: 700;
+}
+
+.section05 .container {
+	margin: 113px auto 80px;
+}
+
+.banner {
+	position: relative;
+	float: left;
+	width: 48.34%;
+}
+
+.banner a {
+	color: #fff;
+	display: block;
+}
+
+.banner a img {
+	max-width: 100%;
+}
+
+.banner .char_bg {
+	position: absolute;
+	width: 50%;
+	display: block;
+	-webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.banner.left {
+	margin-right: 1.66%;
+}
+
+.banner.right {
+	margin-left: 1.66%;
+}
+
+.banner.left .char_bg {
+	right: 5px;
+	bottom: 0;
+	height: 173px;
+	background: url(/images/renew/3ds/main/left_char_bg.png) no-repeat 100% 0;
+}
+
+.banner.right .char_bg {
+	right: 10px;
+	bottom: 7px;
+	height: 148px;
+	background: url(/images/renew/3ds/main/right_char_bg.png) no-repeat 100% 0
+}
+
+/* section06 */
+.main_3ds .section06 {
+	padding: 47px 0 60px;
+	background-color: #f8f8f8;
+}
+
+.newSw_list {
+	margin: 27px 0 36px
+}
+
+.newSw_list .sw_item {
+	width: 276px;
+}
+
+.newSw_list .owl-dots {
+	display: none;
+}
+
+.newSw_list .owl-stage {
+	-webkit-transition-timing-function: linear !important;
+	-moz-transition-timing-function: linear !important;
+	-o-transition-timing-function: linear !important;
+}
+
+/* section07 */
+.main_3ds .section07 {
+	padding: 80px 0 100px;
+}
+
+
+/* new3ds */
+.nintendo3ds {
+	position: relative;
+	padding: 60px 0 100px;
+}
+
+.nintendo3ds h2 {
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: -0.085em;
+}
+
+.nintendo3ds .btn_back {
+	top: 52px;
+	left: 50%;
+	margin-left: 550px;
+}
+
+.lts-50 {
+	letter-spacing: -0.05em;
+}
+
+.lts-25 {
+	letter-spacing: -0.025em;
+}
+
+.new3ds_top {
+	position: relative;
+	margin: auto;
+	padding: 76px 0 100px;
+	width: 1200px;
+	height: 424px;
+	display: table;
+}
+
+.new3ds_top img {
+	max-width: 100%;
+}
+
+.new3ds_top .visual_img {
+	padding-left: 7.33%;
+	width: 50%;
+	height: inherit;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.new3ds_top .new3ds_info {
+	position: absolute;
+	top: 134px;
+	left: 50%;
+	margin-left: 80px;
+}
+
+.new3ds_top .info_wrap > span {
+	display: block;
+}
+
+.new3ds_top .info_wrap .info_inch {
+	padding: 50px 0 20px;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: -0.06em;
+}
+
+.new3ds_top .info_wrap .info_desc {
+	font-size: 25px;
+	letter-spacing: -0.08em;
+}
+
+.new3ds_top .info_wrap .info_price {
+	margin-top: 70px;
+	font-size: 20px;
+	letter-spacing: -0.075em;
+}
+
+.new3ds_top .info_wrap .info_price em {
+	position: relative;
+	top: -8px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.video_box_wrap {
+	margin: auto;
+	padding: 80px 0;
+	max-width: 900px;
+}
+
+.video_player {
+	position: relative;
+}
+
+.video_play {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+	background: rgba(0, 0, 0, .8) url(/images/renew/common/btn_play.png) no-repeat center;
+}
+
+.tab_03 iframe {
+	border: none;
+}
+
+.new3ds .video_box {
+	margin: auto;
+	padding-bottom: 33.9%;
+	width: 900px;
+}
+
+.nintendo3ds .imgSpec {
+	float: none;
+	width: auto;
+}
+
+.nintendo3ds .switch_spec {
+	padding: 80px 0 0;
+}
+
+.nintendo3ds .imgSpec .tabs {
+	margin-top: 40px;
+}
+
+.nintendo3ds .openDetailSpec:before {
+	position: relative;
+	top: -2px;
+	width: 14px;
+	height: 14px;
+	background: #e60012 url(/images/renew/common/btn_popup_op.png) no-repeat center;
+	border-radius: 50%;
+}
+
+.nintendo3ds .imgSpec .tabs a {
+	background-position: 0 -4px;
+}
+
+/* new3ds - 주요특징 */
+.new3ds.tab_01 h3,
+.new2ds .section_2ds h3 {
+	margin-bottom: 27px;
+	font-size: 32px;
+	line-height: 50px;
+	font-weight: normal;
+}
+
+.new3ds.tab_01 h3 em,
+.new2ds .section_2ds h3 em {
+	font-weight: 700;
+}
+
+.new3ds .section_3ds {
+	padding-top: 100px;
+	letter-spacing: -0.075em;
+}
+
+.new3ds .section_3ds .desc {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.new3ds .section_3ds .btn_view {
+	margin-top: 34px;
+}
+
+.new3ds .section_3ds .txt_sec,
+.new3ds .section_3ds .img_sec {
+	float: left;
+}
+
+/* new3ds - 주요특징 - section_01 */
+.new3ds .section_3ds .compare {
+	margin-top: 60px;
+	padding: 0 5.416%;
+}
+
+.new3ds .section_3ds .compare > div {
+	padding-left: 1.96%;
+	float: left;
+	width: 50%;
+}
+
+.new3ds .section_3ds .compare .img_frame {
+	position: relative;
+	padding-bottom: 59.14%;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+}
+
+.new3ds .section_3ds .compare .img_frame > img {
+	max-width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.new3ds .section_3ds .compare .img_frame > img:not(:first-child) {
+	display: none;
+}
+
+.new3ds .section_3ds .compare .tit {
+	position: relative;
+	margin-bottom: 8px;
+	z-index: 10;
+}
+
+.new3ds .section_3ds .compare .tit span {
+	padding: 0 12px;
+	line-height: 36px;
+	border: 1px solid #111;
+	border-width: 1px 0;
+	display: inline-block;
+}
+
+.new3ds .section_3ds .compare .new .tit span {
+	color: #e60012;
+	border-color: #e60012;
+}
+
+
+/* new3ds - 주요특징 - section_02 */
+.section_3ds.section_02.imgSpec > div {
+	display: block;
+	position: static;
+	top: auto;
+	left: auto;
+}
+
+.section_3ds.section_02 {
+	padding-bottom: 100px;
+}
+
+.section_3ds.section_02 .imgBox {
+	margin-top: 53px;
+}
+
+/* new3ds - 주요특징 - section_03 */
+.section_3ds.section_03 {
+	border-top: 1px solid #d6d6d6;
+}
+
+.section_3ds.section_03 .inner {
+	position: relative;
+	padding-bottom: 276px;
+}
+
+.section_3ds.section_03 .img_sec {
+	position: absolute;
+	right: -170px;
+	bottom: 0;
+	width: 72.92%;
+}
+
+.section_3ds.section_03 .img_sec img {
+	max-width: 100%;
+}
+
+.section_3ds.section_03 .img_sec span {
+	position: absolute;
+	bottom: 100px;
+	right: 10%;
+	font-size: 14px;
+	color: #737373;
+}
+
+.section_3ds.section_03 .btn_arr_cir {
+	margin-top: 52px;
+}
+
+/* new3ds - 주요특징 - section_04 */
+.section_3ds.section_04 {
+	padding: 100px 0;
+	background: #1d3150 url(/images/renew/3ds/new3ds/3ds_bg.png) no-repeat center top;
+}
+
+.section_3ds.section_04 .inner {
+	display: table;
+}
+
+.section_3ds.section_04 .inner > div {
+	float: none;
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.section_3ds.section_04 .img_sec {
+	position: relative;
+	padding-bottom: 52.4%;
+}
+
+.section_3ds.section_04 .img_sec > .bg_3ds,
+.section_3ds.section_04 .img_sec > .ani_frame {
+	position: absolute;
+	top: 0;
+}
+
+.section_3ds.section_04 .img_sec > .bg_3ds {
+	z-index: 1;
+}
+
+.section_3ds.section_04 .img_sec > .ani_frame {
+	z-index: 2;
+}
+
+.section_3ds.section_04 .img_sec > .ani_frame img:not(:first-child) {
+	display: none;
+}
+
+.section_3ds.section_04 .img_sec img {
+	max-width: 100%;
+}
+
+.section_3ds.section_04 .txt_sec {
+	padding-left: 5.33%;
+	color: #fff;
+}
+
+/* new3ds - 주요특징 - section_05 */
+.section_3ds.section_05 {
+	padding-bottom: 96px;
+}
+
+.section_3ds.section_05 .video_box_wrap {
+	padding: 30px 0 60px;
+}
+
+.feat_3ds li {
+	position: relative;
+	float: left;
+	width: 50%;
+	line-height: 22px;
+}
+
+.feat_3ds li .img_desc {
+	margin: 0 auto 17px;
+	padding-top: 130px;
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	border-radius: 50%;
+	background-image: url(/images/renew/3ds/new3ds/feat_picto.png);
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+}
+
+.feat_3ds li .img_desc > span br {
+	display: none;
+}
+
+.feat_3ds li > span {
+	font-size: 14px;
+}
+
+.feat_3ds li:first-child:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 39px;
+	width: 1px;
+	background-image: -webkit-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -moz-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -o-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: linear-gradient(to bottom, #999, #999 1px, transparent 1px, transparent 3px);
+	background-repeat: repeat-y;
+	background-position: left top;
+	-moz-background-size: 1px 3px;
+	-o-background-size: 1px 3px;
+	background-size: 1px 3px;
+}
+
+.feat_3ds li:first-child .img_desc {
+	background-position: 0 0;
+}
+
+/* new3ds - 주요특징 - section_06 */
+.section_3ds.section_06 {
+	padding: 37px 0;
+	background-color: #f8f8f8;
+}
+
+.section_3ds.section_06 .txt_sec {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -0.07em;
+}
+
+.section_3ds.section_06 .banner_tit {
+	margin-bottom: 27px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #e60012;
+}
+
+.section_3ds.section_06 .img_sec {
+	padding: 0 40px;
+	font-size: 0;
+}
+
+.section_3ds.section_06 .img_sec img {
+	width: 124px;
+}
+
+.section_3ds.section_06 .img_sec img:not(:first-child) {
+	margin-left: 16px;
+}
+
+/* new3ds - 주요특징 - section_07 */
+.section_3ds.section_07 {
+	margin-bottom: 80px;
+	padding-top: 53px;
+}
+
+/* new3ds - 주요사양 */
+.tab_04 .openDetailSpec {
+	margin-top: 75px;
+}
+
+.tab_04 ~ .layer_popup .tbl_pop td {
+	text-align: left;
+}
+
+/* new3ds - 본체 종류 */
+.new3ds h3 {
+	font-size: 26px;
+	line-height: 44px;
+	font-weight: 700;
+	letter-spacing: -0.075em;
+}
+
+.top_bar {
+	position: relative;
+}
+
+.top_bar:before {
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 17px;
+	border-top: 3px solid #e60012;
+	display: block;
+	content: '';
+}
+
+.switchSet .item .option .bgMetalBlue {
+	background: #095091;
+}
+
+.switchSet .item .option .bgMetalRed {
+	background: #ce181e;
+}
+
+.nintendo3ds .switchSet .item {
+	position: relative;
+	float: left;
+	width: 50%;
+	display: block;
+}
+
+.nintendo3ds .switchSet .item:first-child {
+	padding-right: 3.833333333333333%;
+	text-align: left;
+}
+
+.nintendo3ds .switchSet .item:first-child:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 90px;
+	width: 1px;
+	background-image: -webkit-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -moz-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -o-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: linear-gradient(to bottom, #999, #999 1px, transparent 1px, transparent 3px);
+	background-repeat: repeat-y;
+	background-position: left top;
+	-moz-background-size: 1px 3px;
+	-o-background-size: 1px 3px;
+	background-size: 1px 3px;
+}
+
+.nintendo3ds .switchSet .item + .item {
+	float: right;
+	margin-left: 0;
+	padding-left: 3.833333333333333%;
+}
+
+.nintendo3ds .switchSet .item img {
+	float: none;
+	max-width: 100%;
+}
+
+.nintendo3ds .switchSet .item .option {
+	margin-top: 30px;
+	clear: both;
+}
+
+.nintendo3ds .switchSet .item .option span {
+	width: 152px;
+}
+
+.nintendo3ds .sw_description .specsWrap {
+	margin-top: 25px;
+}
+
+.nintendo3ds .sw_description .specsWrap .specs {
+	padding: 40px 33% 40px 5.84%;
+}
+
+.nintendo3ds .sw_description .specsWrap ul {
+	width: auto;
+}
+
+.nintendo3ds .sw_description .specsWrap li {
+	margin-top: 18px;
+	width: 50%;
+}
+
+.nintendo3ds .sw_description .specsWrap li:before {
+	vertical-align: top;
+}
+
+.nintendo3ds .sw_description .specsWrap li:nth-child(odd) span {
+	width: 213px;
+}
+
+.nintendo3ds .sw_description .specsWrap lili:nth-child(even) span {
+	width: 151px;
+}
+
+.nintendo3ds .sw_description .specsWrap .qrCode {
+	padding: 43px 4% 0;
+}
+
+.nintendo3ds .sw_description .specsWrap .qrCode a {
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 89.65%
+}
+
+.nintendo3ds .sw_description .specsWrap .qrCode span {
+	color: #111;
+}
+
+.new3ds.tab_02 h3 {
+	margin-bottom: 28px;
+}
+
+.tab_02 .new3dsSet {
+	position: relative;
+}
+
+.tab_02 .new3dsSet .btn_view {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.tab_02 .switchSet {
+	padding-top: 11.66%;
+}
+
+.tab_02 .new3dsSet .info {
+	margin-top: 20px;
+	font-size: 22px;
+	line-height: 2.4;
+	letter-spacing: -0.08em;
+}
+
+.tab_02 .new3dsSet .info strong {
+	letter-spacing: -0.025em;
+}
+
+.tab_02 .new3dsSet .info .price {
+	font-size: 30px;
+	line-height: 1;
+	letter-spacing: -0.075em;
+}
+
+.tab_02 .new3dsSet .info .price strong {
+	position: relative;
+	top: 10px;
+	font-size: 50px;
+}
+
+.tab_02 .openDetailSpec {
+	margin-top: 40px;
+}
+
+.tab_02 .sw_description {
+	padding-bottom: 70px;
+}
+
+.tab_02 .sw_description .specsWrap li:first-child,
+.tab_02 .sw_description .specsWrap li:nth-child(2) {
+	margin-top: 0;
+}
+
+.tab_02 ~ .layer_popup .btn_arrow {
+	margin-top: -24px;
+	margin-left: 45px;
+	display: inline-block;
+}
+
+/* 3DS - 기타 3DS 시리즈 */
+.series_section {
+	position: relative;
+	border-top: 2px solid #d9d9d9;
+}
+
+.series_section:before {
+	position: absolute;
+	top: -2px;
+	left: 0;
+	width: 24.75%;
+	content: '';
+	display: block;
+	border-top: 2px solid #e60012;
+}
+
+.series_section img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.series_section .series_sec_top {
+	padding-top: 37px;
+	padding-left: 40px;
+	display: table;
+	width: 100%;
+}
+
+.series_section .series_sec_top > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.series_section .series_sec_top .logo3ds {
+	padding-left: 25px;
+	width: 315px;
+}
+
+.series_section .series_sec_top .img_app {
+	margin-right: 25px;
+	width: 128px;
+}
+
+.series_section .series_sec_top .info3ds {
+	padding-left: 30px;
+}
+
+.info3ds {
+	line-height: 24px;
+}
+
+.info3ds .note {
+	padding-left: 14px;
+	font-size: 0.875em;
+	text-indent: -14px;
+	color: #656565;
+}
+
+.series_list {
+	margin-top: 68px;
+	padding-bottom: 20px;
+}
+
+.series_list li {
+	margin-bottom: 55px;
+	float: left;
+	text-align: center;
+}
+
+.series_list .info3ds {
+	margin-top: 26px;
+	text-align: left;
+	display: inline-block;
+}
+
+.series_list.iten_01 li {
+	width: 100%;
+}
+
+.series_list.iten_02 li {
+	width: 50%;
+}
+
+.series_list.iten_03 li {
+	width: 33.33%;
+}
+
+.series_new3ds ul {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 984px;
+}
+
+.series_new2dsXL {
+	margin-top: 88px;
+}
+
+.series_section.series_new2dsXL .series_sec_top .logo3ds {
+	width: 327px;
+}
+
+.series_section.series_new2dsXL .series_sec_top .img_app {
+	width: 134px;
+}
+
+/* 2DS 시리즈 - 상단 */
+.nintendo3ds.new2ds {
+	padding-top: 0;
+}
+
+.nintendo3ds.new2ds .btn_back {
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.new2ds .img_m {
+	display: none;
+}
+
+.new2ds .new2ds_top {
+	padding-top: 60px;
+	background: url(/images/renew/3ds/main/slide02_bg.png) repeat-x;
+	background-size: cover;
+}
+
+.new2ds .new2ds_top img {
+	max-width: 100%;
+}
+
+.new2ds .new2ds_top .img {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -46px;
+	width: 100%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.new2ds .new2ds_top .img:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -73px;
+	margin-left: -14px;
+	padding-bottom: 4.08%;
+	width: 20.92%;
+	min-width: 251px;
+	min-height: 49px;
+	display: block;
+	background: url(/images/renew/3ds/new2ds/logo_new2dsXL.png) no-repeat 0 0;
+	content: '';
+}
+
+.new2ds .new2ds_top .img:after {
+	position: absolute;
+	left: 0;
+	bottom: -62px;
+	padding-left: 38.66%;
+	width: 100%;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	display: inline;
+	content: '2017년 7월 13일 발매';
+}
+
+.new2ds .new2ds_top .img .inner {
+	padding-left: 38.66%;
+}
+
+.new2ds .new2ds_top .img .inner img {
+	position: relative;
+	left: 24px;
+}
+
+.new2ds .top_visual {
+	position: relative;
+	padding: 10.2% 0 11.82%;
+	letter-spacing: -0.075em;
+}
+
+.new2ds .top_visual .visual_info {
+	width: 38.92%;
+}
+
+.new2ds .top_visual .txt {
+	min-width: 470px;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: -0.08em;
+	color: #ff800c;
+}
+
+.new2ds .top_visual .txt span:first-child {
+	color: #008199;
+}
+
+.new2ds .top_visual .txt .price {
+	margin: 36px 0 52px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #181818;
+}
+
+.new2ds .top_visual .txt .price em {
+	position: relative;
+	top: -12px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #e60012;
+	letter-spacing: -0.025em;
+}
+
+.new2ds .top_visual .txt .price span {
+	position: relative;
+	top: -8px;
+	font-size: 34px
+}
+
+.new2ds .top_visual .btn_bd_bk {
+	position: relative;
+	margin: auto;
+	width: 244px;
+	z-index: 100;
+}
+
+/* 2DS 시리즈 - section_01 */
+.new2ds {
+	letter-spacing: -0.075em;
+}
+
+.new2ds .section_01 {
+	padding: 5.2% 0 5.20% 1.5625%;
+	display: table;
+}
+
+.new2ds .section_01 h3 br {
+	display: none;
+}
+
+.new2ds .section_01 img {
+	max-width: 100%;
+}
+
+.new2ds .section_01 > div {
+	display: table-cell;
+	width: 50%;
+	vertical-align: middle;
+}
+
+.new2ds .section_01 .img_sec {
+	padding: 0 4.41%;
+}
+
+.new2ds .section_01 .desc {
+	font-size: 19px;
+	line-height: 36px;
+}
+
+/* 2DS 시리즈 - section_02 */
+.new2ds .section_02 .section_02_set {
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
+
+.new2ds .section_02 .section_02_set .img_decs {
+	padding-bottom: 48.4375%;
+}
+
+.new2ds .section_02 .section_02_set.left .img_decs {
+	background: #f2f2f2 url(/images/renew/3ds/new2ds/2ds_btn.png) no-repeat right top;
+	background-size: contain;
+}
+
+.new2ds .section_02 .section_02_set.left .txt_box {
+	float: right;
+}
+
+.new2ds .section_02 .section_02_set.right .img_decs {
+	background: #fafafa url(/images/renew/3ds/new2ds/2ds_amiibo.png) no-repeat left top;
+	background-size: contain;
+}
+
+.new2ds .section_02 .section_02_set.right .txt_box {
+	float: left;
+	background: url(/images/renew/common/column_dot.gif) repeat-Y left top;
+}
+
+.new2ds .section_02 .section_02_set.right h3 {
+	line-height: 80px;
+}
+
+.new2ds .section_02 .section_02_set .txt_box {
+	margin: 75px 0 92px;
+	width: 62.5%;
+	max-width: 600px;
+}
+
+.new2ds .section_02 .section_02_set h3 {
+	height: 80px;
+	line-height: 40px;
+	letter-spacing: -0.04em;
+}
+
+.new2ds .section_02 .desc {
+	padding: 0 20px;
+	line-height: 30px;
+}
+
+/* 2DS 시리즈 - section_03 */
+.section_2ds.section_03 {
+	position: relative;
+	padding: 80px 0;
+	color: #fff;
+	background: #e60012;
+}
+
+.section_2ds.section_03 img {
+	max-width: 100%;
+}
+
+.section_2ds.section_03 h3 {
+	margin-bottom: 50px;
+	font-size: 36px;
+	line-height: 1;
+}
+
+.section_2ds.section_03 h3 span {
+	font-size: 26px;
+	line-height: 53px;
+}
+
+.section_2ds.section_03 h3 em br {
+	display: none;
+}
+
+.section_2ds.section_03 .inner {
+	padding-left: 14.84375%;
+}
+
+.section_2ds.section_03 .inner ul {
+	padding-left: 14.94%;
+	text-align: left;
+}
+
+.section_2ds.section_03 .img_2ds {
+	position: absolute;
+	top: 50%;
+	left: -2.92%;
+	padding-bottom: 28.4375%;
+	width: 34.53125%;
+	height: 0;
+	max-height: 546px;
+	background: url(/images/renew/3ds/new2ds/2ds_software.png) no-repeat left center;
+	background-size: contain;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.new2ds .section_03 .sw_list_img {
+	padding-left: 29.94791666666667%;
+}
+
+.new2ds .section_03 .sw_list_img li {
+	float: left;
+	width: 14.86988847583643%;
+	border-left: 15px solid transparent;
+}
+
+.new2ds .section_03 .btn_round_link_red {
+	margin: 26px 0 40px;
+}
+
+.new2ds .section_03 .section_03_txt .inner ul {
+	line-height: 26px;
+}
+
+.new2ds .section_03 .section_03_txt .inner ul li {
+	padding-left: 10px;
+	text-indent: -10px;
+}
+
+/* 2DS 시리즈 - section_04 */
+.new2ds .section_04 {
+	padding: 60px 0;
+	background: url(/images/renew/3ds/main/slide02_bg.png) repeat-x;
+	background-size: cover;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.new2ds .section_04 .body_2ds {
+	float: left;
+	width: 50%;
+}
+
+.new2ds .section_04 .body_2ds img {
+	max-width: 100%;
+}
+
+.new2ds .section_04 .body_2ds.left {
+	padding-right: 2.5%;
+}
+
+.new2ds .section_04 .body_2ds.right {
+	padding-left: 2.5%;
+}
+
+.new2ds .section_04 .body_2ds.left .body_2ds_tit {
+	background-color: #009aaf;
+}
+
+.new2ds .section_04 .body_2ds.right .body_2ds_tit {
+	background-color: #ff9800;
+}
+
+.new2ds .section_04 .body_2ds_tit {
+	margin-bottom: 50px;
+	font-size: 18px;
+	line-height: 48px;
+	color: #fff;
+}
+
+.new2ds .section_04 .btn_zoom {
+	margin: 40px 0 50px;
+	width: 97px;
+}
+
+.new2ds .section_04 .info_2ds_set {
+	padding-bottom: 30px;
+	clear: both;
+	background: #fff;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}
+
+.new2ds .section_04 .info_2ds_set .tit {
+	height: 54px;
+	font-weight: 700;
+	line-height: 54px;
+	background: #e8e8e8;
+	border-radius: 2px;
+}
+
+.new2ds .section_04 .info_2ds_set ul {
+	float: left;
+	padding: 25px 30px 0;
+	width: 50%;
+}
+
+.new2ds .section_04 .info_2ds_set ul li.clearfix {
+	margin-bottom: 24px;
+	background: url(/images/renew/common/dot_bg.gif) repeat-x left center;
+}
+
+.new2ds .section_04 .info_2ds_set .dt {
+	padding-right: 28px;
+	background: #fff;
+}
+
+.new2ds .section_04 .info_2ds_set .dd {
+	float: right;
+	padding-left: 20px;
+	padding-right: 10px;
+	background: #fff;
+}
+
+.new2ds .section_04 .adapt {
+	margin-top: -5px;
+	width: 314px;
+	display: block;
+}
+
+.new2ds .section_04 .adapt span {
+	letter-spacing: -0.025em;
+}
+
+.new2ds .section_04 .adapt ~ span {
+	margin-top: 8px;
+	margin-right: -14px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: right;
+	display: block;
+}
+
+/* 2DS 시리즈 - section_05 */
+.new2ds .section_05 {
+	padding: 36px 0 80px;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.new2ds .section_05 .gt_arr {
+	position: relative;
+	padding: 26px 40px;
+	font-size: 17px;
+	color: #212121;
+	display: inline-block;
+}
+
+.new2ds .section_05 .gt_arr:first-child {
+	margin-right: -1px;
+}
+
+.new2ds .section_05 .gt_arr:before,
+.new2ds .section_05 .gt_arr:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 1px;
+	background-image: -webkit-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -moz-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: -o-linear-gradient(top, #999, #999 1px, transparent 1px, transparent 3px);
+	background-image: linear-gradient(to bottom, #999, #999 1px, transparent 1px, transparent 3px);
+	background-repeat: repeat-y;
+	background-position: left top;
+	-moz-background-size: 1px 3px;
+	-o-background-size: 1px 3px;
+	background-size: 1px 3px;
+}
+
+.new2ds .section_05 .gt_arr:after {
+	left: auto;
+	right: 0
+}
+
+/* 2DS 시리즈 - 레이어팝업 */
+.layer_popup.new2DS {
+	overflow-x: hidden;
+}
+
+.layer_popup.new2DS .innerWrap {
+	width: 1000px;
+}
+
+.layer_popup.new2DS .imgSpec > div {
+	position: relative;
+	display: block;
+}
+
+.layer_popup.new2DS h2 {
+	margin-bottom: 80px;
+	font-size: 22px;
+	letter-spacing: -0.05em;
+}
+
+.open_detail_spec2DS {
+	padding: 72px;
+}
+
+.open_detail_spec2DS table ~ ul {
+	margin-top: 40px;
+	padding-left: 20px;
+	font-size: 15px;
+	line-height: 18px;
+	text-indent: -22px;
+	color: #333;
+}
+
+.open_detail_spec2DS table ~ ul li:not(:last-child) {
+	margin-bottom: 14px;
+}
+
+.open_detail_func {
+	padding: 72px 0
+}
+
+.open_detail_func .imgSpec {
+	float: none;
+	padding: 0 20px;
+	width: auto;
+}
+
+.open_detail_func .imgSpec .tabs {
+	display: none;
+}
+
+.open_detail_func .imgSpec .imgBox img {
+	position: relative;
+	display: block;
+}
+
+.open_detail_func .imgSpec .pc img[alt="정면"] {
+	margin-bottom: 130px;
+}
+
+
+.software.builtin {
+	max-width: 100%;
+	line-height: 1.5;
+}
+
+.software.builtin img {
+	max-width: 100%;
+}
+
+.builtin .builtinInner {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.builtinTopTit {
+	padding-left: 490px;
+	line-height: 1.3;
+	display: table;
+	width: 100%;
+	height: 400px;
+	background: url(/images/renew/3ds/built_in/img01.jpg) left center no-repeat;
+}
+
+.builtinTopTit .builtinTitWrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.builtinTopTit .tit {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.builtinTopTit .txt {
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+.builtin .inner2 {
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 80px 0;
+	background-color: #f8f8f8;
+}
+
+.builtinListUl {
+	text-align: center;
+	margin-left: -2%;
+}
+
+.builtinListUl + .builtinListUl {
+	margin-top: 25px;
+}
+
+.builtinListUl > li {
+	float: left;
+	width: 23%;
+	margin-left: 2%
+}
+
+.builtinListUl > li > a {
+	display: block;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #111;
+	padding: 35px 0 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	height: 270px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.04);
+}
+
+.builtinListUl > li > a:hover {
+	border-color: #e60012;
+}
+
+.builtinListUl > li.builtinListUlLast > a {
+	padding-top: 120px;
+}
+
+.builtinListUl > li.builtinListUlLast > a span {
+	padding-left: 15px;
+	background: url(/images/renew/3ds/built_in/ico05.png) left center no-repeat;
+}
+
+.builtinListUl > li > a .builtinListUlTxt {
+	margin-top: 20px;
+}
+
+.builtinLay {
+	display: table;
+	padding-left: 270px;
+	background: url(/images/renew/3ds/built_in/img02.png) 50px center no-repeat;
+	height: 158px;
+	margin-top: 40px;
+}
+
+.builtinLay .builtinLayInner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.builtinLay .builtinLayInner .builtinTit {
+	font-size: 20px;
+	font-weight: bold;
+	color: #e60012;
+}
+
+.builtinLay .builtinLayInner .builtinTxt {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+
+.builtin .inner3 {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 170px 0 150px;
+}
+
+.builtin .inner3 .inner3Tit {
+	font-size: 32px;
+}
+
+.builtin .inner3 .inner3Txt {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 35px;
+}
+
+.builtin .inner3 .inner3Img {
+	position: absolute;
+	right: 0;
+	top: -225px;
+}
+
+.builtinUl {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 70px;
+}
+
+.builtinUl li {
+	position: relative;
+	padding-left: 15px;
+}
+
+.builtinUl li span.tip {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.inner4 {
+	padding-top: 80px;
+	line-height: 1.5;
+}
+
+.builtinUl2 > li + li {
+	margin-top: 80px;
+}
+
+.builtinUl2 > li .builtinUl2Tit {
+	font-size: 32px;
+	font-weight: bold;
+	padding-left: 60px;
+	height: 52px;
+	line-height: 52px;
+}
+
+.builtinUl2 > li.list1 .builtinUl2Tit {
+	background: url(/images/renew/3ds/built_in/ico01.png) left center no-repeat;
+}
+
+.builtinUl2 > li.list2 .builtinUl2Tit {
+	background: url(/images/renew/3ds/built_in/ico02.png) left center no-repeat;
+}
+
+.builtinUl2 > li.list3 .builtinUl2Tit {
+	background: url(/images/renew/3ds/built_in/ico03.png) left center no-repeat;
+}
+
+.builtinUl2 > li.list4 .builtinUl2Tit {
+	background: url(/images/renew/3ds/built_in/ico04.png) left center no-repeat;
+}
+
+.builtinUl2 > li.list5 .builtinUl2Tit {
+	padding-left: 0;
+}
+
+.builtinUl2 > li.list1 .builtinUl2_list1Top {
+	position: relative;
+	padding-left: 460px;
+	padding-top: 20px;
+	height: 420px;
+}
+
+.builtinUl2 > li.list1 .builtinUl2_list1Top .builtinUl2_list1TopImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.builtinUl2 > li.list2 {
+	background: url(/images/renew/3ds/built_in/img05.png) right 85px no-repeat;
+}
+
+.builtinUl2Dl {
+	margin-top: 35px;
+	font-size: 16px;
+}
+
+.builtinUl2Dl > dt {
+	font-weight: bold;
+	color: #e60012;
+}
+
+.builtinUl2Dl > dd {
+	margin-top: 5px;
+}
+
+.builtinBtnBox {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.builtinUl2 > li .builtinLeftLay {
+	margin-top: 35px;
+}
+
+.builtinUl2 > li .builtinLeftLay .builtinLeftLayImg,
+.builtinUl2 > li .builtinLeftLay .builtinUl2Dl {
+	float: left;
+}
+
+.builtinUl2 > li .builtinLeftLay .builtinLeftLayImg {
+	width: 23%;
+}
+
+.builtinUl2 > li .builtinLeftLay .builtinUl2Dl {
+	margin-top: 0;
+	width: 77%;
+}
+
+/*팝업*/
+.layerPopupInner {
+	padding: 75px;
+	line-height: 1.5;
+}
+
+.layerPopupInner .layerPopupTit {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.layerPopupInner .layerPopupTbl {
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #e6e6e6;
+	margin-top: 80px;
+}
+
+.layerPopupInner .layerPopupTbl th,
+.layerPopupInner .layerPopupTbl td {
+	border-bottom: 1px solid #e6e6e6;
+	font-weight: normal;
+	font-size: 15px;
+	padding: 35px 10px;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+
+.layerPopupInner .layerPopupTbl th {
+	width: 22%;
+}
+
+.layerPopupInner .layerPopupTbl td {
+	border-left: 1px solid #e6e6e6;
+}
+
+.br_hide_pc {
+	display: none;
+}
+
+/* 내장소프트웨어 */
+.builtinSoftwareListUl > li {
+	padding-top: 40px;
+	background: url(/images/renew/3ds/built_in/line01.png) left top no-repeat;
+	position: relative;
+}
+
+.builtinSoftwareListUl > li + li {
+	margin-top: 80px;
+}
+
+.builtinSoftwareListUl > li .builtinSoftwareListImg {
+	position: absolute;
+	right: 0;
+}
+
+.builtinSoftwareListUl > li#builtinSoftwareList2 .builtinSoftwareListImg,
+.builtinSoftwareListUl > li#builtinSoftwareList3 .builtinSoftwareListImg,
+.builtinSoftwareListUl > li#builtinSoftwareList7 .builtinSoftwareListImg {
+	bottom: 0;
+}
+
+.builtinSoftwareListUl > li#builtinSoftwareList5 .builtinSoftwareListImg {
+	top: 0;
+}
+
+.builtinSoftwareInline {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.builtinSoftwareInline > li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.builtinSoftwareList6SubTit {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+.builtinSoftwareList6Ul {
+	max-width: 1040px;
+	margin: 25px auto 0;
+}
+
+.builtinBtnBox + .builtinSoftwareList6Ul {
+	margin-top: 60px;
+}
+
+.builtinSoftwareList6Ul > li {
+	float: left;
+	margin-left: 10px;
+}
+
+.builtinSoftwareList6Ul > li.first {
+	margin-left: 0;
+}
+
+.builtinSoftwareList6Grey {
+	border: 1px solid #d6d6d6;
+	border-bottom-color: #111;
+	background-color: #f7f7f7;
+	padding: 30px 40px;
+	position: relative;
+	margin-top: 60px;
+}
+
+.builtinSoftwareList6Grey .builtinUl {
+	margin-top: 0;
+}
+
+.builtinSoftwareList6Grey .btnArr {
+	position: absolute;
+	right: 40px;
+	top: 50%;
+	width: 230px;
+	height: 40px;
+	margin-top: -20px;
+	line-height: 38px;
+	border: 1px solid #e60012;
+	color: #e60012;
+	font-size: 15px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.builtinSoftwareList6Grey .btnArr span {
+	padding-right: 25px;
+	background: url(/images/renew/3ds/built_in/arr01.png) right center no-repeat;
+}
+
+/*팝업*/
+.layerPopupPage2Top {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.layerPopupPage2Top .layerPopupPage2TopTxt {
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.layerPopupPage2Top .layerPopupPage2TopTxt strong {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.layerPopupPage2Top .layerPopupPage2TopTxt strong,
+.layerPopupPage2Top .layerPopupPage2TopTxt span {
+	vertical-align: baseline;
+}
+
+.layerPopupPage2Bottom {
+	margin-top: 40px;
+	padding-top: 35px;
+	border-top: 1px solid #e6e6e6;
+}
+
+.layerPopupPage2Bottom .builtinUl {
+	width: 540px;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1460px) {
+	.main_visual_slide .slide02 .img {
+		left: 12%;
+	}
+
+	.main_visual_slide .slide02 .info_text {
+		padding-left: 62%;
+	}
+
+	.main_visual_slide .slide02 .info_text em span {
+		display: block;
+	}
+
+	.main_visual_slide.owl-theme .owl-nav.disabled + .owl-dots {
+		padding: 0 40px;
+	}
+
+	/* new3ds - 주요특징 - section_03 */
+	.section_3ds.section_03 .inner {
+		padding-bottom: 186px;
+	}
+
+	.section_3ds.section_03 .img_sec {
+		width: 66%;
+		left: 37%;
+		right: auto;
+	}
+
+	.section_3ds.section_03 .img_sec span {
+		right: 40px;
+		bottom: 90px;
+	}
+
+	/* 2DS 시리즈 - section_02 */
+	.new2ds .section_02 .section_02_set .txt_box {
+		width: 100%;
+	}
+
+	/* 2DS 시리즈 - section_03 */
+	.section_2ds.section_03 .inner {
+		padding-left: 24%;
+	}
+
+	.section_2ds.section_03 .inner ul {
+		padding-left: 10%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	/* 공통 */
+	.main_3ds .container {
+		min-width: auto;
+		max-width: 100%;
+	}
+
+	/* section01 */
+	.main_visual_slide .slide01 .img {
+		left: 2%;
+	}
+
+	.main_visual_slide .slide01 .img img {
+		margin-left: 0;
+	}
+
+	.main_visual_slide .slide02 .img {
+		left: 10%;
+	}
+
+	.main_visual_slide .slide02 .info_text {
+		padding-left: 65%;
+	}
+
+	.main_visual_slide.owl-theme .owl-dots {
+		padding: 0 20px;
+		width: auto;
+	}
+
+	.main_visual_slide .owl-dots {
+		width: 100%;
+	}
+
+	/* section02 */
+	.main_3ds .section02 h2 span, .desc span {
+		display: block;
+	}
+
+	.main_3ds .section02 .chara02 {
+		margin-left: 23%;
+	}
+
+	.main_3ds .section02 .chara04 {
+		width: 28%;
+	}
+
+	/* section04 */
+	.series_wrap {
+		max-width: 100%;
+	}
+
+	.func_list {
+		margin-top: 5px;
+	}
+
+	.func_list li {
+		margin-bottom: 0;
+		padding: 10px;
+		width: 50%;
+	}
+
+	.func_list li:nth-child(odd) {
+		text-align: right;
+	}
+
+	.func_list li:nth-child(even) {
+		width: 50%;
+		text-align: left;
+	}
+
+	.func_list li img {
+		width: auto;
+	}
+
+	.func_list .m_hide {
+		display: none;
+	}
+
+	/* section05 */
+	.main_3ds .section05 .container {
+		margin-top: 65px;
+	}
+
+
+	/* 2DS 시리즈 - section_02 */
+	.new2ds .section_02 .section_02_set .txt_box {
+		width: 100%;
+	}
+
+	/* 2DS 시리즈 - section_03 */
+	.section_2ds.section_03 .img_2ds {
+		left: -14.92%;
+		padding-bottom: 38%;
+		width: 64.53125%;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.new3ds_top {
+		width: 100%;
+	}
+
+	.nintendo3ds .btn_back {
+		left: auto;
+		right: 20px;
+		margin-left: 0;
+	}
+
+	.nintendo3ds .imgSpec .imgBox img {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	/* 공통 */
+	.main_3ds .container {
+		max-width: 100%;
+		min-width: 100%;
+	}
+
+	.main_visual_slide .item .container {
+		padding: 0 20px;
+	}
+
+	.main_visual_slide .slide01 .info_text {
+		padding-left: 52%;
+	}
+
+	.main_visual_slide .slide01 .btn_view {
+		margin: 10px 0 0;
+	}
+
+	.main_visual_slide .slide02 .img {
+		top: 85px;
+		left: 0;
+		padding: 0 10%;
+		width: 100%;
+		text-align: center;
+	}
+
+	.main_visual_slide .slide02 .img img {
+		max-width: 100%;
+	}
+
+	.main_visual_slide .slide02 .info_text {
+		padding-top: 430px;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.main_visual_slide .slide02 .info_text i,
+	.main_visual_slide .slide02 .info_text em br {
+		display: none;
+	}
+
+	.main_visual_slide .slide02 .info_text em span {
+		display: inline;
+	}
+
+	.main_visual_slide .slide02 .price {
+		margin-top: 30px;
+	}
+
+	.main_visual_slide .slide02 .img1 {
+		float: right;
+		left: auto;
+	}
+
+	.main_visual_slide .slide02 .img2 {
+		float: left;
+		top: 104px;
+	}
+
+	.main_visual_slide .slide02 .img1:after,
+	.main_visual_slide .slide02 .img2:after {
+		width: 70px;
+		height: 75px;
+		background-size: 100%;
+	}
+
+	.main_visual_slide .slide02 .img1:after {
+		top: -40px;
+		left: 50%;
+		margin-left: 43%;
+	}
+
+	.main_visual_slide .slide02 .img2:after {
+		top: -60px;
+		left: 60%;
+		margin-left: -72%;
+	}
+
+	.main_visual_slide .btn_view {
+		margin: 44px auto 0;
+	}
+
+	.main_visual_slide .item img {
+		width: auto;
+		display: inline-block;
+	}
+
+	/* section02 */
+	.mario {
+		margin-top: 80px;
+	}
+
+	.main_3ds .section02 .chara04 {
+		left: auto;
+		right: -20px;
+	}
+
+	/* section03 */
+	.main_3ds .feat_list {
+		margin: 20px 0 30px;
+	}
+
+	.main_3ds .feat_list li {
+		margin-bottom: 20px;
+		width: 50%;
+	}
+
+	.main_3ds .feat_list li:nth-child(odd) {
+		background: none;
+	}
+
+	/* section04 */
+	.series_wrap {
+		margin: 30px 0 64px;
+		padding: 0;
+	}
+
+	.series li {
+		padding: 30px 20px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap .qrCode {
+		padding: 43px 3% 0;
+	}
+
+	/* new3ds - 주요특징 - section_03 */
+	.section_2ds.section_03 h3 em br {
+		display: block;
+	}
+
+	.section_3ds.section_03 .inner {
+		padding-bottom: 140px;
+	}
+
+	.section_3ds.section_03 .img_sec {
+		left: 42%;
+		width: 63%;
+	}
+
+	.section_3ds.section_03 .img_sec span {
+		bottom: 75px;
+	}
+
+
+	/* new3ds - 주요특징 - section_04 */
+	.section_3ds.section_04 .inner > div.img_sec {
+		width: 47%;
+	}
+
+	/* 2DS 시리즈 - 상단 */
+	.new2ds .top_visual {
+		padding: 60px 0;
+	}
+
+	.new2ds .top_visual .visual_info {
+		width: auto;
+	}
+
+	.new2ds .new2ds_top .img {
+		position: static;
+		transform: translateY(-10%);
+		-webkit-transform: translateY(-10%);
+	}
+
+	.new2ds .new2ds_top .img:after {
+		display: none;
+	}
+
+	.new2ds .new2ds_top .img:before {
+		margin-left: -278px;
+	}
+
+	.new2ds .new2ds_top .img .inner {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.new2ds .new2ds_top .img .inner img {
+		position: static;
+	}
+
+	/* 2DS 시리즈 - section_01 */
+	.new2ds .section_01 h3 br {
+		display: block;
+	}
+
+	/* 2DS 시리즈 - section_03 */
+	.section_2ds.section_03 {
+		padding: 50px 20px;
+	}
+
+	.section_2ds.section_03 .inner {
+		padding-left: 30%;
+	}
+
+	.section_2ds.section_03 .inner ul {
+		padding-left: 3%;
+	}
+
+	.new2ds .section_03 .sw_list_img li {
+		width: 16%;
+	}
+
+	.section_2ds.section_03 .img_2ds {
+		left: -17.92%;
+		padding-bottom: 41%;
+	}
+
+	.layer_popup.new2DS .imgSpec .imgBox img {
+		width: auto;
+		max-width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+	/*tablet*/
+	/* 공통 */
+	.main_3ds h2 {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.main_3ds .desc {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.main_3ds .section {
+		padding-top: 36px;
+		padding-bottom: 20px;
+	}
+
+	.main_3ds .section03 .container,
+	.main_3ds .section04 .container,
+	.main_3ds .section05 .container,
+	.main_3ds .section07 .container {
+		padding: 0 20px;
+	}
+
+	.main_3ds .txt {
+		line-height: 18px;
+	}
+
+	.w160 {
+		width: 120px;
+	}
+
+	.w180 {
+		width: 130px;
+	}
+
+	.w200 {
+		width: 161px
+	}
+
+	.w250,
+	.w280 {
+		width: 200px;
+	}
+
+	/* button */
+	.adapt {
+		height: 20px;
+		font-size: 13px;
+		line-height: 20px;
+		background-size: 14px;
+		background-position: 5px center;
+	}
+
+	.btn_bd_bk {
+		height: 37px;
+		font-size: 14px;
+		line-height: 33px;
+		border-width: 2px;
+	}
+
+	.main_visual_slide .item {
+		height: 330px;
+	}
+
+	.main_visual_slide .price {
+		font-size: 14px;
+		line-height: 1;
+	}
+
+	.main_visual_slide .price span {
+		top: -5px;
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.main_visual_slide .info_text {
+		font-size: 15px;
+		line-height: 24px;
+	}
+
+	.main_visual_slide .slide01 {
+		background-position: center;
+		background-size: contain;
+	}
+
+	.main_visual_slide .slide01 .img {
+		left: 5%;
+		margin-top: 0;
+		width: 42%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
+
+	.main_visual_slide .slide01 .img img {
+		max-width: 100%;
+	}
+
+	.main_visual_slide .slide01 .info_text {
+		padding-top: 20px;
+		padding-left: 52%;
+	}
+
+	.main_visual_slide .slide01 .info_text em {
+		font-size: 15px;
+	}
+
+	.main_visual_slide .slide01 .info_text em strong {
+		display: block;
+	}
+
+	.main_visual_slide .slide02 .info_text {
+		padding-top: 210px;
+	}
+
+	.main_visual_slide .slide01 .price {
+		margin-top: 50px;
+	}
+
+	.main_visual_slide .slide02 .info_text em {
+		margin-bottom: 0;
+		font-size: 20px;
+		line-height: 1;
+	}
+
+	.main_visual_slide .slide02 .price {
+		margin-top: 10px;
+	}
+
+	.main_visual_slide .slide02 .obj {
+		width: 50%;
+	}
+
+	.main_visual_slide .slide02 .img {
+		top: 45px;
+	}
+
+	.main_visual_slide .slide02 .img1 {
+		padding-right: 25%;
+		padding-left: 1%;
+	}
+
+	.main_visual_slide .slide02 .img2 {
+		padding-left: 25%;
+		padding-right: 1%;
+		top: 50%;
+		margin-top: 39px;
+	}
+
+	.main_visual_slide .slide02 .img1:after {
+		margin-left: -6%;
+	}
+
+	.main_visual_slide .slide02 .img2:after {
+		top: -66px;
+		margin-left: -23%;
+	}
+
+	.main_visual_slide .btn_view {
+		margin: 15px auto 0;
+	}
+
+	.main_visual_slide.owl-theme .owl-dots {
+		top: -30px;
+	}
+
+	/* section02 */
+	.main_3ds .section02 {
+		padding-bottom: 0;
+	}
+
+	.main_3ds .section02 .desc br {
+		display: none;
+	}
+
+	.main_3ds .section02 .chara01 {
+		top: 200px;
+	}
+
+	.main_3ds .section02 .chara03 {
+		bottom: -7px;
+		margin-left: 25%;
+	}
+
+	.main_3ds .section02 .chara04 {
+		bottom: -20px;
+	}
+
+	.mario {
+		margin-top: 12px;
+		padding: 0 25%;
+	}
+
+	/* section03 */
+	.main_3ds .feat_list {
+		margin: 16px 0 0;
+	}
+
+	/* section04 */
+	.built_in {
+		margin-top: 15px;
+	}
+
+	.built_in > li {
+		width: 49%;
+		margin-left: 2%;
+		margin-bottom: 14px;
+	}
+
+	.built_in > li:nth-child(odd) {
+		margin-left: 0;
+	}
+
+	/* section05 */
+	.main_3ds .section05 .container {
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	/* section06 */
+	.main_3ds .section06 {
+		padding: 40px 0;
+	}
+
+	.newSw_list {
+		margin: 20px 0;
+	}
+
+	.newSw_list .owl-dots {
+		display: block;
+	}
+
+	.newSw_list .sw_item {
+		width: auto;
+	}
+
+	.newSw_list .sw_item.item > *:not(.thumb) {
+		display: none;
+	}
+
+	.newSw_list.owl-theme .owl-dots {
+		padding: 0 20px;
+		line-height: 0;
+	}
+
+	.newSw_list.owl-theme .owl-dots .owl-dot span {
+		width: 100%;
+		height: 4px;
+		border-radius: 0;
+	}
+
+	.newSw_list.owl-theme .owl-dots .owl-dot.active span {
+		background: #e60012;
+	}
+
+	/* section07 */
+	.main_3ds .section07 {
+		padding: 40px 0;
+	}
+
+	/*** new3ds ***/
+	.nintendo3ds {
+		padding: 20px 0;
+	}
+
+	.nintendo3ds h2 {
+		font-size: 22px;
+		letter-spacing: -0.05em;
+	}
+
+	.nintendo3ds .btn_back {
+		display: none;
+	}
+
+	.new3ds_top {
+		padding: 30px 0;
+		height: auto;
+	}
+
+	.new3ds_top .visual_img {
+		margin: auto;
+		padding-left: 0;
+		width: 45%;
+		text-align: center;
+		display: block;
+	}
+
+	.new3ds_top .new3ds_info {
+		position: static;
+		top: auto;
+		left: auto;
+		margin-left: 0; /*padding-left:17.5%;*/
+		text-align: center;
+	}
+
+	.new3ds_top .new3ds_info .new3ds_logo {
+		position: relative;
+		left: -30px;
+		margin: 20px auto 0;
+		width: 195px;
+		display: block;
+	}
+
+	.new3ds_top .info_wrap {
+		text-align: left;
+		display: inline-block;
+	}
+
+	.new3ds_top .info_wrap > span {
+		text-indent: -48px;
+	}
+
+	.new3ds_top .info_wrap .info_inch {
+		padding: 16px 0 8px;
+		font-size: 22px;
+	}
+
+	.new3ds_top .info_wrap .info_desc {
+		font-size: 14px;
+	}
+
+	.new3ds_top .info_wrap .info_price {
+		margin-top: 18px;
+		font-size: 14px;
+	}
+
+	.new3ds_top .info_wrap .info_price em {
+		top: -5px;
+		font-size: 20px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap ul {
+		padding: 0;
+	}
+
+	.nintendo3ds .sw_description .specsWrap li {
+		float: none;
+		width: 100%;
+	}
+
+	.nintendo3ds .sw_description .specsWrap .qrCode a {
+		padding: 8px 0;
+		width: 170px
+	}
+
+	.nintendo3ds .sw_description .specsWrap .specs {
+		padding: 32px 55px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap li:nth-child(odd) span,
+	.nintendo3ds .sw_description .specsWrap li:nth-child(even) span {
+		width: 167px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap li,
+	.tab_02 .sw_description .specsWrap li:nth-child(2) {
+		margin-top: 9px;
+	}
+
+	.nintendo3ds .switch_spec {
+		padding: 0;
+	}
+
+	.nintendo3ds .switch_spec .box {
+		padding: 0;
+	}
+
+	.new3ds h3 {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.new3ds.tab_02 h3 {
+		margin-bottom: 15px;
+	}
+
+	/* new3ds - 주요특징 */
+	.new3ds.tab_01 h3 {
+		margin-bottom: 12px;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.new3ds .section_3ds {
+		padding-top: 36px;
+	}
+
+	.new3ds .section_3ds .desc {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.new3ds .section_3ds .btn_view {
+		margin-top: 16px;
+	}
+
+	/* new3ds - 주요특징 - section_01 */
+	.new3ds .section_3ds .compare {
+		margin-top: 32px;
+		padding: 0 10%;
+	}
+
+	.new3ds .section_3ds .compare > div {
+		margin: auto;
+		padding-left: 0;
+		padding-bottom: 0;
+		float: none;
+		width: 100%;
+		max-width: 514px;
+	}
+
+	.new3ds .section_3ds .compare > div:first-child {
+		margin-bottom: 30px;
+	}
+
+	.new3ds .section_3ds .compare .tit {
+		margin-bottom: 0;
+	}
+
+	.new3ds .section_3ds .compare .tit span {
+		font-size: 14px;
+		line-height: 29px;
+		letter-spacing: -0.1em;
+	}
+
+	.new3ds .section_3ds .compare .img_frame {
+		padding-bottom: 0;
+		height: auto;
+	}
+
+	.new3ds .section_3ds .compare .img_frame > img {
+		position: static;
+	}
+
+	/* new3ds - 주요특징 - section_03 */
+	.section_3ds.section_03 .inner {
+		padding-bottom: 0;
+	}
+
+	.section_3ds.section_03 .img_sec {
+		position: relative;
+		left: -70px;
+		min-width: 440px;
+	}
+
+	.section_3ds.section_03 .img_sec span {
+		left: 46%;
+		right: auto;
+		bottom: 7%;
+	}
+
+	/* new3ds - 주요특징 - section_04 */
+	.section_3ds.section_04 {
+		padding-bottom: 36px;
+	}
+
+	.section_3ds.section_04 .inner {
+		width: auto;
+		display: block;
+		text-align: center;
+	}
+
+	.section_3ds.section_04 .inner > div {
+		margin: auto;
+		display: block;
+		width: auto;
+	}
+
+	.section_3ds.section_04 .inner > div.img_sec {
+		max-width: 453px;
+		width: 46.85%;
+	}
+
+	.section_3ds.section_04 .inner > div.txt_sec {
+		padding-left: 0;
+		text-align: left;
+		display: inline-block;
+	}
+
+	/* new3ds - 주요특징 - section_05 */
+	.section_3ds.section_05 {
+		padding-bottom: 37px;
+	}
+
+	.feat_3ds li .img_desc {
+		padding-top: 62px;
+		width: 117px;
+		height: 117px;
+		line-height: 17px;
+		background-size: 234px;
+		background-position: 100% -10px;
+	}
+
+	.feat_3ds li:first-child {
+		margin-bottom: 28px;
+	}
+
+	.feat_3ds li:first-child .img_desc {
+		background-position: 0 -10px;
+	}
+
+	.feat_3ds li .img_desc > span br {
+		display: block;
+	}
+
+	.section_3ds.section_05 .video_box_wrap {
+		padding: 16px 0 38px;
+	}
+
+	/* new3ds - 주요특징 - section_06 */
+	.section_3ds.section_06 {
+		padding: 30px 0;
+	}
+
+	.section_3ds.section_06 .img_sec {
+		margin-bottom: 18px;
+		padding: 0;
+	}
+
+	.section_3ds.section_06 .banner_tit {
+		margin-bottom: 15px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.section_3ds.section_06 .img_sec img:not(:first-child) {
+		margin-left: 10px;
+	}
+
+	.section_3ds.section_06 .txt_sec {
+		line-height: 18px;
+	}
+
+	/* new3ds - 주요특징 - section_07 */
+	.section_3ds.section_07 {
+		margin-bottom: 30px;
+	}
+
+	/* 본체 종류 */
+	.tab_02 .new3dsSet {
+		padding-bottom: 57px;
+	}
+
+	.tab_02 .new3dsSet .btn_view {
+		top: auto;
+		bottom: 0;
+		left: 50%;
+		margin-left: -100px;
+	}
+
+	.tab_02 .switchSet {
+		padding-top: 0;
+	}
+
+	.tab_02 .sw_description {
+		padding: 40px 0;
+	}
+
+	.tab_02 .new3dsSet .info {
+		font-size: 14px;
+		line-height: 1;
+	}
+
+	.tab_02 .new3dsSet .info .price {
+		font-size: 15px;
+	}
+
+	.tab_02 .new3dsSet .info .price strong {
+		top: 4px;
+		font-size: 1.667em;
+	}
+
+	.tab_02 .sw_description .specsWrap .qrCode {
+		padding: 22px 0;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.tab_02 .sw_description .specsWrap .qrCode br:nth-of-type(n+2) {
+		display: none;
+	}
+
+	.tab_02 ~ .layer_popup .btn_arrow {
+		margin-top: -19px;
+	}
+
+	/* 소개 영상 */
+	.video_play {
+		background-size: 120px;
+	}
+
+	/* 3DS - 기타 3DS 시리즈 */
+	.series_new2dsXL {
+		margin-top: 30px;
+	}
+
+	.info3ds {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.info3ds .note {
+		padding-left: 11px;
+		text-indent: -11px;
+	}
+
+	.series_list {
+		margin-top: 35px;
+	}
+
+	.series_list li {
+		margin-bottom: 36px;
+	}
+
+	.series_list .info3ds {
+		margin-top: 12px;
+	}
+
+	.series_list.iten_03 li {
+		width: 50%;
+	}
+
+	.series_new3ds ul {
+		max-width: 860px;
+	}
+
+	/* 내장 소프트웨어 */
+	.br_hide_mobile {
+		display: none;
+	}
+
+	.br_hide_pc {
+		display: block;
+	}
+
+	.builtin .builtinInner {
+		margin: 0 20px;
+	}
+
+	.builtinTopTit {
+		padding-left: 0;
+		padding-top: 220px;
+		display: block;
+		height: auto;
+		background-position: center top;
+		background-size: 230px 200px;
+		text-align: center;
+	}
+
+	.builtinTopTit .builtinTitWrap {
+		display: block;
+	}
+
+	.builtinTopTit .tit {
+		font-size: 18px;
+	}
+
+	.builtinTopTit .txt {
+		font-size: 14px;
+		margin-top: 15px;
+	}
+
+	.builtin .inner2 {
+		padding: 40px 0;
+	}
+
+	.builtinListUl {
+		margin-left: 0;
+	}
+
+	.builtinListUl + .builtinListUl {
+		margin-top: 20px;
+	}
+
+	.builtinListUl > li {
+		float: none;
+		display: inline-block;
+		width: 50px;
+		margin: 0 5px;
+	}
+
+	.builtinListUl > li > a {
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		height: 50px;
+		box-shadow: none;
+	}
+
+	.builtinListUl > li > a:hover {
+		border-color: transparent;
+	}
+
+	.builtinListUl > li.builtinListUlLast,
+	.builtinListUl > li > a .builtinListUlTxt,
+	.builtinListUl > li > a .builtinListUlImgTit {
+		display: none;
+	}
+
+	.builtinLay {
+		display: block;
+		padding-left: 0;
+		padding-top: 90px;
+		background-position: center top;
+		background-size: 85px auto;
+		height: auto;
+		margin-top: 20px;
+	}
+
+	.builtinLay .builtinLayInner {
+		display: block;
+	}
+
+	.builtinLay .builtinLayInner .builtinTit {
+		font-size: 14px;
+	}
+
+	.builtinLay .builtinLayInner .builtinTxt {
+		font-size: 14px;
+		margin-top: 8px;
+	}
+
+	.builtin .inner3 {
+		padding: 40px 0;
+	}
+
+	.builtin .inner3 .inner3Tit {
+		font-size: 18px;
+	}
+
+	.builtin .inner3 .inner3Txt {
+		font-size: 14px;
+		margin-top: 15px;
+	}
+
+	.builtin .inner3 .inner3Img {
+		position: relative;
+		right: auto;
+		top: auto;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.builtin .inner3 .inner3Img img {
+		max-width: 90%
+	}
+
+	.builtinUl {
+		font-size: 13px;
+		margin-top: 20px;
+	}
+
+	.inner4 {
+		padding-top: 40px;
+	}
+
+	.builtinUl2 > li + li {
+		margin-top: 40px;
+	}
+
+	.builtinUl2 > li .builtinUl2Tit {
+		font-size: 18px;
+		padding-left: 30px;
+		height: 26px;
+		line-height: 26px;
+		background-size: 26px 26px !important;
+	}
+
+	.builtinUl2 > li.list5 .builtinUl2Tit {
+		padding-left: 0;
+	}
+
+	.builtinUl2 > li.list1 .builtinUl2_list1Top {
+		position: relative;
+		padding-left: 0;
+		padding-top: 0;
+		height: auto;
+	}
+
+	.builtinUl2 > li.list1 .builtinUl2_list1Top .builtinUl2_list1TopImg {
+		position: relative;
+		left: auto;
+		top: auto;
+		text-align: center;
+		margin-top: 18px;
+	}
+
+	.builtinUl2 > li.list1 .builtinUl2_list1Top .builtinUl2_list1TopImg img {
+		max-width: 70%;
+	}
+
+	.builtinUl2 > li.list2 {
+		background: none;
+	}
+
+	.builtinUl2Dl {
+		margin-top: 18px;
+		font-size: 14px;
+	}
+
+	.builtinUl2Dl > dd {
+		margin-top: 3px;
+	}
+
+	.builtinBtnBox {
+		margin-top: 18px;
+	}
+
+	.builtinUl2 > li .builtinLeftLay {
+		margin-top: 18px;
+	}
+
+	.builtinUl2 > li .builtinLeftLay .builtinLeftLayImg,
+	.builtinUl2 > li .builtinLeftLay .builtinUl2Dl {
+		float: none;
+	}
+
+	.builtinUl2 > li .builtinLeftLay .builtinLeftLayImg {
+		width: 100%;
+		text-align: center;
+	}
+
+	.builtinUl2 > li .builtinLeftLay .builtinLeftLayImg img {
+		max-width: 70%;
+	}
+
+	.builtinUl2 > li .builtinLeftLay .builtinUl2Dl {
+		margin-top: 18px;
+		width: 100%;
+	}
+
+	/*팝업*/
+	.layerPopupInner {
+		padding: 10px;
+	}
+
+	.layerPopupInner img {
+		max-width: 100%;
+		width: auto !important;
+	}
+
+	.layerPopupInner .layerPopupTit {
+		font-size: 18px;
+	}
+
+	.layerPopupInner .layerPopupTbl {
+		margin-top: 20px;
+	}
+
+	.layerPopupInner .layerPopupTbl th,
+	.layerPopupInner .layerPopupTbl td {
+		font-size: 13px;
+		padding: 10px 5px;
+	}
+
+	.builtin .btn_round_link,
+	.layerPopupInner .btn_round_link {
+		padding-right: 36px;
+		position: relative;
+		width: 220px;
+	}
+
+	.builtin .btn_round_link::after,
+	.layerPopupInner .btn_round_link::after {
+		position: absolute;
+		top: 50%;
+		margin: 0;
+		margin-top: -8px;
+		right: 20px;
+	}
+
+	/*page2*/
+	.builtinSoftwareListUl > li {
+		padding-top: 20px;
+		background-size: 100% auto;
+	}
+
+	.builtinSoftwareListUl > li + li {
+		margin-top: 40px;
+	}
+
+	.builtinSoftwareListUl > li .builtinSoftwareListImg {
+		position: relative;
+		right: auto;
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	.builtinSoftwareListUl > li .builtinSoftwareListImg img {
+		max-width: 90%;
+	}
+
+	.builtinSoftwareListUl > li#builtinSoftwareList5 .builtinSoftwareListImg img {
+		max-width: 70%;
+	}
+
+	.builtinSoftwareListUl > li#builtinSoftwareList2 .builtinSoftwareListImg,
+	.builtinSoftwareListUl > li#builtinSoftwareList3 .builtinSoftwareListImg,
+	.builtinSoftwareListUl > li#builtinSoftwareList7 .builtinSoftwareListImg {
+		bottom: auto;
+	}
+
+	.builtinSoftwareListUl > li#builtinSoftwareList5 .builtinSoftwareListImg {
+		top: auto;
+	}
+
+	.builtinSoftwareListUl > li#builtinSoftwareList2 .builtinSoftwareListImg {
+		display: none;
+	}
+
+	.builtinSoftwareListUl .builtinSoftwareListUlTit {
+		text-align: center;
+	}
+
+	.builtinSoftwareListUl .builtinSoftwareListUlTit img {
+		max-width: 60%;
+	}
+
+	.builtinSoftwareInline {
+		margin-top: 15px;
+	}
+
+	.builtinSoftwareInline > li {
+		margin: 10px 10px 0;
+		max-width: 40%;
+	}
+
+	.builtinSoftwareList6SubTit {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.builtinSoftwareList6Ul {
+		max-width: auto;
+		margin: 15px auto 0;
+		text-align: center;
+	}
+
+	.builtinBtnBox + .builtinSoftwareList6Ul {
+		margin-top: 30px;
+	}
+
+	.builtinSoftwareList6Ul > li {
+		float: none;
+		display: inline-block;
+		margin: 10px;
+		max-width: 40%;
+	}
+
+	.builtinSoftwareList6Ul > li img {
+		width: 120px;
+	}
+
+	.builtinSoftwareList6Ul > li.first {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.builtinSoftwareList6Ul > li.first img {
+		width: 150px
+	}
+
+	.builtinSoftwareList6Grey {
+		padding: 15px 20px;
+		margin-top: 30px;
+	}
+
+	.builtinSoftwareList6Grey .btnArr {
+		position: relative;
+		display: block;
+		right: 0;
+		top: 0;
+		height: 30px;
+		margin: 20px auto 0;
+		line-height: 28px;
+		font-size: 14px;
+		border-radius: 2px;
+	}
+
+	.builtinSoftwareList6Grey .btnArr span {
+		padding-right: 0;
+		background: none;
+	}
+
+	.builtinSoftwareListUl .builtinBtnBox .btn_round_link {
+		width: 230px;
+		font-size: 14px;
+	}
+
+	/*팝업*/
+	.layerPopupPage2Top {
+		margin-top: 25px;
+	}
+
+	.layerPopupPage2Top .layerPopupPage2TopTxt {
+		margin-top: 15px;
+		font-size: 14px;
+	}
+
+	.layerPopupPage2Top .layerPopupPage2TopTxt strong {
+		font-size: 20px;
+	}
+
+	.layerPopupPage2Bottom {
+		margin-top: 20px;
+		padding-top: 15px;
+	}
+
+	.layerPopupPage2Bottom .builtinUl {
+		max-width: 540px;
+		width: auto;
+	}
+
+	/* 2DS 시리즈 - 상단 */
+	.new2ds .new2ds_top {
+		padding-top: 20px;
+	}
+
+	.new2ds .top_visual {
+		padding: 30px 0;
+	}
+
+	.new2ds .new2ds_top .img {
+		margin-top: -26px;
+		transform: inherit;
+		-webkit-transform: inherit;
+	}
+
+	.new2ds .new2ds_top .img:before {
+		display: none;
+	}
+
+	.new2ds .new2ds_top .img .inner {
+		margin: auto;
+		width: 80%;
+	}
+
+	.new2ds .top_visual .txt {
+		font-size: 20px;
+	}
+
+	.new2ds .top_visual .txt .price {
+		margin: 14px 0 0;
+		font-size: 14px;
+	}
+
+	.new2ds .top_visual .txt .price em {
+		top: -6px;
+		font-size: 20px;
+	}
+
+	.new2ds .top_visual .txt .price span {
+		top: -2px;
+		font-size: 15px;
+	}
+
+	.new2ds .top_visual .btn_bd_bk {
+		margin-top: 20px;
+		padding-left: 0;
+		width: 160px;
+		text-align: center;
+	}
+
+	/* 2DS 시리즈 - section_01 */
+	.new2ds .section_01 {
+		display: block;
+	}
+
+	.new3ds.tab_01 h3,
+	.new2ds .section_2ds h3 {
+		margin-bottom: 12px;
+		font-size: 18px;
+	}
+
+	.new2ds .section_01 > div {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	.new2ds .section_01 .desc {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.new2ds .section_01 .img_sec {
+	}
+
+	.new2ds .section_01 h3 br {
+		display: none;
+	}
+
+	/* 2DS 시리즈 - section_02 */
+	.new2ds .section_02 .section_02_set {
+		float: none;
+		width: 100%;
+	}
+
+	.new2ds .section_02 .section_02_set .txt_box {
+		margin: 26px auto 36px;
+	}
+
+	.new2ds .section_02 .section_02_set.left .txt_box,
+	.new2ds .section_02 .section_02_set.right .txt_box {
+		float: none;
+		width: 100%;
+		max-width: none;
+	}
+
+	.new2ds .section_02 .section_02_set.right .txt_box {
+		background: none;
+	}
+
+	.new2ds .section_02 .section_02_set h3 {
+		height: auto;
+		line-height: 25px;
+		letter-spacing: -0.05em;
+	}
+
+	.new2ds .section_02 .section_02_set.right h3 {
+		line-height: 25px;
+	}
+
+	.new2ds .section_02 .desc {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	/* 2DS 시리즈 - section_02 */
+	.section_2ds.section_03 h3 span {
+		font-size: 15px;
+		line-height: 30px;
+	}
+
+	.section_2ds.section_03 h3 em {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	/* 2DS 시리즈 - section_03 */
+	.new2ds .section_03 .sw_list_img {
+		margin-top: 17px;
+		margin-left: -8px;
+		padding-left: 0;
+	}
+
+	.section_2ds.section_03 .img_2ds {
+		position: relative;
+		top: auto;
+		left: auto;
+		margin: 0 auto 22px;
+		height: auto;
+		transform: inherit;
+		-webkit-transform: inherit;
+		background-position: center top;
+	}
+
+	.section_2ds.section_03 .inner {
+		margin: 0;
+		padding-left: 0;
+	}
+
+	.section_2ds.section_03 .inner ul {
+		padding-left: 0;
+	}
+
+	.new2ds .section_03 .sw_list_img li {
+		width: 16.66%;
+		border-width: 8px;
+	}
+
+	.new2ds .section_03 .btn_round_link_red {
+		margin: 20px 0 26px;
+		padding: 0 30px;
+	}
+
+	.new2ds .section_03 .section_03_txt .inner ul li {
+		font-size: 13px;
+		line-height: 19px;
+	}
+
+
+	/* 2DS 시리즈 - section_04 */
+	.new2ds .section_04 {
+		padding: 30px 0;
+	}
+
+	.new2ds .section_04 .info_2ds_set {
+		padding-bottom: 20px;
+		font-size: 14px;
+	}
+
+	.new2ds .section_04 .body_2ds.left {
+		padding-right: 10px;
+	}
+
+	.new2ds .section_04 .body_2ds.right {
+		padding-left: 10px;
+	}
+
+	.new2ds .section_04 .info_2ds_set .tit {
+		margin-bottom: 20px;
+		height: 35px;
+		line-height: 35px;
+	}
+
+	.new2ds .section_04 .info_2ds_set ul {
+		padding: 0 20px;
+	}
+
+	.new2ds .section_04 .body_2ds_tit {
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	.new2ds .section_04 .adapt ~ span {
+		margin-top: 6px;
+		margin-right: 0;
+		text-align: left;
+	}
+
+	.new2ds .section_04 .btn_zoom {
+		margin: 20px 0 25px;
+	}
+
+	.new2ds .section_04 .info_2ds_set {
+		margin-top: 30px;
+	}
+
+	/* 2DS 시리즈 - section_05 */
+	.new2ds .section_05 {
+		padding: 20px 0 30px;
+	}
+
+	.new2ds .section_05 .gt_arr {
+		padding: 0 15px;
+		font-size: 14px;
+		line-height: 37px;
+	}
+
+	/* 2DS 시리즈 - 레이어팝업 */
+	.layer_popup.new2DS .innerWrap {
+		width: auto;
+	}
+
+	.layer_popup.new2DS h2 {
+		margin-bottom: 30px;
+		font-size: 20px;
+		letter-spacing: -0.08em;
+	}
+
+	.open_detail_spec2DS {
+		padding: 40px 20px;
+	}
+
+	.open_detail_spec2DS table ~ ul {
+		margin-top: 20px;
+		font-size: 13px;
+		text-indent: -18px;
+	}
+
+	.open_detail_spec2DS table ~ ul li:not(:last-child) {
+		margin-bottom: 4px;
+	}
+
+	.open_detail_func .imgSpec .tabs a {
+		position: relative;
+		background-position: left -4px;
+	}
+
+	.open_detail_func .imgSpec .tabs a.is-selected:after {
+		position: absolute;
+		top: 4px;
+		left: 50%;
+		margin-left: -3px;
+		width: 7px;
+		height: 4px;
+		display: block;
+		content: '';
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-top: 4px solid #e60012;
+	}
+}
+
+.open_detail_func .imgSpec .imgBox {
+	margin: 30px 0 20px;
+	text-align: center;
+}
+
+}
+
+@media screen and (max-width: 940px) {
+	.section_3ds.section_05 iframe {
+		width: auto;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/*mobile*/
+	/* 공통 */
+	.main_3ds h2 span,
+	.main_3ds .desc span {
+		display: block;
+	}
+
+	/* section01 */
+	.main_visual_slide .slide01 .info_text {
+		padding-left: 52%;
+	}
+
+	.main_visual_slide .slide01 .price {
+		margin-top: 20px;
+	}
+
+	.main_visual_slide .slide01 .img {
+		left: 0;
+		margin-left: -5%;
+		width: 56%;
+	}
+
+	.main_visual_slide .slide02 .img {
+		top: 45px;
+	}
+
+	.main_visual_slide .slide02 .img1 {
+		padding-right: 22%;
+	}
+
+	.main_visual_slide .slide02 .img2 {
+		margin-top: 7%;
+		padding-left: 22%;
+	}
+
+	.main_visual_slide .slide02 .img1:after {
+		margin-left: -2%;
+		width: 60px
+	}
+
+	.main_visual_slide .slide02 .img2:after {
+		top: -55px;
+		margin-left: -28%;
+		width: 60px;
+	}
+
+	.main_visual_slide .slide02 .info_text {
+		padding-top: 180px;
+	}
+
+	.main_visual_slide.owl-theme .owl-dots {
+		padding: 0 20px;
+	}
+
+	/* section02 */
+	.main_3ds .section02 .btn_view {
+		margin-top: 18px;
+	}
+
+	.main_3ds .section02 .chara02 {
+		top: 35%
+	}
+
+	.mario img {
+		margin-left: -70px;
+	}
+
+	/* section03 */
+	.main_3ds .feat_list li {
+		margin-bottom: 18px;
+		width: 100%;
+		height: auto;
+		float: none;
+		background: none;
+	}
+
+	.main_3ds .feat_list .feat {
+		margin: 0 auto 12px
+	}
+
+	/* section04 */
+	.main_3ds .section04 .m_hide {
+		display: none;
+	}
+
+	.built_in > li {
+		margin-left: 0;
+		margin-bottom: 0;
+		padding: 12px;
+		width: 25%;
+		height: auto;
+		border: none;
+		background: none;
+		box-shadow: none;
+	}
+
+	.func_list {
+		margin-top: 0;
+		padding: 0;
+	}
+
+	.func_list li {
+		margin-bottom: 0;
+		padding: 5px;
+	}
+
+	.func_list li img {
+		width: 30px;
+	}
+
+	/* section05 */
+	.series_wrap {
+		margin: 25px 0 0;
+		padding-left: 20px;
+		overflow-x: auto;
+	}
+
+	.series {
+		width: 840px;
+	}
+
+	.series li {
+		margin-right: 20px;
+		padding: 0;
+		width: 260px;
+		background: none;
+	}
+
+	.series li img {
+		max-height: 100%;
+	}
+
+	.series li .title {
+		margin: 15px 0;
+		font-size: 14px;
+	}
+
+	/* section07 */
+	.st_tbl_border li:last-child .r_arr_red strong {
+		display: block;
+	}
+
+	/*** new3ds ***/
+	.new3ds_top .visual_img {
+		width: 60%;
+	}
+
+	.new3ds_top .info_wrap > span {
+		text-indent: 0;
+	}
+
+	.nintendo3ds .topSpec .inner {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.nintendo3ds .imgSpec {
+		padding: 54px 0 30px;
+	}
+
+	.nintendo3ds .switch_spec {
+		padding: 30px 0 0;
+	}
+
+	.nintendo3ds .imgSpec .tabs {
+		position: absolute;
+		top: -54px;
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.nintendo3ds .marker {
+		margin: 30px 0 20px;
+	}
+
+	.nintendo3ds .marker p {
+		line-height: 25px;
+	}
+
+	.nintendo3ds .marker p + p {
+		padding-left: 34px;
+		line-height: 20px;
+	}
+
+	.nintendo3ds .marker p span {
+		vertical-align: top;
+	}
+
+	.nintendo3ds .openDetailSpec {
+		margin-top: 20px;
+		padding: 11px 0;
+		font-size: 14px;
+	}
+
+	.nintendo3ds .imgSpec .tabs a {
+		position: relative;
+		padding-top: 0;
+		padding-bottom: 3px;
+		border-bottom: 4px solid #b3b3b3;
+		background: none;
+	}
+
+	.nintendo3ds .imgSpec .tabs a.is-selected {
+		border-bottom-color: #e60012;
+	}
+
+	.nintendo3ds .imgSpec .tabs a.is-selected:after {
+		position: absolute;
+		bottom: -8px;
+		left: 50%;
+		margin-left: -3px;
+		width: 7px;
+		height: 4px;
+		display: block;
+		content: '';
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-top: 4px solid #e60012;
+	}
+
+	.nintendo3ds .switchSet .item + .item {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+
+	.nintendo3ds .switchSet .item:first-child {
+		padding-left: 0;
+		padding-right: 20px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap .specs {
+		padding: 32px 8.62%;
+	}
+
+	.tab_02 .new3dsSet {
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 57px;
+	}
+
+	.tab_02 .switchSet {
+		padding-bottom: 0;
+	}
+
+	.tab_02 .sw_description {
+		padding: 40px 0 30px;
+	}
+
+	.tab_02 .switchSet .scrollBox {
+		padding: 0 20px;
+	}
+
+	/* new3ds - 주요특징 - section_02 */
+	.section_02.imgSpec {
+		padding-top: 36px;
+	}
+
+	.section_3ds.section_02 .marker {
+		margin: 20px 0 10 pxv;
+		display: inline-block;
+		text-align: left;
+	}
+
+	/* new3ds - 주요특징 - section_03 */
+	.section_3ds.section_03 .desc br {
+		display: none;
+	}
+
+	.section_3ds.section_03 .btn_arr_cir {
+		margin-top: 15px;
+	}
+
+	/* new3ds - 주요특징 - section_05 */
+	.section_3ds.section_04 .inner > div.img_sec {
+		margin-bottom: 16px;
+		min-width: 300px;
+		max-width: 300px;
+	}
+
+	.section_3ds.section_04 .img_sec {
+		padding-bottom: 322px;
+	}
+
+	.feat_3ds li {
+		float: none;
+		width: 100%;
+	}
+
+	.feat_3ds li:first-child:after {
+		display: none;
+	}
+
+	/* new3ds - 주요특징 - section_06 */
+	.section_3ds.section_06 .img_sec img:not(:first-child) {
+		margin-left: 0;
+		border-left: 5px solid transparent;
+	}
+
+	/* 소개 영상 */
+	.video_play {
+		background-size: 100px;
+	}
+
+	/* 3DS - 기타 3DS 시리즈 */
+	.series_section .series_sec_top {
+		position: relative;
+		margin: auto;
+		padding-top: 54px;
+		padding-left: 0;
+		width: 400px;
+	}
+
+	.series_section .series_sec_top .logo3ds {
+		position: absolute;
+		top: 14px;
+		left: 0;
+		padding-left: 0;
+		width: 100%;
+		height: 30px;
+		text-align: center;
+	}
+
+	.series_section .series_sec_top .img_app {
+		width: 30%;
+	}
+
+	.info3ds .note {
+		margin-top: 4px;
+		line-height: 1.3;
+	}
+
+	.series_list {
+		padding-bottom: 12px;
+	}
+
+	.series_list.iten_01 li,
+	.series_list.iten_02 li,
+	.series_list.iten_03 li {
+		float: none;
+		margin: 0 auto 25px;
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.series_section.series_new2dsXL .series_sec_top .img_app {
+		width: 30%;
+	}
+
+	.series_section.series_new2dsXL .series_sec_top .logo3ds {
+		width: 100%;
+	}
+
+	/* 2DS 시리즈 - 상단 */
+	.new2ds .new2ds_top .img {
+		margin-top: -10px;
+	}
+
+	.new2ds .new2ds_top .img .inner {
+		width: 100%;
+	}
+
+	.new2ds .top_visual .txt {
+		min-width: inherit;
+	}
+
+	/* 2DS 시리즈 - section_02 */
+	.new2ds .section_02 .img_m {
+		width: 100%;
+		display: block;
+	}
+
+	.new2ds .section_02 .section_02_set.left .img_decs,
+	.new2ds .section_02 .section_02_set.right .img_decs {
+		padding-bottom: 0;
+		background: none;
+	}
+
+	/* 2DS 시리즈 - section_02 */
+	.section_2ds.section_03 {
+		padding: 20px;
+	}
+
+	/* 2DS 시리즈 - section_04 */
+	.new2ds .section_04 {
+		padding-top: 0;
+	}
+
+	.new2ds .section_04 .body_2ds {
+		float: none;
+		padding: 30px 0 0;
+		width: 100%;
+	}
+
+	.new2ds .section_04 .body_2ds.left {
+		padding-right: 0;
+	}
+
+	.new2ds .section_04 .body_2ds.right {
+		padding-left: 0;
+	}
+
+	.new2ds .section_04 .body_2ds_tit {
+		margin-bottom: 30px;
+	}
+
+	.new2ds .section_04 .info_2ds_set ul {
+		float: none;
+		width: 100%;
+	}
+
+	.new2ds .section_04 .info_2ds_set ul li.clearfix {
+		margin-bottom: 11px;
+	}
+
+	.new2ds .section_04 .info_2ds_set .dt {
+		padding-right: 12px;
+	}
+
+	.new2ds .section_04 .info_2ds_set .dd {
+		padding-left: 8px;
+		padding-right: 0;
+	}
+
+	.new2ds .section_04 .btn_zoom {
+		display: none;
+	}
+
+	.new2ds .section_04 .adapt {
+		margin-top: 0;
+		max-width: 280px;
+		display: block;
+	}
+
+	/* 2DS 시리즈 - 레이어팝업 */
+	.open_detail_func {
+		padding: 30px 20px;
+	}
+
+	.open_detail_func .imgSpec {
+		padding: 0;
+	}
+
+	.open_detail_func .imgSpec .tabs,
+	.open_detail_func .imgSpec .m {
+		display: block;
+	}
+
+	.open_detail_func .imgSpec .pc {
+		display: none;
+	}
+
+	.open_detail_func .imgSpec .imgBox img {
+		position: absolute;
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.main_visual_slide .slide01 .img {
+		margin-left: -31%;
+		width: 76%;
+	}
+
+	.main_visual_slide .slide01 .info_text {
+		padding-left: 42%;
+	}
+
+	.main_visual_slide .slide02 .obj {
+		width: 50%;
+	}
+
+	.main_visual_slide .slide02 .img1 {
+		padding-right: 3%;
+	}
+
+	.main_visual_slide .slide02 .img2 {
+		margin-top: 12%;
+		padding-left: 3%;
+	}
+
+	.main_visual_slide .slide02 .img1:after,
+	.main_visual_slide .slide02 .img2:after {
+		top: -30px;
+		width: 50px;
+		margin-left: 36%;
+	}
+
+	.main_visual_slide .slide02 .img2:after {
+		top: -44px;
+		margin-left: -65%;
+	}
+
+	.main_visual_slide .slide02 .info_text {
+		padding-top: 190px;
+	}
+
+	.main_visual_slide.owl-theme .owl-dots {
+		top: -30px;
+	}
+
+	.main_3ds .section02 .chara01 {
+		top: 235px
+	}
+
+	.main_3ds .section02 .chara02 {
+		top: 50%;
+		margin-left: 28%;
+	}
+
+	.main_3ds .section02 .chara04 {
+		bottom: -10px;
+	}
+
+	.mario img {
+		margin-left: 0;
+	}
+
+	.series {
+		margin-top: 0;
+		width: 495px;
+	}
+
+	.series li {
+		margin-right: 15px;
+		width: 150px;
+	}
+
+	.series li .title {
+		height: 22px;
+		line-height: 22px;
+	}
+
+	.st_tbl_border .r_arr_red {
+		background-size: 30px;
+	}
+
+	.st_tbl_border .r_arr_red span {
+		display: block;
+	}
+
+	.new3ds_top .visual_img {
+		width: 71.2%;
+	}
+
+	.new3ds_top .new3ds_info .new3ds_logo {
+		left: -10px;
+	}
+
+	/* 2DS 시리즈 - section_04 */
+	.new2ds .section_02 .desc {
+		text-align: left;
+	}
+
+	.new2ds .section_02 .desc br {
+		display: none;
+	}
+
+	/*** new3ds ***/
+	.nintendo3ds .switchSet .item img {
+		width: 277px
+	}
+
+	.tab_02 .sw_description .specsWrap .qrCode br,
+	.tab_02 .sw_description .specsWrap .qrCode br:nth-of-type(n+2) {
+		display: block;
+	}
+
+	.tab_02 ~ .layer_popup .btn_arrow {
+		position: absolute;
+		right: 0;
+	}
+
+	/* new3ds - 주요특징 - section_04 */
+	.section_3ds.section_04 .desc br:last-of-type {
+		display: none;
+	}
+
+	/* new3ds - 주요특징 - section_06 */
+	.section_3ds.section_06 .img_sec img {
+		width: 33.33%;
+	}
+
+	/* 3DS - 기타 3DS 시리즈 */
+	.series_section .series_sec_top {
+		width: auto;
+	}
+
+	.series_section .series_sec_top .img_app {
+		width: 35%;
+	}
+
+	.series_section .series_sec_top .info3ds {
+		padding-left: 20px;
+	}
+
+	.series_section.series_new2dsXL .series_sec_top .img_app {
+		width: 35%;
+	}
+
+	/* 2DS 시리즈 - section_03 */
+	.section_2ds.section_03 .img_2ds {
+		padding-bottom: 54%;
+		width: 70%;
+	}
+
+	.new2ds .section_03 .section_03_txt {
+		text-align: center;
+	}
+
+	.new2ds .section_03 .sw_list_img {
+		display: inline-block;
+	}
+
+	.new2ds .section_03 .sw_list_img li {
+		float: none;
+		width: 26%;
+		display: inline-block;
+	}
+
+	.new2ds .section_03 .sw_list_img li:nth-child(n+4) {
+		margin-top: 10px;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+	.main_visual_slide .slide02 .info_text {
+		padding-top: 170px;
+	}
+
+	.section_3ds.section_03 .img_sec {
+		left: -100px;
+		min-width: 435px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	/* button */
+	.new2ds .section_04 .adapt {
+		padding-left: 25px;
+		width: 100%;
+		font-size: 13px;
+	}
+
+	/* new3ds - 주요특징 - section_01 */
+	.new3ds .section_3ds .compare {
+		padding: 0;
+	}
+
+	.section_02.imgSpec {
+		padding-bottom: 0;
+	}
+
+	.new2ds .section_03 .sw_list_img li {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.main_visual_slide .info_text {
+		line-height: 20px;
+	}
+
+	.main_visual_slide .price {
+		line-height: 1.5;
+	}
+
+	.main_visual_slide .price span {
+		top: -1px;
+	}
+
+	.main_visual_slide .slide01 .price {
+		margin-top: 10px;
+	}
+
+	.main_visual_slide .slide01 .info_text {
+		padding-top: 40px;
+	}
+
+	.main_visual_slide .slide01 .info_text em {
+		margin-top: 15px;
+	}
+
+	.main_visual_slide .slide01 .info_text em strong {
+		font-size: 14px;
+	}
+
+	.built_in > li {
+		padding: 6px;
+	}
+
+	.func_list li {
+		padding: 3px;
+	}
+
+	.nintendo3ds .switchSet .item + .item {
+		padding-left: 15px;
+	}
+
+	.nintendo3ds .switchSet .item:first-child {
+		padding-right: 15px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap li {
+		font-size: 13px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap li:before {
+		margin-right: 6px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap li:nth-child(odd) span,
+	.nintendo3ds .sw_description .specsWrap li:nth-child(even) span {
+		width: 150px;
+	}
+
+	.nintendo3ds .sw_description .specsWrap .qrCode span {
+		font-size: 12px;
+	}
+
+	.new3ds .section_3ds .desc {
+		text-align: left;
+	}
+
+	.new3ds .section_3ds .desc br {
+		display: none;
+	}
+
+	.new3ds.tab_01 .section_03 h3 br {
+		display: none;
+	}
+
+	.section_3ds.section_03 .img_sec {
+		left: -60px;
+		min-width: 345px;
+	}
+
+	.section_3ds.section_03 .img_sec span {
+		left: 46%;
+		bottom: 5%;
+	}
+
+	.section_3ds.section_04 .inner > div.img_sec {
+		max-width: 280px;
+		min-width: 280px;
+	}
+}

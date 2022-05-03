@@ -1,0 +1,6194 @@
+@charset "UTF-8";
+
+.sw_item .ico_lang {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    width: 60px;
+    height: 36px;
+    text-indent: -9999px;
+    display: block;
+    background: url(/images/renew/common/ico_lang_foreign_s.png) no-repeat 0 0;
+    overflow: hidden;
+}
+
+.sw_item .ico_lang.ko {
+    background-position: 0 -116px;
+}
+
+.software_sp_be:before,
+.software_sp_at:after {
+    background: url(/images/renew/software/software_sp.png) no-repeat;
+    content: "";
+    display: inline-block;
+}
+
+/* main 상단 배너 */
+.sw_main_top {
+    width: 1352px;
+    margin: 20px auto 100px auto;
+}
+
+.sw_main_top a {
+    display: block;
+}
+
+.sw_main_top img {
+    width: 100%;
+}
+
+.sw_main_top .box01 {
+    position: relative;
+    overflow: hidden;
+}
+
+.sw_main_top .box01 .item01 {
+    width: calc(68% - 1.431%);
+}
+
+.sw_main_top .box01 .item02 {
+    position: absolute;
+    top: 0;
+    left: 68%;
+    width: calc(32%);
+}
+
+.sw_main_top .box01 .item03 {
+    position: absolute;
+    top: 37.1428%;
+    left: 68%;
+    width: calc(32%);
+}
+
+/*.sw_main_top .item04{position:relative; margin-top:1.48%; overflow: hidden;}*/
+.sw_main_top .item04 {
+    float: left;
+    width: 23.89%;
+    margin-top: 1.48%;
+}
+
+.sw_main_top .item04 + .item04 {
+    margin-left: 1.48%;
+}
+
+.tit_section {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* 닌텐도 스위치 소프트 웨어 */
+.new_software {
+    position: relative;
+    width: 1200px;
+    margin: 70px auto 80px auto;
+}
+
+/* 이미지 전환 효과 */
+.effect_fade {
+    position: relative;
+}
+
+.effect_fade img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.effect_fade img:first-child {
+    position: relative;
+}
+
+/* carousel */
+.list_newSw {
+    position: relative;
+}
+
+.list_newSw .owl-item img {
+    width: auto;
+}
+
+.list_newSw .owl-dots {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    font-size: 0;
+}
+
+.list_newSw .owl-dots .owl-dot span {
+    width: 30px;
+    height: 5px;
+    border-radius: 0;
+    background: #ccc;
+}
+
+.list_newSw .owl-dots .owl-dot + .owl-dot {
+    margin-left: 3px;
+}
+
+.list_newSw .owl-dots .owl-dot.active span {
+    background: #e60012;
+}
+
+.list_newSw .owl-nav > div {
+    position: absolute;
+    top: 70px;
+    width: 10px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 0;
+    text-indent: -99999px;
+}
+
+.list_newSw .owl-nav .owl-prev {
+    left: -40px;
+    background-image: url(/images/renew/common/btn_carousel_prev.gif);
+}
+
+.list_newSw .owl-nav .owl-next {
+    right: -40px;
+    background-image: url(/images/renew/common/btn_carousel_next.gif);
+}
+
+.newSw_cate {
+    width: 1200px;
+    margin: 40px auto 0 auto;
+}
+
+.newSw_cate .item {
+    float: left;
+    width: 276px;
+}
+
+.newSw_cate .item + .item {
+    margin-left: 30px;
+}
+
+.newSw_cate:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* software */
+.sw_item {
+    position: relative;
+    letter-spacing: -0.05em;
+}
+
+.sw_item .thumb, .sw_item .slider {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 57.97101449275362%;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.sw_item .thumb:after, .sw_item .slider:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.sw_item .thumb[href="#none"], .sw_item .slider[href="#none"] {
+    cursor: initial;
+}
+
+.sw_item .cate {
+    font-size: 14px;
+    color: #e60012;
+}
+
+.sw_item .vc_icon {
+    height: 16px;
+    margin-right: 3px;
+    font-size: 0;
+    text-align: right;
+    display: block;
+}
+
+.sw_item .tit {
+    height: 44px;
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.sw_item .tit::first-letter {
+    text-transform: uppercase;
+}
+
+.sw_item .type {
+    float: right;
+}
+
+.sw_item .ico_rel {
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 3px;
+    background: #e60012;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+.sw_item .ico_rel_comming {
+    display: inline-block;
+    padding: 1px 4px;
+    border-radius: 3px;
+    background: #e60012;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+.sw_item .ico_rel + .ico_rel {
+    margin-left: 5px;
+}
+
+.sw_item .releaseInfo {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #737373;
+    letter-spacing: -0.075em;
+    line-height: 20px;
+}
+
+.sw_item .releaseInfo span.guide {
+    margin: 0 8px;
+}
+
+.sw_item .releaseInfo span.preDown {
+    color: #1271ca;
+}
+
+.sw_item .thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.sw_item .slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sw_item:hover .thumb img {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+
+.sw_item:hover .thumb:after, .sw_item:hover .slider:after {
+    opacity: 0.3;
+}
+
+.sw_item .price {
+    letter-spacing: 0;
+}
+
+.sw_item .price.sale > span,
+.price.sale > span {
+    text-decoration: line-through;
+}
+
+.sw_item .price.sale > em,
+.price.sale > em {
+    font-weight: 700;
+    color: #e60012;
+}
+
+.em {
+    font-weight: 700;
+}
+
+.cateTit {
+    position: relative;
+    width: 276px;
+    height: 295px;
+    background-repeat: repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.cateTit a {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 24px;
+    line-height: 34px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.cateTit a span {
+    display: block;
+}
+
+.cateTit_3ds {
+    background-image: url(/images/renew/software/main/bg_sw_main_new_3ds.jpg);
+}
+
+.cateTit_dw {
+    background-image: url(/images/renew/software/main/bg_sw_main_new_dw.jpg);
+}
+
+.cateTit_exp {
+    background-image: url(/images/renew/software/main/bg_sw_main_exp.jpg);
+}
+
+.newSw_cate .sw_item:last-child {
+    display: none;
+}
+
+.newSw_cate.typeB .sw_item:last-child {
+    display: block;
+}
+
+/* 다운로드 번호 구입 플로팅 메뉴 */
+.btn_store {
+    position: fixed;
+    left: 50%;
+    bottom: 47px;
+    overflow: hidden;
+    margin-left: 735px;
+    width: 136px;
+    height: 136px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: -0.1em;
+    text-align: center;
+    color: #fff;
+    background: rgba(254, 124, 10, .95);
+    border-radius: 50%;
+    z-index: 999;
+    transition: right .3s ease;
+    display: none;
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: .6s;
+    -webkit-animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+.btn_store.on {
+    display: block;
+}
+
+.btn_store.off {
+    display: block;
+    -webkit-animation: slide-out-right 0.5s linear both;
+    animation: slide-out-right 0.5s linear both;
+}
+
+.btn_store:before {
+    margin: 19px auto 9px;
+    width: 36px;
+    height: 38px;
+    display: block;
+}
+
+.btn_store strong span {
+    display: block;
+}
+
+.slideLeft {
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes slide-out-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-out-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(150%);
+    }
+    50% {
+        transform: translateX(-8%);
+    }
+    65% {
+        transform: translateX(4%);
+    }
+    80% {
+        transform: translateX(-4%);
+    }
+    95% {
+        transform: translateX(2%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slideLeft {
+    0% {
+        -webkit-transform: translateX(150%);
+    }
+    50% {
+        -webkit-transform: translateX(-8%);
+    }
+    65% {
+        -webkit-transform: translateX(4%);
+    }
+    80% {
+        -webkit-transform: translateX(-4%);
+    }
+    95% {
+        -webkit-transform: translateX(2%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/* 3ds 다운로드 소프트웨어 icon */
+.ico_3dsDw {
+    position: relative;
+}
+
+.ico_3dsDw:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/renew/software/main/ico_sw_3ds_downlod.png) no-repeat bottom right;
+    background-size: contain;
+}
+
+/* 버추얼 콘솔 icon */
+.ico_vc {
+    position: relative;
+}
+
+.ico_vc:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/renew/software/main/ico_sw_3ds_vc.png) no-repeat bottom right;
+    background-size: contain;
+}
+
+/* qrcode */
+.btn_view_qrCode {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #e81929;
+    background: url(/images/renew/common/bg_qrCode.png) no-repeat top left;
+    font-size: 0;
+    text-indent: -999999px;
+}
+
+/* 3ds 소프트웨어 상세 - 소프트웨어 정보 */
+.sw_detail_topInfo {
+    position: relative;
+    padding: 0 0 60px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.sw_detail_topInfo .sw_info {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.sw_detail_topInfo .navigator {
+    font-size: 13px;
+    color: #737373;
+}
+
+.sw_detail_topInfo .navigator a {
+    cursor: default;
+}
+
+.sw_detail_topInfo .navigator .home {
+    display: inline-block;
+    /*width: 12px;*/
+    /*height: 12px;*/
+    /*background: url(/images/renew/common/ico_home.png) no-repeat top left;*/
+    /*font-size: 0;*/
+    /*text-indent: -999999px;*/
+}
+
+.sw_detail_topInfo .navigator .path {
+    display: inline-block;
+    color: #737373;
+}
+
+.sw_detail_topInfo .navigator .path + .path:before {
+    content: ">";
+    display: inline-block;
+    /*width: 4px;*/
+    /*height: 6px;*/
+    margin: 0 8px;
+    /*background: url(/images/renew/common/ico_navi_arrow.png) no-repeat top left;*/
+    vertical-align: top;
+}
+
+.sw_detail_topInfo .tit_sw {
+    margin-top: 20px;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: -0.085em;
+    line-height: 150%;
+}
+
+.sw_detail_topInfo .sw_detail_info {
+    margin-top: 20px;
+    font-size: 17px;
+    letter-spacing: -0.05em;
+}
+
+.sw_detail_topInfo .sw_detail_info span {
+    display: inline-block;
+}
+
+.sw_detail_topInfo .sw_detail_info span + span {
+    margin-left: 25px;
+}
+
+.sw_detail_topInfo .sw_detail_info .desc {
+    padding-top: 10px;
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-indent: -15px;
+    clear: both;
+}
+
+.sw_detail_topInfo .links {
+    margin-top: 30px;
+}
+
+.sw_detail_topInfo .btn_bk:after {
+    background-position: left bottom;
+}
+
+/* 3ds 소프트웨어 상세 - 이미지,동영상 carousel */
+.sw_carousel {
+    position: relative;
+}
+
+.sw_carousel .owl-item img {
+    width: auto;
+}
+
+.sw_carousel .owl-item {
+    position: relative;
+    opacity: 0.2;
+}
+
+.sw_carousel .owl-item.center {
+    opacity: 1;
+}
+
+.sw_carousel .owl-video-playing {
+    opacity: 1;
+}
+
+.sw_carousel .item-video {
+    width: 800px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.sw_carousel .owl-nav [class*=owl-] {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 44px;
+    height: 68px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+    font-size: 0;
+}
+
+.sw_carousel .owl-dots {
+    margin-top: 30px;
+}
+
+.sw_carousel .owl-dots .owl-dot {
+    margin: 0 5px;
+}
+
+.sw_carousel .owl-dots .owl-dot.active span {
+    background: #e60012;
+}
+
+.sw_carousel .owl-nav [class*=owl-]:hover {
+    background-position: 0 100%;
+}
+
+.sw_carousel .owl-nav .owl-prev {
+    left: 50%;
+    margin-left: -460px;
+    background-image: url(/images/renew/common/btn_carousel_large_prev.png);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.sw_carousel .owl-nav .owl-next {
+    right: 50%;
+    margin-right: -460px;
+    background-image: url(/images/renew/common/btn_carousel_large_next.png);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.sw_detail_topInfo .fullImg img {
+    width: 100%;
+}
+
+.sw_detail_thumbList {
+    display: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sw_detail_thumbList ul {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.sw_detail_thumbList ul li {
+    float: left;
+    width: 100px;
+}
+
+.sw_detail_thumbList ul li img {
+    max-width: 100%;
+}
+
+.sw_detail_thumbList ul li + li {
+    margin-left: 10px;
+}
+
+/* 3ds 소프트웨어 상세 - 소프트웨어 상세 설명 */
+.sw_description {
+    padding: 80px 0;
+}
+
+.sw_description .tit_sw_detail {
+    font-size: 38px;
+    color: #e60012;
+    text-align: center;
+    line-height: 56px;
+    letter-spacing: -0.085em;
+}
+
+.sw_description .desc_sw_detail {
+    margin-top: 80px;
+    line-height: 28px;
+    letter-spacing: -0.085em;
+}
+
+.sw_description .desc_sw_detail.clearfix p {
+    float: left;
+}
+
+.sw_description .desc_sw_detail.clearfix p + p {
+    margin-top: 0;
+}
+
+.sw_description .desc_sw_detail p + p {
+    margin-top: 30px;
+}
+
+.sw_description .desc_sw_detail .sw_detail_title {
+    margin-bottom: 24px;
+    display: block;
+}
+
+.sw_description .desc_sw_detail .sw_detail_title > a {
+    padding-top: 12px;
+    line-height: 0;
+    display: block;
+}
+
+.sw_description .specsWrap {
+    position: relative;
+    margin-top: 75px;
+    border: 1px solid #d6d6d6;
+    border-bottom: 1px solid #111;
+}
+
+.sw_description .specsWrap .specs {
+    padding: 40px 0 40px 210px;
+}
+
+.sw_description .specsWrap .ico_sw {
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    margin-top: -36px;
+}
+
+.sw_description .specsWrap .ico_pack {
+    left: 40px;
+    margin-top: -60px;
+}
+
+.sw_description .specsWrap .ico_rolling img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sw_description .specsWrap ul {
+    width: 590px;
+    overflow: hidden;
+}
+
+.sw_description .specsWrap li {
+    margin-top: 15px;
+}
+
+.sw_description .specsWrap li:nth-of-type(1) {
+    margin-top: 0;
+}
+
+.sw_description .specsWrap li span {
+    display: inline-block;
+    width: 120px;
+}
+
+.sw_description .specsWrap li:before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    margin-right: 10px;
+    background: url(/images/renew/software/bullet_round_red.gif) no-repeat left center;
+    vertical-align: middle;
+}
+
+.sw_description .specsWrap .qrCode {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 60px 60px 0 60px;
+    border-left: 1px solid #d6d6d6;
+    background: #f7f7f7;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: -0.065em;
+    line-height: 24px;
+}
+
+.sw_description .specsWrap .qrCode a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 0;
+    border: 1px solid #e60012;
+    border-radius: 5px;
+    background: #fff;
+    color: #e60012;
+    line-height: 1;
+}
+
+.sw_copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #737373;
+    line-height: 22px;
+}
+
+.switch_copyright {
+    padding-bottom: 100px;
+}
+
+/* 지원 언어 표시 */
+.lang {
+    display: inline-block;
+    width: 59px;
+    height: 36px;
+    margin-right: 15px;
+    background-image: url(/images/renew/common/ico_lang_foreign_s.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+    text-indent: -99999px;
+    vertical-align: bottom;
+}
+
+.lang.foreign {
+    background-position: 0 0;
+}
+
+.lang.kor {
+    background-position: 0 -116px;
+}
+
+/* 3ds 소프트웨어 상세 - 아미보 리스트 */
+.amiibo_3ds_sw_detail .owl-dots {
+    margin-top: 30px;
+}
+
+.amiibo_3ds_sw_detail .owl-dots .owl-dot span {
+    width: 50px;
+    height: 4px;
+    border-radius: 0;
+    background: #cfcfcf;
+}
+
+.amiibo_3ds_sw_detail .owl-dots .owl-dot.active span {
+    background: #e60012;
+}
+
+.amiibo_3ds_sw_detail .owl-nav {
+    position: relative;
+}
+
+.amiibo_3ds_sw_detail .owl-nav [class*=owl-] {
+    position: absolute;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+    font-size: 0;
+    text-indent: -99999px;
+}
+
+.amiibo_3ds_sw_detail .owl-nav [class*=owl-]:hover {
+    background-position: 0 100%;
+}
+
+.amiibo_3ds_sw_detail .owl-nav .owl-prev {
+    top: 15px;
+    right: 50%;
+    margin-right: 100px;
+    background-image: url(/images/renew/common/btn_switch_main_prev.png);
+}
+
+.amiibo_3ds_sw_detail .owl-nav .owl-next {
+    top: 15px;
+    left: 50%;
+    margin-left: 100px;
+    background-image: url(/images/renew/common/btn_switch_main_next.png);
+}
+
+/* 3ds 소프트웨어 상세 - eshop */
+.eshop_3ds {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding: 45px 0 45px 425px;
+    border: 1px solid #d6d6d6;
+    border-bottom: 1px solid #111;
+    font-size: 14px;
+}
+
+.eshop_3ds .txt_eshop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 368px;
+    height: 100%;
+    border-right: 1px solid #d6d6d6;
+    background: #fff;
+    text-align: center;
+}
+
+.eshop_3ds .tblWrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.eshop_3ds .tblCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.eshop_3ds .txt_eshop p {
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.eshop_3ds .txt_eshop p span {
+    color: #ff7d00;
+}
+
+.eshop_3ds li {
+    padding-left: 15px;
+    text-indent: -15px;
+    line-height: 32px;
+}
+
+.eshop_3ds li a {
+    display: inline-block;
+    margin-left: 5px;
+    text-indent: 0;
+}
+
+/* switch 소프트웨어 상세 - 소프트웨어 정보 */
+.sw_switch_detail {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.sw_switch_detail .btn_round_link {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #d60526;
+}
+
+.sw_switch_detail .btn_round_link br {
+    display: none;
+}
+
+.sw_switch_detail ~ .sw_description .tit_sw_detail {
+    font-weight: 700;
+    text-align: left;
+}
+
+.tbl_sw_swtich_specs {
+    margin-top: 60px;
+}
+
+.tbl_sw_swtich_specs th,
+.tbl_sw_swtich_specs td {
+    padding: 10px 30px;
+    border-top: 1px solid #9a9a9a;
+    border-bottom: 1px solid #9a9a9a;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: normal;
+    line-height: 120%;
+    font-size: 15px;
+}
+
+.tbl_sw_swtich_specs td .comment {
+    margin-left: 10px;
+    font-size: 0.867em;
+}
+
+
+/* switch 소프트웨어 상세 - text, icon white ver */
+.typeWH .sw_detail_topInfo .navigator .home {
+    background-position: left bottom;
+}
+
+.typeWH .sw_detail_topInfo .tit_sw,
+.typeWH .sw_detail_topInfo .sw_detail_info,
+.typeWH .sw_description .desc_sw_detail,
+.typeWH .sw_detail_topInfo .navigator .path {
+    color: #fff;
+}
+
+.typeWH .sw_detail_topInfo .navigator .path + .path:before {
+    background-position: left bottom;
+}
+
+.typeWH .additianal_info li.cmt {
+    color: #b5b3b3;
+}
+
+/* 버디 미션 BOND */
+.bg_switch_sw_aq2fb {
+    background: #0eb89a;
+}
+
+.bg_switch_sw_aq2fb .btn_round_link {
+    background: #044480;
+    color: #FFF;
+}
+
+.bg_switch_sw_aq2fb .btn_round_link:after{
+    background-position: top left;
+}
+
+.bg_switch_sw_aq2fb .tit_sw_detail {
+    color: #fff;
+}
+
+.bg_switch_sw_aq2fb .tbl_sw_swtich_specs th,
+.bg_switch_sw_aq2fb .tbl_sw_swtich_specs td {
+    border-color: #fff;
+}
+.bg_switch_sw_aq2fb .desc_sw_detail a{
+    color: #fff;
+}
+
+
+/* New 포켓몬 스냅 */
+.bg_switch_sw_arfta {  /* 배경 */
+    background: #fff;
+}
+
+.bg_switch_sw_arfta .btn_round_link {
+    background: #00336c;
+    color: #fff798;
+}
+
+.bg_switch_sw_arfta .btn_round_link:after{
+    background-position: top left;
+}
+
+.bg_switch_sw_arfta .tit_sw_detail {
+    color: #00336c;
+}
+
+.bg_switch_sw_arfta .desc_sw_detail,
+.bg_switch_sw_arfta .desc_sw_detail a{
+    color: #4b1709;
+}
+
+/* MONSTER HUNTER RISE */
+.bg_switch_sw_axsea {
+    background: #123057;
+}
+
+.bg_switch_sw_axsea .btn_round_link {
+    background: #FEF5EE;
+    color: #666666;
+}
+
+.bg_switch_sw_axsea .btn_round_link:after{
+    background-position: bottom left;
+}
+
+.bg_switch_sw_axsea .tit_sw_detail {
+    color: #fff;
+}
+
+.bg_switch_sw_axsea .tbl_sw_swtich_specs th,
+.bg_switch_sw_axsea .tbl_sw_swtich_specs td {
+    border-color: #fff;
+}
+.bg_switch_sw_axsea .desc_sw_detail a{
+    color: #fff;
+}
+
+/* 열일하는 UFO */
+.bg_switch_sw_azd8a {
+    background: #19a6b2;
+}
+
+.bg_switch_sw_azd8a .btn_round_link {
+    background: #ff556c;
+}
+
+.bg_switch_sw_azd8a .tit_sw_detail {
+    color: #fff;
+}
+
+.bg_switch_sw_azd8a .tbl_sw_swtich_specs th,
+.bg_switch_sw_azd8a .tbl_sw_swtich_specs td {
+    border-color: #fff;
+}
+
+/* 젤다 무쌍 대재앙의 시대 */
+.bg_switch_sw_axeab {
+    background: #000;
+}
+
+.bg_switch_sw_axeab .tit_sw_detail {
+    color: #fff;
+}
+
+.bg_switch_sw_axeab .tbl_sw_swtich_specs th,
+.bg_switch_sw_axeab .tbl_sw_swtich_specs td {
+    border-color: #fff;
+}
+
+.bg_switch_sw_axeab .caution{
+    color:#fff;
+    line-height:1.5;
+    margin-top:20px;
+}
+@media screen and (max-width:1024px) {
+    .bg_switch_sw_axeab .caution{
+        font-size:14px;
+    }
+}
+
+/* Minecraft Dungeons Hero Edition */
+.bg_switch_sw_auz4e {
+    background: #000;
+}
+
+.bg_switch_sw_auz4e .tit_sw_detail {
+    color: #fff;
+}
+
+.bg_switch_sw_auz4e .tbl_sw_swtich_specs th,
+.bg_switch_sw_auz4e .tbl_sw_swtich_specs td {
+    border-color: #fff;
+}
+
+.bg_switch_sw_auz4e .caution{
+    color:#fff;
+    line-height:1.5;
+    margin-top:20px;
+}
+@media screen and (max-width:1024px) {
+    .bg_switch_sw_auz4e .caution{
+        font-size:14px;
+    }
+}
+
+/* 제노블레이드 크로니클스 디피니티브 에디션 */
+.bg_switch_sw_aubqa {
+    background: #000;
+}
+
+.bg_switch_sw_aubqa .btn_round_link {
+    background: #a0d7f5;
+    color:#000;
+}
+.bg_switch_sw_aubqa .btn_round_link:after {
+    background-position: bottom left;
+}
+
+.bg_switch_sw_aubqa .tit_sw_detail {
+    color: #a0d7f5;
+}
+
+.bg_switch_sw_aubqa .tbl_sw_swtich_specs th,
+.bg_switch_sw_aubqa .tbl_sw_swtich_specs td {
+    border-color: #fff;
+}
+
+/* Minecraft */
+.bg_switch_sw_aeuca {
+    background: #bed3ff;
+}
+
+.bg_switch_sw_aeuca .btn_round_link {
+    background: #728dac;
+}
+
+.bg_switch_sw_aeuca .tit_sw_detail {
+    color: #000;
+}
+
+.bg_switch_sw_aeuca .tbl_sw_swtich_specs th,
+.bg_switch_sw_aeuca .tbl_sw_swtich_specs td {
+    border-color: #fff;
+}
+
+/* FORTNITE */
+.bg_switch_sw_fortnite {
+    background: #def4fa;
+}
+
+.bg_switch_sw_fortnite .btn_round_link {
+    background: #0180f0;
+}
+
+.bg_switch_sw_fortnite .tit_sw_detail {
+    color: #009a83;
+}
+
+.bg_switch_sw_fortnite .tbl_sw_swtich_specs th,
+.bg_switch_sw_fortnite .tbl_sw_swtich_specs td {
+    border-color: #afd2db;
+}
+
+/* 루이지 맨션 3 */
+.bg_switch_sw_ag3ja {
+    background: #202220;
+}
+
+.bg_switch_sw_ag3ja .btn_round_link {
+    background: #0bd11a;
+}
+
+.bg_switch_sw_ag3ja .tit_sw_detail {
+    color: #0bd11a;
+}
+
+.bg_switch_sw_ag3ja .tbl_sw_swtich_specs th,
+.bg_switch_sw_ag3ja .tbl_sw_swtich_specs td {
+    border-color: #404240;
+}
+
+/* 슈퍼 커비 헌터즈 */
+.bg_switch_sw_apy8a {
+    background: #04723e;
+}
+
+.bg_switch_sw_apy8a .btn_round_link {
+    background: #ff5f00;
+}
+
+.bg_switch_sw_apy8a .tit_sw_detail {
+    color: #ff5f00;
+}
+
+/* 젤다의 전설 꿈꾸는 섬 */
+.bg_switch_sw_ar3na {
+    background: #04723e;
+}
+
+.bg_switch_sw_ar3na .btn_round_link {
+    background: #b6903e;
+}
+
+.bg_switch_sw_ar3na .tit_sw_detail {
+    color: #b6903e;
+}
+
+.bg_switch_sw_ar3na .tbl_sw_swtich_specs th,
+.bg_switch_sw_ar3na .tbl_sw_swtich_specs td {
+    border-color: #b6903e;
+}
+
+/* 드래곤 퀘스트 XI S 지나간 시간을 찾아서 - Definitive Edition */
+.bg_switch_sw_alc7b {
+    background: #604661;
+}
+
+.bg_switch_sw_alc7b .btn_round_link {
+    background: #cc6998;
+}
+
+.bg_switch_sw_alc7b .tit_sw_detail {
+    color: #f1add4;
+}
+
+.bg_switch_sw_alc7b .tbl_sw_swtich_specs th,
+.bg_switch_sw_alc7b .tbl_sw_swtich_specs td {
+    border-color: #786279;
+}
+
+/* DAEMON X MACHINA */
+.bg_switch_sw_af6gb {
+    background: #070202;
+}
+
+.bg_switch_sw_af6gb .btn_round_link {
+    background: #e1131f;
+}
+
+.bg_switch_sw_af6gb .tit_sw_detail {
+    color: #e1131f;
+}
+
+/* MARVEL ULTIMATE ALLAIANCE 3: The Black Order(마블 얼티밋 얼라이언스 3: 더 블랙 오더) */
+.bg_switch_sw_apy2a {
+    background: #16366f;
+}
+
+.bg_switch_sw_apy2a .btn_round_link {
+    background: #eb1b2a;
+}
+
+.bg_switch_sw_apy2a .tit_sw_detail {
+    color: #fff;
+}
+
+.bg_switch_sw_apy2a .tbl_sw_swtich_specs th,
+.bg_switch_sw_apy2a .tbl_sw_swtich_specs td {
+    border-color: #5c739a;
+}
+
+/* 파이어 엠블렘 풍화설월 */
+.bg_switch_sw_anvya {
+    background: #8578d0;
+}
+
+.bg_switch_sw_anvya .btn_round_link {
+    background: #221a7d;
+}
+
+.bg_switch_sw_anvya .tit_sw_detail {
+    color: #fff;
+}
+
+/* ASTRAL CHAIN(애스트럴 체인) */
+.bg_switch_sw_ab48a {
+    background: #006AEB;
+}
+
+.bg_switch_sw_ab48a .btn_round_link {
+    background: #333;
+}
+
+.bg_switch_sw_ab48a .tit_sw_detail {
+    color: #fff;
+}
+
+/* 오버워치 */
+.bg_switch_sw_at8tf {
+    background: #606983;
+}
+
+.bg_switch_sw_at8tf .btn_round_link {
+    background: #faaa1e;
+}
+
+.bg_switch_sw_at8tf .tit_sw_detail {
+    color: #faaa1e;
+}
+
+.bg_switch_sw_at8tf .tbl_sw_swtich_specs th,
+.bg_switch_sw_at8tf .tbl_sw_swtich_specs td {
+    border-color: #8e909f;
+}
+
+/* 케이던스 오브 하이랄: 크립트 오브 더 네크로멘서 feat. 젤다의 전설 */
+.bg_switch_sw_aswbb {
+    background: #1e072c;
+    color: #fff;
+}
+
+.bg_switch_sw_aswbb .tit_sw_detail {
+    color: #fff;
+}
+
+/* switch 마리오 U 디럭스 */
+.bg_switch_sw_mario_U {
+    background: url(/images/renew/software/switch/adala/pattern.jpg);
+}
+
+.bg_switch_sw_mario_U .btn_round_link {
+    background: #000;
+}
+
+.bg_switch_sw_mario_U .tit_sw_detail {
+    color: #133950;
+}
+
+/* switch 트래비스 스트라이크 어게인 */
+.bg_switch_sw_TravisStrikeAgain {
+    background: #d91343;
+    color: #fff
+}
+
+.bg_switch_sw_TravisStrikeAgain .btn_round_link {
+    background: #111;
+}
+
+.bg_switch_sw_TravisStrikeAgain .tit_sw_detail {
+    color: #fff;
+}
+
+.bg_switch_sw_TravisStrikeAgain .sw_detail_topInfo .navigator .path {
+    color: #fff;
+}
+
+.bg_switch_sw_TravisStrikeAgain .sw_detail_topInfo .navigator .path + .path:before {
+    background-position: 0px -6px;
+}
+
+.bg_switch_sw_TravisStrikeAgain .sw_detail_topInfo .navigator .home {
+    background-position: 0px -11px;
+}
+
+.bg_switch_sw_TravisStrikeAgain .owl-dot span {
+    background: rgba(255, 255, 255, .3) !important;
+}
+
+.bg_switch_sw_TravisStrikeAgain .owl-dot.active span {
+    background: #fff !important;
+}
+
+.bg_switch_sw_TravisStrikeAgain .tbl_sw_swtich_specs th,
+.bg_switch_sw_TravisStrikeAgain .tbl_sw_swtich_specs td {
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+/* switch 피트니스 복싱 */
+.bg_switch_sw_FitnessBoxing {
+    background: #fff;
+}
+
+.bg_switch_sw_FitnessBoxing .btn_round_link {
+    background: #0069ab;
+}
+
+.bg_switch_sw_FitnessBoxing .tit_sw_detail {
+    color: #133950;
+}
+
+/* switch 스카이림 */
+.bg_switch_sw_skyrim {
+    background: #dfe9eb;
+}
+
+.bg_switch_sw_skyrim .btn_round_link {
+    background: #133950;
+}
+
+.bg_switch_sw_skyrim .tit_sw_detail {
+    color: #133950;
+}
+
+/* switch 1-2-switch */
+.bg_switch_sw_12switch {
+    background: #fff9f1;
+}
+
+.bg_switch_sw_12switch .btn_round_link {
+    background: #ff6710;
+}
+
+.bg_switch_sw_12switch .tit_sw_detail {
+    color: #ff6710;
+}
+
+/* The Elder Scrolls V */
+.bg_switch_sw_skyrim {
+    background: #dfe9eb;
+}
+
+.bg_switch_sw_skyrim .btn_round_link {
+    background: #133950;
+}
+
+.bg_switch_sw_skyrim .tit_sw_detail {
+    color: #133950;
+}
+
+/* MONSTER HUNTER XX */
+.bg_switch_sw_monsterhunterxx {
+    background: #e8eaf5;
+}
+
+.bg_switch_sw_monsterhunterxx .btn_round_link {
+    background: #352a87;
+}
+
+.bg_switch_sw_monsterhunterxx .tit_sw_detail {
+    color: #352a87;
+}
+
+/* Zelda - breath of the wild */
+.bg_switch_sw_zelda_breath {
+    background: #4e6280;
+}
+
+.bg_switch_sw_zelda_breath .sw_switch_detail .btn_round_link {
+    background: #ffe92f;
+    color: #4e6280;
+}
+
+.bg_switch_sw_zelda_breath .btn_round_link:after {
+    background-image: url(/images/renew/software/switch/aaaaa/ico_btn_link_aaaaa.png);
+}
+
+.bg_switch_sw_zelda_breath .tit_sw_detail {
+    color: #ffe92f;
+}
+
+/* switch Snipperclips Plus */
+.bg_switch_sw_aexya .btn_round_link {
+    background: #0ac5ef;
+}
+
+.bg_switch_sw_aexya .tit_sw_detail {
+    color: #0ac5ef;
+}
+
+/* switch - BAYONETTA 2 */
+.bg_switch_sw_bayonetta2 {
+    background: #dfe6ed;
+}
+
+.bg_switch_sw_bayonetta2 .btn_round_link {
+    background: #063273;
+}
+
+.bg_switch_sw_bayonetta2 .tit_sw_detail {
+    color: #063273;
+}
+
+/* switch - ARMS */
+.bg_switch_sw_arms {
+    background: #010101;
+}
+
+.bg_switch_sw_arms .btn_round_link {
+    color: #000;
+    background: #fdfa02;
+}
+
+.bg_switch_sw_arms .tit_sw_detail {
+    color: #fdfa02;
+}
+
+/* switch - zelda hiral dx */
+.bg_switch_sw_zelda_hiral_dx {
+    background: #cacad4;
+}
+
+.bg_switch_sw_zelda_hiral_dx .btn_round_link {
+    background: #e60012;
+}
+
+.bg_switch_sw_zelda_hiral_dx .tit_sw_detail {
+    color: #e60012;
+}
+
+/* switch - kirby kirbystar */
+.bg_switch_sw_kirbystar {
+    background: #ef89ab;
+}
+
+.bg_switch_sw_kirbystar .btn_round_link {
+    background: #1f1a73;
+}
+
+.bg_switch_sw_kirbystar .tit_sw_detail {
+    color: #1f1a73;
+}
+
+/* switch - Donkey Kong Country */
+.bg_switch_sw_afwta {
+    background: #7ad3f9;
+}
+
+.bg_switch_sw_afwta .btn_round_link {
+    background: #eb0307;
+}
+
+.bg_switch_sw_afwta .tit_sw_detail {
+    color: #eb0307;
+}
+
+/* switch - Sushi Striker */
+.bg_switch_sw_ala2b {
+    background: #ffd07d;
+}
+
+.bg_switch_sw_ala2b .btn_round_link {
+    background: #eb0307;
+}
+
+.bg_switch_sw_ala2b .tit_sw_detail {
+    color: #eb0307;
+}
+
+/* switch - mario tennis */
+.bg_switch_sw_alera {
+    background: #eaf2ff;
+}
+
+.bg_switch_sw_alera .btn_round_link {
+    background: #00368e;
+}
+
+.bg_switch_sw_alera .tit_sw_detail {
+    color: #00368e;
+}
+
+/* switch - OCTOPATH TRAVELER */
+.bg_switch_sw_agy7b {
+    background: #fbf9e8;
+}
+
+.bg_switch_sw_agy7b .btn_round_link {
+    background: #4e2717;
+}
+
+.bg_switch_sw_agy7b .tit_sw_detail {
+    color: #4e2717;
+}
+
+/* switch - 두근두근 동물 랜드 */
+.bg_switch_sw_amd7a {
+    background: #dff4ff;
+}
+
+.bg_switch_sw_amd7a .btn_round_link {
+    background: #ff6e00;
+}
+
+.bg_switch_sw_amd7a .tit_sw_detail {
+    color: #ff6e00;
+}
+
+/* switch - GO VACATION */
+.bg_switch_sw_af2gb {
+    background: #b8f6ff;
+}
+
+.bg_switch_sw_af2gb .btn_round_link {
+    background: #0f1c8e;
+}
+
+.bg_switch_sw_af2gb .tit_sw_detail {
+    color: #0f1c8e;
+}
+
+/* switch - The World Ends with You -Final Remix */
+.bg_switch_sw_am78b {
+    background: #1b1b1b;
+}
+
+.bg_switch_sw_am78b .btn_round_link {
+    background: #969696;
+}
+
+.bg_switch_sw_am78b .tit_sw_detail {
+    color: #969696;
+}
+
+/* switch - Fire Emblem Warriors */
+.bg_switch_sw_adxhb {
+    background: #2b343c;
+}
+
+.bg_switch_sw_adxhb .btn_round_link {
+    background: #137992;
+}
+
+.bg_switch_sw_adxhb .tit_sw_detail {
+    color: #137992;
+}
+
+/* switch - 슈퍼 마리오 파티 */
+.bg_switch_sw_adfja .btn_round_link {
+    background: #d8215f;
+}
+
+.bg_switch_sw_adfja .tit_sw_detail {
+    color: #d8215f;
+}
+
+/* switch - 다크 소울 리마스터 */
+.bg_switch_sw_ak63b {
+    background: #342e2e;
+}
+
+.bg_switch_sw_ak63b .btn_round_link {
+    background: #8c8282;
+}
+
+.bg_switch_sw_ak63b .tit_sw_detail {
+    color: #8c8282;
+}
+
+/* switch - 요시 크래프트 월드 */
+.bg_switch_sw_aea2a {
+    background: #ffeab0;
+}
+
+.bg_switch_sw_aea2a .tit_sw {
+    color: #01bd02;
+}
+
+.bg_switch_sw_aea2a .btn_round_link {
+    background: #01bd02;
+}
+
+.bg_switch_sw_aea2a .tit_sw_detail {
+    color: #6e4614;
+}
+
+.bg_switch_sw_aea2a .tbl_sw_swtich_specs th,
+.bg_switch_sw_aea2a .tbl_sw_swtich_specs td {
+    border-color: #6e4614;
+}
+
+/* switch - 레이튼 미스터리 저니 */
+.bg_switch_sw_appad {
+    background: #359066;
+}
+
+.bg_switch_sw_appad .btn_round_link {
+    background: #ffe584;
+    color: #884b36;
+}
+
+.bg_switch_sw_appad .tit_sw_detail {
+    color: #ffe584;
+}
+
+.bg_switch_sw_appad .tbl_sw_swtich_specs th,
+.bg_switch_sw_appad .tbl_sw_swtich_specs td {
+    border-color: #62ae6d;
+}
+
+/* switch - Splatoon 2 */
+.bg_switch_sw_aab6b {
+    background: #211f1f;
+}
+
+.bg_switch_sw_aab6b .btn_round_link {
+    background: #3ff157;
+    color: #211f1f;
+}
+
+.bg_switch_sw_aab6b .tit_sw_detail {
+    color: #3ff157;
+}
+
+.bg_switch_sw_aab6b .desc_sw_detail > p > span {
+    color: #3ff157;
+}
+
+/* switch - 스낵월드 트레져러스 GOLD */
+.bg_switch_sw_ajmub {
+    background: #edb84c;
+}
+
+.bg_switch_sw_ajmub .btn_round_link {
+    background: #111111;
+}
+
+.bg_switch_sw_ajmub .tit_sw_detail {
+    color: #111111;
+}
+
+/* bombermanr */
+.bg_switch_sw_bombermanr {
+    background: #eaf1ff;
+}
+
+.bg_switch_sw_bombermanr .btn_round_link {
+    background: #f05059;
+}
+
+.bg_switch_sw_bombermanr .tit_sw_detail {
+    color: #f05059;
+}
+
+/* puyo_tetris */
+.bg_switch_sw_puyo_tetris {
+    background: #e9f8fd;
+}
+
+.bg_switch_sw_puyo_tetris .btn_round_link {
+    background: #f05059;
+}
+
+.bg_switch_sw_puyo_tetris .tit_sw_detail {
+    color: #00a5d6;
+}
+
+/* sonicforces */
+.bg_switch_sw_sonicforces {
+    background: #dbfbff;
+}
+
+.bg_switch_sw_sonicforces .btn_round_link {
+    background: #162e90;
+}
+
+.bg_switch_sw_sonicforces .tit_sw_detail {
+    color: #162e90;
+}
+
+/* switch - ultrasf2fc */
+.bg_switch_sw_ultrasf2fc {
+    background: #f2e5e3;
+}
+
+.bg_switch_sw_ultrasf2fc .btn_round_link {
+    background: #d60526;
+}
+
+.bg_switch_sw_ultrasf2fc .tit_sw_detail {
+    color: #d60526;
+}
+
+/* bio */
+.bg_switch_sw_bio {
+    background: #b9d2d3;
+}
+
+.bg_switch_sw_bio .btn_round_link {
+    background: #0f4848;
+}
+
+.bg_switch_sw_bio .tit_sw_detail {
+    color: #0f4848;
+}
+
+/* bio */
+.bg_switch_sw_ac2ga {
+    background: #f9f9f9;
+}
+
+.bg_switch_sw_ac2ga .btn_round_link {
+    background: #0b5be1;
+}
+
+.bg_switch_sw_ac2ga .tit_sw_detail {
+    color: #0b5be1;
+}
+
+/* 3DS - 포켓몬 뱅크 */
+.contents.pkm_bank .sw_description .desc_sw_detail.clearfix p {
+    width: 48%;
+}
+
+.contents.pkm_bank .sw_description .desc_sw_detail.clearfix p + p {
+    width: 52%;
+}
+
+.contents.pkm_bank .sw_detail_notice {
+    margin-top: 90px;
+}
+
+.contents.pkm_bank .sw_detail_notice > * {
+    float: left;
+}
+
+.contents.pkm_bank .sw_detail_notice .sw_notice_h1 {
+    width: 6.67%;
+    height: 56px;
+    line-height: 56px;
+    color: #fff;
+}
+
+.contents.pkm_bank .sw_detail_notice > ul {
+    padding-top: 2px;
+    padding-left: 20px;
+}
+
+.contents.pkm_bank .sw_detail_notice > ul li {
+    position: relative;
+    padding: 2px 0;
+}
+
+.contents.pkm_bank .sw_detail_notice > ul li:first-child {
+    margin-bottom: 10px;
+}
+
+.contents.pkm_bank .sw_detail_notice > ul li:after {
+    position: relative;
+    top: 1px;
+    padding-left: 7px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #e60012;
+    content: 'N';
+}
+
+.contents.pkm_bank .sw_detail_notice > ul li a {
+    margin-left: 8px;
+    color: #111;
+    border-bottom: 1px solid;
+}
+
+/* switch software 상단 영상 */
+.video_box {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video_box iframe, .video_box object, .video_box embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img_box {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.img_box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.switch_carousel .item-video {
+}
+
+.switch_carousel .item-video {
+    /*height: auto;*/
+    margin-top: 0;
+    padding-bottom: 56.3535911%;
+}
+
+.switch_carousel .owl-video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sw_switch_detail .owl-video-frame iframe {
+    height: 100%;
+}
+
+.switch_carousel .owl-dots {
+    display: block;
+    margin-top: 30px;
+}
+
+.switch_carousel .owl-dots .owl-dot {
+    margin: 0 5px;
+}
+
+.switch_carousel .owl-dots .owl-dot span {
+    background: #838383;
+}
+
+.switch_carousel .owl-dots .owl-dot.active span {
+    background: #e60012;
+}
+
+.switch_carousel .owl-nav .owl-prev {
+    margin-left: -45%;
+}
+
+.switch_carousel .owl-nav .owl-next {
+    margin-right: -45%;
+}
+
+.additianal_info {
+    margin-top: 30px;
+}
+
+.additianal_info li + li {
+    margin-top: 30px;
+}
+
+.additianal_info li {
+    line-height: 28px;
+}
+
+.additianal_info li span {
+    display: block;
+}
+
+.additianal_info li.cmt:before {
+    content: "※ ";
+}
+
+.additianal_info li.cmt {
+    font-size: .85em;
+    line-height: 1.5;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.videoItem .cover {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.videoItem .cover:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 0 -40px;
+    background: url(/css/owl.video.play.png) no-repeat top left;
+}
+
+.videoItem .cover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+}
+
+.videoItem .videoList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*** 3ds main ***/
+
+/* 공통 */
+.sw_item.icon:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: -9999px;
+    display: block;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.sw_item.ico_new:before {
+    width: 64px;
+    height: 64px;
+    background: url(/images/renew/common/ico_sw_list_new.png) no-repeat 0 0;
+    content: '신작';
+}
+
+.sw_item.ico_select:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 46px;
+    height: 50px;
+    background: url(/images/renew/common/ico_sw_list_select.png) no-repeat 0 0;
+    content: '닌텐도 셀렉트';
+    text-indent: -9999px;
+    display: block;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn_back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(/images/renew/common/btn_back.png);
+}
+
+.btn_back.no_wrap {
+    right: auto;
+    left: 50%;
+    margin-left: 550px;
+}
+
+.btn_back.sup {
+    top: 125px;
+}
+
+
+/* 소프트웨어 공통 */
+.software .sw_main_top h2 {
+    padding-bottom: 42px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.06em;
+}
+
+.software h2 br {
+    display: none;
+}
+
+/* 소프트웨어 스위치, 3DS 메인 공통 */
+.software.software_switch,
+.software.software_3ds {
+    max-width: none;
+}
+
+.software {
+    position: relative;
+    margin: auto;
+    padding-bottom: 100px;
+    max-width: 1200px;
+}
+
+.software .inner .sw_main_top {
+    width: auto;
+}
+
+.software .sw_main_top {
+    position: relative;
+    margin: 56px auto 60px auto;
+    overflow: hidden;
+}
+
+.software .sw_main_top > div > a {
+    margin-top: 20px;
+}
+
+.software .sw_main_top > div > a:first-child {
+    margin-top: 0;
+}
+
+.software .sw_main_top .half_banner {
+    float: left;
+    width: 50%;
+}
+
+.software .sw_main_top .half_banner:nth-child(2n+1) {
+    padding-right: 10px;
+}
+
+.software .sw_main_top .half_banner:nth-child(2n) {
+    padding-left: 10px;
+}
+
+.software .new_software {
+    position: relative;
+    margin: 40px auto;
+    padding: 0;
+}
+
+.software .btn_wrap {
+    padding-top: 36px;
+    clear: both;
+}
+
+.bar_list li {
+    float: left;
+    padding: 20px 0;
+    width: 48.34%;
+    background: url(/images/renew/common/dot_line.png) repeat-x 0 100%;
+}
+
+.bar_list li:nth-child(odd) {
+    margin-right: 1.66%;
+}
+
+.bar_list li:nth-child(even) {
+    margin-left: 1.66%;
+}
+
+.bar_list .info_wrap {
+    padding-left: 20px;
+    border-left: 5px solid #e60012;
+}
+
+.sw_item .divi {
+    color: #111;
+    display: block;
+}
+
+.sw_item .releaseInfo .pk + .dl:before {
+    padding: 0 5px;
+    content: '/';
+}
+
+/* release_list */
+.release_list {
+    margin-top: 73px;
+    margin-bottom: 80px;
+}
+
+.release_list > ul {
+    margin-top: 10px;
+}
+
+.release_list > ul > li {
+    display: none;
+    overflow: hidden; /*visibility:hidden;*/
+}
+
+.release_list > ul > li:nth-child(-n+6) {
+    display: block;
+    visibility: visible;
+}
+
+/* 리스트 노출 갯수 */
+.release_list .tit {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.release_list .btn_more {
+    display: none;
+}
+
+/* unit */
+.software .unit .m_show {
+    display: none;
+}
+
+/* language guide */
+.lang_guide {
+    margin-bottom: -10px;
+    padding: 28px 0;
+    font-size: 0;
+    background-color: #f6f6f6;
+}
+
+.lang_guide .lang_divi {
+    padding-left: 90px;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    background: url(/images/renew/common/ico_lang_foreign.png) no-repeat;
+    display: inline-block;
+}
+
+.lang_guide .lang_divi:first-child {
+    margin-right: 72px;
+    background-position: 0 -140px;
+}
+
+/* wide banner */
+.wide_banner {
+    margin: 60px 0 0;
+}
+
+.wide_banner .inner {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.wide_banner .visual_img,
+.wide_banner .banner_desc {
+    position: absolute;
+}
+
+.btn_wide_banner {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border: 2px solid #fff;
+}
+
+.btn_wide_banner span {
+    padding-right: 35px;
+    background: url(/images/renew/common/btn_square_wh.png) no-repeat 100% 50%;
+}
+
+.software_3ds .wide_banner {
+    background: #07162b url(/images/renew/3ds/main/slide01_bg.png) no-repeat 50% 0;
+    background-size: 160%;
+}
+
+.software_3ds .wide_banner .visual_img {
+    top: 18px;
+    left: 11.6%;
+    width: 44.08333333333333%
+}
+
+.software_3ds .wide_banner .banner_desc {
+    top: 150px;
+    left: 64.66%;
+}
+
+.software_3ds .wide_banner .btn_wide_banner {
+    margin-top: 34px;
+}
+
+.software_switch .wide_banner {
+    background: #000 url(/images/renew/software/3ds/switch_banner_bg.png);
+}
+
+.software_switch .wide_banner .inner:before {
+    position: absolute;
+    top: 50%;
+    left: 5.6%;
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+    background: #e60012 url(/images/renew/software/3ds/switch_logo.png) no-repeat center;
+    content: '';
+    display: block;
+}
+
+.software_switch .wide_banner .visual_img {
+    top: 50%;
+    left: 20.67%;
+    margin-top: -130px;
+    width: 49%;
+}
+
+.software_switch .wide_banner .banner_desc {
+    top: 170px;
+    left: 73.75%
+}
+
+
+/* 다운로드 소프트웨어 - 상단 검색영역 */
+.sw_download .sch_wrap {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #d6d6d6;
+}
+
+.sw_download .sch_wrap .sch_box {
+    top: 50%;
+    margin-top: -24px;
+    padding: 0 138px 0 720px;
+}
+
+.sw_download .sch_box .btn_sch {
+    top: 0;
+}
+
+.sw_download .checkbox_wrap > div ul {
+    float: left;
+    padding-right: 25px;
+}
+
+.sw_download .checkbox_wrap > div ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.sch_wrap .btn_checkbox {
+    display: none;
+}
+
+.checkbox_wrap.cond_wrap {
+    padding: 18px 0 18px 40px;
+    font-size: 14px;
+    letter-spacing: -0.025em;
+    color: #111;
+}
+
+.checkbox_wrap.cond_wrap > div {
+    border-top: 1px solid #d6d6d6
+}
+
+.checkbox_wrap.cond_wrap > div:first-of-type {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.checkbox_wrap.cond_wrap > div > * {
+    padding: 12px 0 11px;
+}
+
+.checkbox_tit {
+    float: left;
+    width: 107px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+
+/* 다운로드 소프트웨어 - 하단 안내 */
+.software .eshop_3ds {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 35px 40px;
+}
+
+.sw_download .eshop_3ds .tit {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.065em;
+}
+
+.sw_download .eshop_3ds .tit + .guide_txt {
+    margin-top: 3px;
+}
+
+.sw_download .eshop_3ds .guide_txt {
+    margin-bottom: 27px;
+    line-height: 24px;
+}
+
+.sw_download .eshop_3ds ul li,
+.sw_eshop .eshop_3ds ul li {
+    margin-top: 6px;
+    line-height: 18px;
+}
+
+.sw_download .eshop_3ds ul li:first-child,
+.sw_eshop .eshop_3ds ul li:first-child {
+    margin-top: 0;
+}
+
+.sw_download .guide_desc {
+    margin-bottom: 80px;
+}
+
+.sw_download .guide_desc li {
+    float: left;
+    padding: 26px 0;
+    width: 25%;
+    height: 200px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.065em;
+    background: url(/images/renew/software/3ds/guide_icon.png) no-repeat 50% 0;
+}
+
+.sw_download .guide_desc li:nth-child(2) {
+    background-position: 50% -200px;
+}
+
+.sw_download .guide_desc li:nth-child(3) {
+    background-position: 50% -400px;
+}
+
+.sw_download .guide_desc li:nth-child(4) {
+    background-position: 50% -600px;
+}
+
+
+/* 다운로드 소프트웨어 - 상단 접힘메뉴 */
+
+.cate_link_menu {
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+
+.cate_link_menu .popup_menu {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: url(/images/renew/common/btn_folding_menu.png) no-repeat top left;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.cate_link_menu .popup_menu.is-opened {
+    background-position: 0 100%;
+}
+
+.cate_link_menu .pop_menu_wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: #f4f4f4;
+    border-radius: 22px;
+}
+
+.cate_link_menu .pop_menu_wrap.open {
+    display: block;
+}
+
+.cate_link_menu .pop_menu_wrap ul {
+    visibility: hidden;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+
+.cate_link_menu .pop_menu_wrap ul li {
+    float: left;
+    padding: 0 15px;
+    border-left: 1px solid #474747;
+}
+
+.cate_link_menu .pop_menu_wrap ul li:first-child {
+    border-left: 0;
+}
+
+.cate_link_menu .pop_menu_wrap ul li.on a {
+    color: #e60012;
+}
+
+.cate_link_menu .pop_menu_wrap ul li a {
+    font-size: 14px;
+    letter-spacing: -0.05em;
+    color: #111;
+    white-space: nowrap;
+    display: block;
+}
+
+.cate_link_menu .btn_close_menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    background-image: url(/images/renew/common/btn_close_popup_bk.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: 200;
+}
+
+/* 다운로드 소프트웨어 - 레이어팝업 */
+.sw_eshop ~ .layer_popup .popBox,
+.sw_download ~ .layer_popup .popBox,
+.layer_popup.vcPopup .popBox {
+    padding: 50px 60px;
+    font-size: 15px;
+}
+
+.layer_popup .eshop_3ds {
+    margin-top: 56px;
+    margin-bottom: 0;
+    padding: 20px 34px;
+    line-height: 24px;
+}
+
+.img_left {
+    margin: 35px auto 46px;
+    width: auto;
+    line-height: 24px;
+}
+
+.img_left .ex_img {
+    position: relative;
+    margin-right: 22px;
+    display: inline-block;
+}
+
+.sw_download ~ .layer_popup .img_left .ex_img:before,
+.sw_download ~ .layer_popup .img_left .ex_img:after {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: -0.065em;
+    text-align: center;
+}
+
+.sw_download ~ .layer_popup .img_left .ex_img:before {
+    content: 'SD 카드';
+}
+
+.sw_download ~ .layer_popup .img_left .ex_img:after {
+    bottom: -18px;
+    margin-left: -30px;
+    font-size: 10px;
+    color: #8e8e8e;
+    content: '▲';
+}
+
+.sw_download ~ .layer_popup h1,
+.sw_eshop ~ .layer_popup h1 {
+    margin-bottom: 52px;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+}
+
+.sw_download ~ .layer_popup h2 {
+    margin: 40px 0;
+    font-size: 16px;
+    letter-spacing: -0.05em;
+    color: #e60012;
+}
+
+.sw_download ~ .layer_popup h3 {
+    font-size: 14px;
+    /*line-height:;*/
+    letter-spacing: -0.065em;
+}
+
+.sw_download ~ .layer_popup .num_list {
+    padding: 0 8.5%;
+}
+
+.sw_download ~ .layer_popup .num_list li {
+    margin: 3px 0 26px;
+    overflow: hidden;
+}
+
+.sw_download ~ .layer_popup .num_list li span {
+    float: left;
+}
+
+.sw_download ~ .layer_popup .num_list li > img {
+    position: relative;
+    top: 5px;
+    float: right;
+}
+
+.sw_download ~ .layer_popup .eshop_3ds li {
+    line-height: 24px;
+}
+
+.sw_download ~ .layer_popup .popBox > article {
+    margin-top: 40px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.sw_download .popBox {
+    padding: 50px 60px 95px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.down_ver_img {
+    margin: auto;
+    width: 294px;
+}
+
+.down_ver_img figure {
+    margin-bottom: 20px;
+}
+
+.down_ver_img figcaption > span {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: -0.05em;
+    color: #e60012;
+}
+
+.down_ver_img figcaption > span:first-of-type {
+    float: left;
+    padding-left: 32px;
+}
+
+.down_ver_img figcaption > span:last-of-type {
+    float: right;
+    position: relative;
+    left: -5px;
+}
+
+.layer_popup_swName h1 br {
+    display: none;
+}
+
+.layer_popup_swName .sw_name_img {
+    margin: auto;
+    width: 641px;
+}
+
+.layer_popup_swName figure {
+    float: left;
+    width: 50%;
+}
+
+.layer_popup_swName figure:first-child {
+    padding-right: 3.93%;
+}
+
+.layer_popup_swName figure:last-child {
+    padding-left: 3.93%;
+}
+
+.layer_popup_swName figure img {
+    border: 1px solid #bab9b5;
+}
+
+.layer_popup_swName figcaption {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* 버추얼 콘솔 - 리스트 */
+.thumb.item_vc {
+    padding: 0 19.21%;
+    background: #000;
+    text-align: center;
+}
+
+.thumb.item_vc img {
+    position: static;
+}
+
+/* 버추얼 콘솔 - 레이어팝업 */
+.layer_popup .innerWrap.vcPopup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    transform-origin: top;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.vc_popup > .vc_img {
+    float: left;
+    width: 35.42%;
+    text-align: right;
+}
+
+.vc_img.qr_img {
+    padding: 21px;
+    width: 33.34%;
+    max-width: 160px;
+    text-align: center;
+    border: 1px solid #b2b2b2;
+}
+
+.vc_img.qr_img ~ dl {
+    width: 66.66%;
+}
+
+.vc_img.qr_img ~ dl dd:last-child {
+    margin-top: 23px;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+}
+
+.vc_popup dl {
+    float: left;
+    padding-left: 8.33%;
+    max-width: 64.58%
+}
+
+.vc_popup dl dt {
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+}
+
+.vc_popup dl dd {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+}
+
+.vc_popup dl dd:last-child {
+    margin-top: 18px;
+}
+
+/* 버추얼 콘솔 - guide */
+.sw_vc .eshop_3ds .btn_view.typeWH {
+    margin-top: -24px;
+    margin-left: 30px;
+    width: 310px;
+}
+
+/* 체험판 */
+.sw_trial .sw_item .cate {
+    visibility: hidden;
+}
+
+.sw_trial .unit {
+    margin-top: 60px;
+}
+
+/* 2017-11-25 추가 */
+.sw_eshop {
+    max-width: none;
+}
+
+/* eshop 탭컨텐츠 보더디자인을 위한 추가 */
+.sw_top_visual {
+    padding: 32px 0 30px 0;
+    background: url(/images/renew/software/eshop/bg_sw_top_visual.png) no-repeat right 40px
+}
+
+.sw_top_visual:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.sw_top_visual .left {
+    float: left;
+    width: 50%;
+    padding: 70px 60px 0 0;
+    text-align: right
+}
+
+.sw_top_visual .left .txt1 {
+    margin-bottom: 20px;
+    font-size: 25px
+}
+
+.sw_top_visual .left .img_txt {
+    margin-bottom: 40px
+}
+
+.sw_top_visual .left .img_txt img {
+    width: auto
+}
+
+.sw_top_visual .left .txt2 {
+    font-size: 20px;
+    line-height: 34px
+}
+
+.sw_top_visual .right {
+    float: right;
+    width: 50%;
+    padding-left: 60px;
+}
+
+.sw_top_visual .right img {
+    width: auto
+}
+
+.sw_eshop_cont {
+    padding: 85px 0 100px 0;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6
+}
+
+.tab_radius {
+    overflow: hidden
+}
+
+.tab_radius:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.tab_radius li {
+    float: left;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd
+}
+
+.tab_radius li:first-child {
+    margin-left: 0;
+    border-left: 1px solid #ddd;
+    border-radius: 20px 0 0 20px
+}
+
+.tab_radius li:last-child {
+    border-right: 1px solid #ddd;
+    border-radius: 0 20px 20px 0
+}
+
+.tab_radius li a {
+    display: inline-block;
+    width: 100%;
+    color: #111;
+    font-size: 16px;
+}
+
+.tab_radius li.on {
+    border: 1px solid #ff7d00;
+    background-color: #ff7d00
+}
+
+.tab_radius li.on a {
+    color: #fff
+}
+
+.sw_eshop_cont br {
+    display: none
+}
+
+.sw_eshop_cont .tab_btn {
+    max-width: 810px;
+    height: 44px;
+    line-height: 42px;
+    margin: 0 auto 80px auto; /* background:url(/images/renew/software/eshop/bg_tab_cont01.png) no-repeat;background-size:100% 100% */
+}
+
+.sw_eshop_cont .tab_btn li {
+    width: 33.3%
+}
+
+.sw_eshop_cont .cont {
+    display: none
+}
+
+.sw_eshop_cont .cont.cont01 {
+    display: block
+}
+
+.sw_eshop_cont .cont > .tit {
+    margin-bottom: 55px;
+    text-align: center;
+    font-size: 32px
+}
+
+.sw_eshop_cont .cont01 .left {
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-right: 13px
+}
+
+.sw_eshop_cont .cont01 .right {
+    float: right;
+    width: 50%;
+    text-align: left;
+    padding-left: 25px
+}
+
+.sw_eshop_cont .cont01 .clearfix {
+    margin-top: 40px
+}
+
+.sw_eshop_cont .cont01 .clearfix .desc {
+    font-size: 14px;
+    color: #737373
+}
+
+.sw_eshop_cont .cont01 .clearfix:first-child {
+    margin-top: 0
+}
+
+.sw_eshop_cont .cont01 .clearfix:nth-child(even) .left {
+    padding-right: 30px
+}
+
+.sw_eshop_cont .cont01 .clearfix:nth-child(even) .right {
+    padding-left: 10px
+}
+
+.sw_eshop_cont .cont01 .txt1 {
+    font-size: 15px;
+    color: #111;
+    line-height: 26px
+}
+
+.sw_eshop_cont .cont01 .intro01 .right, .sw_eshop_cont .cont01 .intro03 .right {
+    padding-top: 130px
+}
+
+.sw_eshop_cont .cont01 .intro02 .left {
+    padding-top: 120px
+}
+
+.sw_eshop_cont .cont01 .intro01 .desc {
+    margin-top: 40px
+}
+
+.sw_eshop_cont .mobile_cont, .sw_eshop_cont .mobile_txt {
+    display: none
+}
+
+.sw_eshop_cont .cont02 .step {
+    max-width: 878px;
+    margin: 0 auto;
+    padding-left: 150px
+}
+
+.sw_eshop_cont .cont02 .step .tit {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.sw_eshop_cont .cont02 .step .txt1 {
+    margin-bottom: 30px
+}
+
+.sw_eshop_cont .cont02 .step .txt1 strong {
+    display: block;
+    margin-bottom: 13px;
+    color: #ff7d00
+}
+
+.sw_eshop_cont .cont02 .step .txt1 p {
+    font-size: 16px;
+    color: #111
+}
+
+.sw_eshop_cont .cont02 .step .txt2 {
+    font-size: 16px;
+    color: #111
+}
+
+.sw_eshop_cont .cont02 .alignCenter {
+    margin-top: 40px
+}
+
+.sw_eshop_cont .cont02 .step01 {
+    background: url(/images/renew/software/eshop/bg_step01.png) no-repeat;
+}
+
+.sw_eshop_cont .cont02 .step_arrow {
+    margin: 40px 0;
+    text-align: center
+}
+
+.sw_eshop_cont .cont02 .step02 {
+    background: url(/images/renew/software/eshop/bg_step02.png) no-repeat;
+}
+
+.sw_eshop_cont .cont02 .step02 .left {
+    float: left;
+    margin-right: 58px
+}
+
+.sw_eshop_cont .cont02 .step02 .txt1 {
+    margin: 30px 0 0 0
+}
+
+.sw_eshop_cont .cont02 .step02 + .alignCenter {
+    margin-top: 30px
+}
+
+.sw_eshop_cont .cont03 br {
+    display: block
+}
+
+.sw_eshop_cont .cont03 .top_section {
+    margin-bottom: 60px
+}
+
+.sw_eshop_cont .cont03 .top_section:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.sw_eshop_cont .cont03 .left {
+    float: left;
+    font-size: 28px;
+    color: #111;
+    line-height: 42px
+}
+
+.sw_eshop_cont .cont03 .right {
+    float: right
+}
+
+.sw_eshop_cont .cont03 .section {
+    padding: 35px 0 80px 0;
+    background: url(/images/renew/software/eshop/bg_tit_cont03.png) no-repeat
+}
+
+.sw_eshop_cont .cont03 .section > .tit {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.sw_eshop_cont .cont03 .section {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.sw_eshop_cont .cont03 .section > .inner {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.sw_eshop_cont .cont03 .section .step:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.sw_eshop_cont .cont03 .section .left {
+    float: left;
+    width: 50%
+}
+
+.sw_eshop_cont .cont03 .section .right {
+    float: right;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 28px
+}
+
+.sw_eshop_cont .cont03 .section .inner .step:first-child .right {
+    padding-top: 30px
+}
+
+.sw_eshop_cont .cont03 .section .right strong {
+    color: #ff7d00
+}
+
+.sw_eshop_cont .cont03 .section .step_arrow {
+    margin: 40px 0;
+    text-align: center
+}
+
+.sw_eshop_cont .cont03 .section .alignCenter {
+    margin-top: 60px
+}
+
+.sw_eshop_cont .cont03 .section .inner .tit_step {
+    margin-top: 75px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+    text-align: center
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step {
+    margin: 40px 0 60px 0
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li {
+    float: left;
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 18px
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li:before {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    background: #e60012;
+    border-radius: 10px
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list01 {
+    margin-left: 10px
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list02 {
+    margin-left: 55px
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list03 {
+    margin-left: 42px
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list04 {
+    margin-left: 33px
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list01:before {
+    content: '1'
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list02:before {
+    content: '2'
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list03:before {
+    content: '3'
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step ol li.list04:before {
+    content: '4'
+}
+
+.sw_eshop_cont .cont03 .section .inner .inner_step .inner_step_img {
+    margin-top: 20px
+}
+
+.red_notice {
+    padding: 30px 0;
+    border: 2px solid #e60012;
+}
+
+.red_notice .inner {
+    max-width: 650px;
+    margin: 0 auto;
+    padding-left: 90px;
+    background: url(/images/renew/software/eshop/bg_notice.png) no-repeat 0 center
+}
+
+.red_notice .txt1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #e60012;
+    line-height: 22px
+}
+
+.red_notice .desc {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #111
+}
+
+.list_normal li {
+    font-size: 16px;
+    line-height: 28px
+}
+
+.bul_red, .bul_blue {
+    position: relative;
+    padding-left: 22px;
+}
+
+.bul_red:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(/images/renew/software/eshop/bul_red.png) no-repeat
+}
+
+.bul_blue:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(/images/renew/software/eshop/bul_blue.png) no-repeat
+}
+
+.bul_blue a {
+    color: #333
+}
+
+.desc.gray {
+    color: #737373;
+    line-height: 28px
+}
+
+.gray_notice {
+    margin-top: 40px;
+    padding: 40px;
+    background: #f7f7f7
+}
+
+.gray_notice .bul_blue {
+    margin-top: 30px
+}
+
+.sw_eshop_cont .cont03 .section.section02 .bul_red {
+    margin-top: 20px
+}
+
+.sw_eshop_cont .cont03 .section.section02 .bul_red a {
+    color: #111
+}
+
+.sw_eshop_cont .cont03 .section.section02 .img_area {
+    text-align: center;
+    margin-top: 35px
+}
+
+.sw_eshop_cont .cont03 .section.section02 .alignCenter {
+    margin-top: 40px
+}
+
+.sw_eshop_cont .cont03 .section.section03 .btn_view {
+    display: inline-block
+}
+
+.icon_file {
+    position: relative;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #111
+}
+
+.icon_file:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(/images/renew/software/eshop/ico_file.png) no-repeat;
+}
+
+.alignRight {
+    text-align: right
+}
+
+.gray_notice + .alignRight {
+    margin-top: 30px
+}
+
+.layer_popup .innerWrap .qr_popup {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.layer_popup .innerWrap .qr_popup h1 {
+    font-size: 1.2em;
+    line-height: 1.5
+}
+
+.layer_popup .innerWrap .qr_popup figcaption {
+    margin: 10px 0 15px 0;;
+    font-size: 12px
+}
+
+.layer_popup .innerWrap .qr_popup figcaption.tit {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.2
+}
+
+.layer_popup .innerWrap .qr_popup .popBox {
+    padding: 59px 60px 40px 60px
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .sw_name_img {
+    width: auto;
+    margin-top: 52px;
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .wrap_fg {
+    text-align: center
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .wrap_fg figure {
+    float: inherit;
+    display: inline-block
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .wrap_fg figure {
+    border: 1px solid #bab9b5
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .wrap_fg figure img {
+    border: none
+}
+
+/*qr 코드가 2개일 경우*/
+.layer_popup .innerWrap .qr_popup .popBox .wrap_fg.clearfix figure:first-child {
+    margin-left: 0
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .wrap_fg.clearfix figure {
+    float: left;
+    padding: 0;
+    width: 49%;
+    margin-left: 2%;
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #111;
+    text-align: left
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex ul li:first-child {
+    margin-top: 0;
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex ul li {
+    margin-top: 16px;
+    vertical-align: middle
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex ul li:before {
+    display: inline-block;
+    content: '';
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+    background-color: #e60012;
+    border: 1px solid #e60012;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 17px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex ul li:nth-of-type(1):before {
+    content: '1';
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex ul li:nth-of-type(2):before {
+    content: '2';
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex ul li:nth-of-type(3):before {
+    content: '3';
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .list_ex ul li .deco {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.layer_popup .innerWrap .qr_popup .popBox .desc {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #111;
+    background-color: #ececec;
+    padding: 9px 0;
+}
+
+/* 3ds 상세 팝업 */
+.layer_popup .dsInfo {
+    padding: 40px;
+    letter-spacing: -0.075em;
+}
+
+.layer_popup .dsInfo p {
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.layer_popup .dsInfo p strong {
+    color: #e60012;
+    font-weight: normal;
+}
+
+.layer_popup .dsInfo .tbl_dsInfo {
+    margin-bottom: 30px;
+    border-top: 2px solid #111;
+    font-size: 14px;
+}
+
+.layer_popup .dsInfo .tbl_dsInfo th {
+    padding: 15px 0;
+    border-bottom: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+    background: #f9f9f9;
+}
+
+.layer_popup .dsInfo .tbl_dsInfo td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+    vertical-align: middle;
+}
+
+.layer_popup .dsInfo .tbl_dsInfo td a {
+    color: #111;
+}
+
+.layer_popup .dsInfo .tbl_dsInfo th:first-child {
+    border-left: 0;
+}
+
+.layer_popup .dsInfo .tbl_dsInfo td:first-child {
+    border-left: 0;
+}
+
+.layer_popup .dsInfo .tbl_dsInfo img {
+    width: auto;
+}
+
+.layer_popup .dsInfo .tbl_action td {
+    text-align: center;
+}
+
+.layer_popup .dsInfo .tbl_action th span {
+    display: block;
+    margin-top: 5px;
+    color: #e60012;
+}
+
+.layer_popup .dsInfo .tbl_action td img {
+    vertical-align: bottom;
+}
+
+.layer_popup .dsInfo .tbl_action td span {
+    display: inline-block;
+    vertical-align: bottom;
+    color: #e60012;
+}
+
+.layer_popup .dsInfo .comment {
+    padding-left: 20px;
+    text-indent: -10px;
+    font-size: 13px;
+    line-height: 180%;
+}
+
+.layer_popup .dsInfo .comment span {
+    display: inline-block;
+    margin-right: 5px;
+    color: #e60012;
+}
+
+.layer_popup .dsInfo .comment a {
+    color: #e60012;
+    text-decoration: underline;
+}
+
+.layer_popup .dsInfo .desc_sw {
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.layer_popup .dsInfo .desc_sw > div {
+    width: 48%;
+    text-align: center;
+}
+
+.layer_popup .dsInfo .desc_sw p {
+    padding: 15px 0;
+    color: #fff;
+}
+
+.layer_popup .dsInfo .desc_sw .desc_3ds {
+    float: left;
+    border: 2px solid #e60012;
+    text-align: center;
+}
+
+.layer_popup .dsInfo .desc_sw .desc_3ds p {
+    background: #e60012;
+}
+
+.layer_popup .dsInfo .desc_sw .desc_ds {
+    float: right;
+    border: 2px solid #111;
+}
+
+.layer_popup .dsInfo .desc_sw .desc_ds p {
+    background: #111;
+}
+
+.layer_popup .dsInfo .tit_dsInfo {
+    margin-bottom: 30px;
+    font-size: 26px;
+    letter-spacing: -0.08em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.layer_popup .dsInfo .subTit_dsInfo {
+    margin-bottom: 30px;
+    font-size: 22px;
+    letter-spacing: -0.08em;
+    font-weight: bold;
+}
+
+.layer_popup .dsInfo .center {
+    text-align: center;
+}
+
+.layer_popup .dsInfo .addition_info {
+    display: none;
+    margin-top: 50px;
+}
+
+.layer_popup .dsInfo .addition_info .tbl_dsInfo {
+    margin-top: 20px;
+}
+
+.layer_popup .dsInfo .addition_info .tbl_dsInfo img {
+    vertical-align: middle;
+}
+
+.layer_popup .dsInfo .addition_info .tbl_dsInfo strong {
+    color: #e60012;
+    font-weight: normal;
+}
+
+.layer_popup .dsInfo .addition_info .subTit_dsInfo {
+    font-weight: normal;
+    text-align: center;
+}
+
+.layer_popup .dsInfo .addition_info p {
+    margin-top: 20px;
+}
+
+.layer_popup .dsInfo .addition_info .tit_box {
+    border: 2px solid #111;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.layer_popup .dsInfo .addition_info .alert {
+    margin-top: 5px;
+    text-align: right;
+    font-size: 15px;
+    color: #e60012;
+}
+
+.layer_popup_storeCard .tbl_pop {
+    line-height: 24px;
+}
+
+.layer_popup_storeCard .tbl_pop + .tbl_pop {
+    margin: 58px 0 40px;
+}
+
+.layer_popup_storeCard .tbl_pop + .tbl_pop td {
+    border-left-width: 0;
+}
+
+.layer_popup_storeCard .tbl_pop caption {
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    color: #e60012;
+    text-align: left;
+}
+
+.layer_popup_storeCard .tbl_pop td {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.layer_popup_update .desc {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    line-height: 24px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.layer_popup_update .desc > a {
+    text-decoration: underline;
+    color: #111;
+}
+
+.layer_popup_update .num_list {
+    margin: auto;
+    width: 61.9%;
+}
+
+.layer_popup_update .num_list li {
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.layer_popup_update .num_list li:before {
+    top: 2px;
+}
+
+.layer_popup_update .num_list li p {
+    padding: 14px 0 5px;
+}
+
+.layer_popup_update .num_list li p img {
+    width: auto;
+    max-width: 100%;
+}
+
+.layer_popup_update .num_list li .update_btn {
+    width: 15px;
+    height: 15px;
+    text-indent: -9999px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(/images/renew/software/eshop/update_button.png) no-repeat;
+}
+
+.sw_switch_detail .lang {
+    vertical-align: baseline;
+}
+
+.switch_parentalControls .section02 {
+    background-image: none;
+}
+
+.txt_addition {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1760px) {
+    /* 다운로드 번호 구입 플로팅 메뉴 */
+    .btn_store {
+        left: auto;
+        right: 18px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1352px) {
+    /* main */
+    .sw_main_top {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .software_sp_be:before,
+    .software_sp_at:after {
+        background-size: 150px auto;
+    }
+
+    /* 다운로드 소프트웨어 - 상단 접힘메뉴 */
+    .cate_link_menu {
+        right: 80px;
+    }
+
+    .software {
+        max-width: none;
+    }
+
+    .software .btn_back {
+        right: 20px;
+    }
+
+    .sw_eshop .btn_back {
+        left: auto;
+        margin-left: 0;
+    }
+
+    .btn_back.no_wrap {
+        right: 20px;
+        left: auto;
+    }
+
+    .btn_back.sup {
+        top: 125px;
+        left: auto;
+        right: 20px;
+        margin-left: 0;
+    }
+
+    /* 다운로드 번호 구입 플로팅 메뉴 */
+    .btn_store {
+        left: 0;
+        bottom: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 50px;
+        letter-spacing: -0.09em;
+        border-radius: 0;
+        animation: initial;
+    }
+
+    .btn_store:before {
+        margin: auto;
+        width: 27px;
+        height: 29px;
+        background-position: -18px 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .btn_store:after {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        background-position: -45px 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .btn_store strong {
+        margin-left: 10px;
+        line-height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .btn_store strong span {
+        display: inline;
+        margin-left: 5px;
+    }
+
+    @-webkit-keyframes slide-out-right {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+            opacity: 0;
+        }
+    }
+    @keyframes slide-out-right {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+            opacity: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /* main */
+    .sw_main_top {
+        margin-bottom: 30px;
+    }
+
+    .new_software {
+        width: 100%;
+        margin: 23px 0 40px 0;
+        padding: 0 20px;
+    }
+
+    .newSw_cate {
+        width: 100%;
+        margin: 30px 0 0 0;
+        padding: 0 20px;
+    }
+
+    .newSw_cate .cateTit {
+        float: none;
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+        background-position: top left;
+        background-repeat: repeat-x;
+    }
+
+    .newSw_cate .cateTit a {
+        position: relative;
+        top: 0;
+        padding: 15px 0;
+        line-height: 1;
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .cateTit a span {
+        display: inline-block;
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .cateTit a .ico_more {
+        float: right;
+        position: relative;
+        top: 0;
+        right: 25px;
+    }
+
+    .newSw_cate .item + .item {
+        margin-left: 0;
+    }
+
+    .newSw_cate .sw_item + .sw_item {
+        margin-left: 20px;
+    }
+
+    .newSw_cate .sw_item {
+        width: calc((100% - 60px) / 4);
+    }
+
+    .newSw_cate .sw_item:last-child {
+        display: block;
+    }
+
+    .sw_item {
+        padding-bottom: 22px;
+    }
+
+    .sw_item .cate {
+        font-size: 13px;
+    }
+
+    .sw_item .ico_rel {
+        font-size: 8px;
+    }
+
+    .sw_item .tit {
+        height: 36px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .sw_item .thumb, .sw_item .slider {
+        margin-bottom: 10px;
+    }
+
+    .sw_item .thumb img {
+        width: 100%;
+    }
+
+    .sw_item .releaseInfo {
+        display: none;
+    }
+
+    /* qrcode */
+    .btn_view_qrCode {
+        left: 0;
+        width: auto;
+        height: 22px;
+        background-size: 81px 35px;
+        background-position: center -18px;
+    }
+
+    .list_newSw .owl-item img {
+        width: 100%;
+    }
+
+    .list_newSw .owl-dots {
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+    }
+
+    .list_newSw .owl-nav {
+        display: none;
+    }
+
+    .tit_section {
+        font-size: 22px;
+    }
+
+    .release_list h2.main_h2 {
+        padding: 0;
+    }
+
+    .release_list .tit {
+        height: auto;
+    }
+
+    .release_list .sw_item .releaseInfo {
+        display: block;
+    }
+
+    .lang_guide {
+        margin-bottom: 0;
+    }
+
+    /* 다운로드 소프트웨어 */
+    .checkbox_wrap.cond_wrap {
+        float: none;
+        padding: 18px 40px 18px 40px;
+    }
+
+    .sw_download .sch_wrap {
+        padding-bottom: 78px;
+    }
+
+    .sw_download .sch_wrap .sch_box {
+        top: auto;
+        bottom: 30px;
+        padding: 0 138px 0 40px;
+    }
+
+    /* 다운로드 소프트웨어 - 하단 안내 */
+    .sw_download .guide_desc li {
+        width: 50%;
+    }
+
+    .sw_download .guide_desc li:nth-child(odd) {
+        border-left: 0;
+    }
+
+    .sw_download .guide_desc li:nth-child(n+3) {
+        border-top: 1px solid #ff7d00;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .software .btn_back {
+        display: none;
+    }
+
+    .cate_link_menu {
+        display: none;
+    }
+
+    .software .btn_back {
+        display: none;
+    }
+
+    .btn_back.sup {
+        display: none;
+    }
+
+    /* 3ds 소프트웨어 상세 - 소프트웨어 정보 */
+    .sw_detail_topInfo {
+        padding: 30px 0;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column-reverse;
+        -moz-flex-direction: column-reverse;
+        -o-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .sw_detail_topInfo .sw_info {
+        position: relative;
+        padding: 30px 0 0 0;
+    }
+
+    .sw_detail_topInfo .navigator {
+        display: none;
+    }
+
+    .sw_detail_topInfo .tit_sw {
+        margin-top: 0;
+        font-size: 24px;
+    }
+
+    .sw_detail_topInfo .sw_detail_info {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .sw_detail_topInfo .sw_detail_info span {
+        display: inline-block;
+    }
+
+    .sw_detail_topInfo .sw_detail_info span + span {
+        margin-left: 25px;
+    }
+
+    .sw_detail_topInfo .links {
+        margin-top: 25px;
+    }
+
+    .sw_detail_topInfo .links .btn_red_round_link {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .sw_detail_topInfo .owl-theme .owl-nav {
+        display: none;
+    }
+
+    /* 3ds 소프트웨어 상세 - 소프트웨어 상세 설명 */
+    .sw_description {
+        padding: 30px 0;
+    }
+
+    .sw_description .tit_sw_detail {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .sw_description .desc_sw_detail {
+        margin-top: 20px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    .sw_description .desc_sw_detail p + p {
+        margin-top: 20px;
+    }
+
+    .sw_description .specsWrap {
+        margin-top: 25px;
+    }
+
+    .sw_description .specsWrap .specs {
+        padding: 25px 0;
+    }
+
+    .sw_description .specsWrap .ico_sw {
+        display: none;
+    }
+
+    .sw_description .specsWrap ul {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .sw_description .specsWrap li {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .sw_description .specsWrap li span {
+        width: 100px;
+    }
+
+    .sw_description .specsWrap .qrCode {
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 25px 0;
+        border-left: 0;
+        border-top: 1px solid #d6d6d6;
+    }
+
+    .sw_description .specsWrap .qrCode a {
+        width: 170px;
+        margin: 15px auto 0 auto;
+        padding: 10px 0;
+    }
+
+    .sw_description .desc_sw_detail.clearfix p {
+        float: none;
+    }
+
+    .contents.pkm_bank .sw_description .desc_sw_detail.clearfix p,
+    .contents.pkm_bank .sw_description .desc_sw_detail.clearfix p + p {
+        width: 100%;
+    }
+
+    .contents.pkm_bank .sw_description .desc_sw_detail.clearfix p:first-child {
+        margin-bottom: 25px;
+    }
+
+    .sw_description .desc_sw_detail .sw_detail_title {
+        margin-bottom: 10px;
+    }
+
+    .sw_copyright {
+        margin-top: 12px;
+        font-size: 12px;
+    }
+
+    /* 3ds 소프트웨어 상세 - 아미보 리스트 */
+    .amiibo_3ds_sw_detail .amiibo_character img {
+        width: 119px;
+    }
+
+    .amiibo_3ds_sw_detail .amiibo_character p {
+        display: none;
+    }
+
+    .amiibo_3ds_sw_detail .owl-dots {
+        margin-top: 30px;
+    }
+
+    .amiibo_3ds_sw_detail .owl-dots .owl-dot span {
+        width: 50px;
+        height: 4px;
+        border-radius: 0;
+        background: #cfcfcf;
+    }
+
+    .amiibo_3ds_sw_detail .owl-dots .owl-dot.active span {
+        background: #e60012;
+    }
+
+    .amiibo_3ds_sw_detail .owl-nav {
+        display: none;
+    }
+
+    /* 3ds 소프트웨어 상세 - eshop */
+    .eshop_3ds {
+        margin-top: 35px;
+        margin-bottom: 40px;
+        padding: 0;
+        border: 1px solid #d6d6d6;
+        border-bottom: 1px solid #111;
+        font-size: 14px;
+    }
+
+    .eshop_3ds .txt_eshop {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        padding: 20px 0 15px 0;
+        border-right: 0;
+        border-bottom: 1px solid #d6d6d6;
+        font-size: 13px;
+    }
+
+    .eshop_3ds .txt_eshop img {
+        width: 124px;
+    }
+
+    .eshop_3ds ul {
+        padding: 20px;
+    }
+
+    .eshop_3ds li {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    /* switch software 상단 영상 */
+    .video_box {
+        display: none;
+    }
+
+    .img_box {
+        display: none;
+    }
+
+    /* 지원 언어 표시 */
+    .lang {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0;
+        background-size: 59px 114px;
+    }
+
+    .lang.foreign {
+        background-position: 0 -20px;
+    }
+
+    .lang.kor {
+        background-position: 0 -78px;
+    }
+
+    /* 3DS - 포켓몬 뱅크 */
+    .contents.pkm_bank .sw_detail_notice {
+        margin-top: 40px;
+    }
+
+    .contents.pkm_bank .sw_detail_notice .sw_notice_h1 {
+        width: 10%;
+    }
+
+    .contents.pkm_bank .sw_detail_notice > ul li {
+        font-size: 14px;
+    }
+
+    /* switch software */
+    .sw_switch_detail {
+        display: block;
+    }
+
+    .sw_switch_detail .sw_info {
+        padding-top: 0;
+    }
+
+    .sw_switch_detail .sw_carousel {
+        margin-top: 30px;
+    }
+
+    .tbl_sw_swtich_specs {
+        margin-top: 20px;
+    }
+
+    .tbl_sw_swtich_specs th {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .tbl_sw_swtich_specs td {
+        padding: 10px 0 10px 10px;
+        font-size: 14px;
+    }
+
+    .switch_copyright {
+        margin-bottom: 40px;
+    }
+
+    .switch_carousel .owl-nav.disabled + .owl-dots {
+        margin-top: 20px;
+    }
+
+    .additianal_info {
+        margin-top: 30px;
+    }
+
+    .additianal_info li + li {
+        margin-top: 20px;
+    }
+
+    .additianal_info li {
+        font-size: 14px;
+    }
+
+    .additianal_info li span {
+        padding-left: 15px;
+        text-indent: -15px;
+    }
+
+    /* 공통 */
+    .software {
+        padding-bottom: 40px;
+    }
+
+    .software.software_switch .sw_main_top h2,
+    .software.software_3ds .sw_main_top h2 {
+        display: none;
+    }
+
+    .software h2,
+    .software .sw_main_top h2 {
+        font-size: 22px;
+    }
+
+    .sw_item.ico_new.ico_new:before {
+        width: 45px;
+        height: 45px;
+        background-size: 100%;
+    }
+
+    .sw_vc .sw_item.ico_new.ico_new:before {
+        width: 64px;
+        height: 64px;
+    }
+
+    /* 소프트웨어 스위치, 3DS 메인 공통 */
+    .software.software_switch .sw_main_top,
+    .software.software_3ds .sw_main_top {
+        margin: 1px auto 0;
+    }
+
+    .software .sw_main_top {
+        margin: 20px 0;
+    }
+
+    .software .sw_main_top .btn_back {
+        display: none;
+    }
+
+    .software .sw_main_top > div > a {
+        margin-top: 5px;
+    }
+
+    .software .sw_main_top .half_banner.left {
+        padding-right: 3px;
+    }
+
+    .software .sw_main_top .half_banner.right {
+        padding-left: 3px;
+    }
+
+    .software .newSw_cate {
+        margin: 19px 0 0;
+    }
+
+    .release_list {
+        margin-top: 37px;
+        margin-bottom: 40px;
+    }
+
+    .release_list > ul {
+        margin-top: 0;
+    }
+
+    .bar_list li {
+        padding: 15px 0;
+    }
+
+    /* unit */
+    .software .unit .m_show {
+        display: block;
+    }
+
+    /* wide banner */
+    .wide_banner {
+        display: none;
+    }
+
+    .software_switch .unit li {
+        float: left;
+        width: 50%;
+    }
+
+    .software_switch .unit li:nth-child(even) {
+        border-left: 1px solid #d6d6d6;
+    }
+
+    .lang_guide {
+        margin-top: 30px;
+    }
+
+    .lang_guide .lang_divi {
+        padding-left: 66px;
+        height: 36px;
+        font-size: 11px;
+        line-height: 15px;
+        background: url(/images/renew/common/ico_lang_foreign_s.png) no-repeat;
+    }
+
+    .lang_guide .lang_divi:first-child {
+        background-position: 0px -116px;
+    }
+
+    .lang_guide .lang_divi span {
+        position: relative;
+        top: 3px;
+    }
+
+    /* 다운로드 소프트웨어 */
+    .sw_download .sch_wrap {
+        padding: 0 0 78px;
+    }
+
+    .sw_download .sch_wrap .sch_box {
+        padding: 0 95px 0 20px;
+    }
+
+    .checkbox_wrap.cond_wrap {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .sw_download .sch_wrap .sch_box .btn_sch {
+        right: 20px;
+    }
+
+    /* 다운로드 소프트웨어 - 하단 안내 */
+    .sw_download .eshop_3ds,
+    .sw_eshop .eshop_3ds {
+        padding: 16px 19px;
+    }
+
+    .sw_download .eshop_3ds .guide_txt {
+        margin-bottom: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .sw_download .eshop_3ds ul,
+    .sw_eshop .eshop_3ds ul {
+        padding: 0;
+    }
+
+    .sw_download .eshop_3ds ul li {
+        margin-top: 0;
+    }
+
+    .sw_download .guide_desc li {
+        padding: 16px 0;
+        height: 170px;
+        font-size: 13px;
+        line-height: 18px;
+        background-position: 50% -20px;
+    }
+
+    .sw_download .guide_desc li:nth-child(2) {
+        background-position: 50% -220px;
+    }
+
+    .sw_download .guide_desc li:nth-child(3) {
+        background-position: 50% -420px;
+    }
+
+    .sw_download .guide_desc li:nth-child(4) {
+        background-position: 50% -620px;
+    }
+
+    .sw_vc .eshop_3ds .btn_view.typeWH {
+        margin-top: 10px;
+        margin-left: 0;
+        display: block;
+    }
+
+    /* 다운로드 소프트웨어 - 하단 박스 링크 */
+    .sw_download .unit li:nth-child(n+5) {
+        display: none;
+    }
+
+    /* 다운로드 소프트웨어 - 레이어팝업 */
+    .sw_download ~ .layer_popup h1 {
+        margin-bottom: 32px;
+    }
+
+    .sw_download ~ .layer_popup h2 {
+        margin: 30px auto 20px;
+    }
+
+    .img_left {
+        line-height: 20px;
+    }
+
+    .sw_download ~ .layer_popup .popBox {
+        font-size: 13px;
+    }
+
+    .sw_download ~ .layer_popup .innerWrap img {
+        width: initial;
+    }
+
+    .sw_download ~ .layer_popup .num_list li span {
+        float: none;
+        display: block;
+    }
+
+    .sw_download ~ .layer_popup .num_list li > img {
+        float: none;
+    }
+
+    /* 버추얼 콘솔 - 레이어팝업 */
+    .sw_download ~ .layer_popup.vcPopup .popBox {
+        padding: 30px 20px;
+    }
+
+    .vc_popup dl {
+        padding-left: 4%;
+    }
+
+    .vc_popup dl dd {
+        font-size: 14px;
+    }
+
+    .vc_img.qr_img,
+    .vc_img.qr_img ~ dl {
+        position: relative;
+        left: 20px;
+    }
+
+
+    /* 2017-11-25 추가 eshop컨텐츠 */
+    .sw_top_visual {
+        padding: 0 0 30px 0;
+        background: none
+    }
+
+    .sw_top_visual .left, .sw_top_visual .right {
+        float: none
+    }
+
+    .sw_top_visual .left {
+        width: 100%;
+        padding: 0;
+        text-align: center
+    }
+
+    .sw_top_visual .left .txt1 {
+        font-size: 14px
+    }
+
+    .sw_top_visual .left .txt2 {
+        font-size: 13px;
+        line-height: 20px
+    }
+
+    .sw_top_visual .left .img_txt {
+        margin-bottom: 15px
+    }
+
+    .sw_top_visual .left .img_txt img {
+        width: 226px
+    }
+
+    .sw_top_visual .right {
+        width: 100%;
+        margin-top: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .sw_top_visual .right img {
+        width: 195px;
+    }
+
+    .sw_eshop_cont {
+        padding: 30px 0 40px 0
+    }
+
+    .sw_eshop_cont .tab_btn {
+        margin-bottom: 30px
+    }
+
+    .sw_eshop_cont .pc_cont {
+        display: none
+    }
+
+    .sw_eshop_cont .mobile_cont {
+        display: block
+    }
+
+    .sw_eshop_cont .mobile_cont {
+        text-align: center
+    }
+
+    .sw_eshop_cont .mobile_cont img {
+        width: 248px
+    }
+
+    .sw_eshop_cont br {
+        display: block
+    }
+
+    .sw_eshop_cont .cont .tit {
+        margin-bottom: 20px;
+        font-size: 17px;
+        line-height: 25px
+    }
+
+    .sw_eshop_cont .pc_txt {
+        display: none
+    }
+
+    .sw_eshop_cont .mobile_txt {
+        display: block
+    }
+
+    .sw_eshop_cont .cont02 .step {
+        padding: 0;
+        background: none
+    }
+
+    .sw_eshop_cont .cont02 .step.step02 {
+        margin-top: 35px
+    }
+
+    .sw_eshop_cont .cont02 .step .tit {
+        position: relative;
+        font-size: 15px;
+        padding-left: 30px;
+        margin-bottom: 10px
+    }
+
+    .sw_eshop_cont .cont02 .step.step01 .tit:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -3px;
+        display: inline-block;
+        width: 21px;
+        height: 26px;
+        background: url(/images/renew/software/eshop/bg_step01_m.png) no-repeat;
+        background-size: 21px 26px
+    }
+
+    .sw_eshop_cont .cont02 .step.step02 .tit:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -3px;
+        display: inline-block;
+        width: 21px;
+        height: 26px;
+        background: url(/images/renew/software/eshop/bg_step02_m.png) no-repeat;
+        background-size: 21px 26px
+    }
+
+    .sw_eshop_cont .cont02 .step_arrow {
+        display: none
+    }
+
+    .sw_eshop_cont .cont02 .step .txt1 strong {
+        margin-bottom: 0
+    }
+
+    .sw_eshop_cont .cont02 .step .txt1 {
+        margin-bottom: 0
+    }
+
+    .sw_eshop_cont .cont02 .step .txt1, .sw_eshop_cont .cont02 .step .txt2 {
+        line-height: 20px
+    }
+
+    .sw_eshop_cont .cont02 .step02 .left {
+        float: none;
+        margin-right: 0
+    }
+
+    .sw_eshop_cont .cont02 .step02 .right {
+        margin-top: 20px;
+        text-align: center
+    }
+
+    .sw_eshop_cont .cont02 .step02 .right img {
+        width: 110px;
+        height: 70px
+    }
+
+    .sw_eshop_cont .cont02 .step.step02 .txt1 {
+        margin: 25px 0 0 0
+    }
+
+    .sw_eshop_cont .cont02 .alignCenter, .sw_eshop_cont .cont02 .step02 + .alignCenter {
+        margin-top: 20px
+    }
+
+    .sw_eshop_cont .cont03 .top_section {
+        margin-bottom: 40px
+    }
+
+    .sw_eshop_cont .cont03 .left {
+        float: none;
+        font-size: 17px;
+        line-height: 25px
+    }
+
+    .sw_eshop_cont .cont03 .top_section .txt {
+        font-size: 14px;
+        line-height: 25px
+    }
+
+    .sw_eshop_cont .cont03 .left br {
+        display: none
+    }
+
+    .sw_eshop_cont .cont03 .right {
+        float: none;
+        margin-top: 30px;
+        text-align: center
+    }
+
+    .sw_eshop_cont .cont03 .right img {
+        width: 133px;
+        height: 101px
+    }
+
+    .sw_eshop_cont .cont03 .section {
+        padding: 30px 0 40px 0;
+        background-size: 100% auto
+    }
+
+    .sw_eshop_cont .cont03 .section > .tit {
+        font-size: 20px;
+        margin-bottom: 30px
+    }
+
+    .sw_eshop_cont .cont03 .section .left {
+        float: none;
+        width: 100%;
+        text-align: center
+    }
+
+    .sw_eshop_cont .cont03 .section .left img {
+        width: 191px;
+        height: 60px
+    }
+
+    .sw_eshop_cont .cont03 .section .inner .step .right {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 !important;
+        text-align: center;
+        line-height: 20px
+    }
+
+    /* .sw_eshop_cont .cont03 .section .inner .step .right br{display:none} */
+    .sw_eshop_cont .cont03 .section .step_arrow {
+        margin: 20px 0
+    }
+
+    .sw_eshop_cont .cont03 .section .step_arrow img {
+        width: 35px;
+        height: 35px
+    }
+
+    .sw_eshop_cont .cont03 .section .alignCenter {
+        margin-top: 20px
+    }
+
+    .sw_eshop_cont .cont03 .section .inner .tit_step {
+        margin-top: 30px
+    }
+
+    .sw_eshop_cont .cont03 .section .inner .inner_step ol li {
+        float: none;
+        margin-left: 0 !important;
+        margin-top: 10px
+    }
+
+    .sw_eshop_cont .cont03 .section .inner .inner_step ol li:first-child {
+        margin-top: 0
+    }
+
+    .sw_eshop_cont .cont03 .section .inner .inner_step ol li br {
+        display: none
+    }
+
+    .sw_eshop_cont .cont03 .section .inner .inner_step .inner_step_img {
+        display: none
+    }
+
+    .sw_eshop_cont .cont03 .section .inner .inner_step {
+        margin: 20px 0 30px 0
+    }
+
+    .sw_eshop .eshop_3ds li:last-child {
+        margin-top: 15px;
+    }
+
+    .sw_eshop ~ .layer_popup .tbl_pop td {
+        padding: 20px;
+    }
+
+    .red_notice {
+        padding: 0
+    }
+
+    .red_notice .inner {
+        padding: 87px 10px 20px 20px;
+        background-size: 52px 52px;
+        background-position: center 20px
+    }
+
+    .red_notice .txt1, .red_notice .desc {
+        line-height: 20px
+    }
+
+    .list_normal li {
+        line-height: 20px;
+        font-size: 14px
+    }
+
+    .desc.gray {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .sw_eshop_cont .cont03 .section.section02 .img_area {
+        margin-top: 14px
+    }
+
+    .sw_eshop_cont .cont03 .section.section02 .img_area img {
+        width: 100%
+    }
+
+    .sw_eshop_cont .cont03 .section.section02 .alignCenter {
+        margin-top: 20px
+    }
+
+    .gray_notice {
+        margin-top: 20px;
+        padding: 20px
+    }
+
+    .bul_red, .bul_blue {
+        padding-left: 15px;
+        font-size: 14px
+    }
+
+    .gray_notice .bul_blue {
+        margin-top: 20px
+    }
+
+    .sw_eshop_cont .cont03 .section03 {
+        padding-bottom: 0
+    }
+
+    .sw_eshop_cont .cont03 .section03 .gray_notice + .alignRight {
+        display: none
+    }
+
+    .sw_eshop .st_tbl_border.cell_3 li {
+        float: left;
+        width: 33.33%;
+        border-left: 1px solid #d6d6d6;
+    }
+
+    .sw_eshop .st_tbl_border.cell_3 li:first-child {
+        border-left-width: 0;
+    }
+
+    .layer_popup_storeCard .tbl_pop {
+        line-height: 18px;
+    }
+
+    .layer_popup_storeCard .tbl_pop + .tbl_pop {
+        margin: 28px 0 30px;
+    }
+
+    .sw_download ~ .layer_popup h1,
+    .sw_eshop ~ .layer_popup h1 {
+        margin-bottom: 20px;
+    }
+
+    .layer_popup_update .desc {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .layer_popup_update .num_list li {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .layer_popup_update .num_list li:before {
+        top: 5px;
+    }
+
+    /* qrcode popup */
+    .layer_popup .innerWrap .qr_popup img {
+        width: auto;
+    }
+
+    .txt_addition {
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 130%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    /* 다운로드 소프트웨어 - 레이어팝업 */
+    .sw_eshop ~ .layer_popup .popBox,
+    .sw_download ~ .layer_popup .popBox {
+        padding: 40px 20px;
+    }
+
+    .sw_download ~ .layer_popup .num_list span br:not(:first-child) {
+        display: none;
+    }
+
+    .sw_download ~ .layer_popup .num_list li > span {
+        margin-bottom: 10px;
+    }
+
+    .sw_download ~ .layer_popup .num_list li > img {
+        top: auto;
+    }
+
+    /* 2017-11-25 추가*/
+    .layer_popup .innerWrap.qr_popup {
+        width: auto
+    }
+
+    .layer_popup .innerWrap.qr_popup .popBox .list_ex ul li img {
+        width: auto
+    }
+
+    .layer_popup .innerWrap.qr_popup .popBox .list_ex ul li .deco {
+        display: inline-block;
+        margin-left: 0
+    }
+
+    .layer_popup.vcPopup .innerWrap dl dd img {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .sw_item .ico_lang {
+        display: none;
+    }
+
+    .sw_main_top {
+        margin: 2px 0 30px 0;
+    }
+
+    .sw_main_top .box01 .item01 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .sw_main_top .box01 .item02 {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .sw_main_top .box01 .item03 {
+        position: relative;
+        left: 0;
+        width: 50%;
+    }
+
+    .sw_main_top .box01 .item04 {
+        float: none;
+        margin-top: 0;
+    }
+
+    .sw_main_top .box01 .item04:nth-of-type(4) {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+    }
+
+    .sw_main_top .box01 .item04:nth-of-type(5), .sw_main_top .box01 .item04:nth-of-type(6), .sw_main_top .box01 .item04:nth-of-type(7) {
+        display: none;
+    }
+
+    .new_software {
+        padding: 0;
+    }
+
+    .newSw_cate .sw_item {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .newSw_cate .sw_item + .sw_item {
+        margin-left: 0;
+    }
+
+    .newSw_cate .sw_item:nth-of-type(2n+1) {
+        margin-left: 20px;
+    }
+
+    .newSw_cate .sw_item:nth-of-type(4),
+    .newSw_cate .sw_item:nth-of-type(5) {
+        margin-top: 20px;
+    }
+
+    .list_newSw .owl-dots {
+        display: none;
+    }
+
+    .new_software .owl-item {
+        width: 320px !important;
+    }
+
+    .new_software .sw_item .tit {
+        display: none;
+    }
+
+    .new_software .sw_item .cate {
+        display: none;
+    }
+
+    .new_software .sw_item .type {
+        display: none;
+    }
+
+    /* 3ds 소프트웨어 상세 - 이미지,동영상 carousel */
+    .sw_detail_topInfo .carousel {
+        padding: 0 47px;
+    }
+
+    .sw_detail_topInfo .fullImg {
+        padding: 0;
+    }
+
+    .sw_carousel .owl-item img {
+        width: 100%;
+    }
+
+    .sw_carousel .item-video {
+        width: auto;
+        height: 200px;
+    }
+
+    /* 3ds 소프트웨어 상세 - 소프트웨어 정보 */
+    .sw_detail_topInfo .links .btn_red_round_link {
+        display: block;
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+
+    .sw_detail_topInfo .sw_detail_info {
+        overflow: hidden;
+    }
+
+    .sw_detail_topInfo .sw_detail_info span {
+        float: left;
+        width: 50%;
+    }
+
+    .sw_detail_topInfo .sw_detail_info span + span {
+        margin-left: 0;
+    }
+
+    .sw_detail_topInfo .sw_detail_info span:nth-of-type(2n+1) {
+        margin-left: 0;
+    }
+
+    .sw_detail_topInfo .sw_detail_info span:nth-of-type(3),
+    .sw_detail_topInfo .sw_detail_info span:nth-of-type(4) {
+        margin-top: 10px;
+    }
+
+    /* 3ds 소프트웨어 상세 - 소프트웨어 상세 설명 */
+    .sw_description .desc_sw_detail .sw_detail_title > img {
+        height: 35px;
+    }
+
+    .sw_description .desc_sw_detail .sw_detail_title > a {
+        padding-top: 8px;
+    }
+
+    /* 3DS - 포켓몬 뱅크 */
+    .contents.pkm_bank .sw_detail_notice .sw_notice_h1 {
+        float: none;
+        width: 60px;
+        height: 26px;
+        font-size: 15px;
+        line-height: 26px;
+        border-radius: 7px;
+    }
+
+    .contents.pkm_bank .sw_detail_notice > ul {
+        padding-top: 6px;
+        padding-left: 0;
+    }
+
+    .contents.pkm_bank .sw_detail_notice > ul li {
+        line-height: 1.3;
+    }
+
+    .contents.pkm_bank .sw_detail_notice > ul li:first-child {
+        margin-bottom: 5px;
+    }
+
+    .contents.pkm_bank .sw_detail_notice > ul li:after {
+        top: 3px;
+        padding-left: 4px;
+        font-size: 10px;
+    }
+
+    .btn_round_link {
+        display: block;
+        position: relative;
+        width: 198px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .btn_round_link + .btn_round_link {
+        margin-top: 10px;
+    }
+
+    .btn_round_link:after {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        margin: -8px 0 0 0;
+    }
+
+    .sw_switch_detail .btn_round_link br {
+        display: block;
+        line-height: 150%;
+    }
+
+    .sw_detail_topInfo .sw_detail_info span:nth-of-type(3) {
+        width: 100%;
+    }
+
+    .switch_carousel .sw_carousel .item-video {
+        /*height: auto; */
+    }
+
+    .software .new_software .newSw_cate .sw_item .cate {
+        display: inline;
+    }
+
+    .software .new_software .newSw_cate .sw_item .type {
+        display: inline-block;
+    }
+
+    .software .new_software .newSw_cate .sw_item .tit,
+    .software .new_software .newSw_cate .sw_item .releaseInfo {
+        display: block;
+    }
+
+    .software .new_software .newSw_cate .sw_item:nth-child(n+9) {
+        display: none;
+    }
+
+    .software .new_software .more_view {
+        display: none;
+    }
+
+    .lang_guide {
+        padding: 21px 0;
+    }
+
+    .lang_guide .lang_divi {
+        margin-left: 41px;
+        display: block;
+    }
+
+    .lang_guide .lang_divi:first-child {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    /* release_list */
+    .bar_list li {
+        float: none;
+        width: 100%;
+    }
+
+    .bar_list li:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .bar_list li:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .software_switch .unit .r_arrow {
+        width: auto;
+    }
+
+    /* 다운로드 소프트웨어 - 상단 검색영역 */
+    .sw_download .checkbox_wrap {
+        position: absolute;
+        top: 35px;
+        left: 0;
+        margin-top: 10px;
+        padding: 0;
+        min-height: 25px;
+        width: 100%;
+        background: #fff;
+    }
+
+    .sw_download .checkbox_wrap:after {
+        display: block;
+        clear: both;
+        content: '';
+    }
+
+    .sw_download .checkbox_wrap > div {
+        float: left;
+        width: 50%;
+        display: none;
+    }
+
+    .sw_download .checkbox_wrap.open {
+        padding: 19px 19px 44px;
+        border: 1px solid #111;
+    }
+
+    .sw_download .checkbox_wrap.open > div {
+        display: block;
+    }
+
+    .sw_download .checkbox_wrap.open .btn_checkbox {
+        top: auto;
+        bottom: 0;
+    }
+
+    .sw_download .checkbox_wrap > div ul {
+        float: none;
+        padding: 0;
+    }
+
+    .sw_download .checkbox_wrap > div ul li {
+        float: none;
+        margin-top: 9px;
+        margin-right: 0;
+    }
+
+    .sw_download .sch_wrap {
+        position: relative;
+        padding: 0 0 35px;
+        border: none;
+    }
+
+    .sw_download .sch_wrap .sch_box {
+        position: static;
+        top: 0;
+        bottom: auto;
+        margin-top: 0;
+        padding: 0;
+        height: 35px;
+    }
+
+    .sw_download .sch_wrap .sch_box .btn_sch {
+        right: 0;
+    }
+
+    .sch_wrap .btn_checkbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25px;
+        font-size: 13px;
+        line-height: 25px;
+        color: #fff;
+        background: #000;
+        display: block;
+    }
+
+    .sw_download.software .sw_main_top {
+        overflow: initial;
+        overflow: visible;
+    }
+
+    .checkbox_wrap.cond_wrap > div {
+        border-top: 0;
+    }
+
+    .checkbox_wrap.cond_wrap.check_item_03 > div,
+    .checkbox_wrap.cond_wrap.check_item_04 > div,
+    .checkbox_wrap.cond_wrap.check_item_05 > div {
+        margin-bottom: 25px;
+    }
+
+    .checkbox_wrap.cond_wrap.check_item_03 > div:last-of-type,
+    .checkbox_wrap.cond_wrap.check_item_04 > div:nth-of-type(n+3),
+    .checkbox_wrap.cond_wrap.check_item_05 > div:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .checkbox_wrap.cond_wrap > div:nth-of-type(odd) {
+        padding-right: 10px;
+    }
+
+    .checkbox_wrap.cond_wrap > div:nth-of-type(even) {
+        padding-left: 10px;
+    }
+
+    .checkbox_wrap.cond_wrap > div > * {
+        padding: 0 0 10px;
+    }
+
+    .checkbox_tit {
+        float: none;
+        width: auto;
+        line-height: 1;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    /* 다운로드 소프트웨어 - 하단 안내 */
+    .sw_eshop .eshop_3ds {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .sw_download .eshop_3ds {
+        margin-top: 30px;
+    }
+
+    .sw_download .guide_desc {
+        margin-bottom: 30px;
+    }
+
+    .sw_download .guide_desc li {
+        float: none;
+        width: 100%;
+    }
+
+    .sw_download .guide_desc li:nth-child(even) {
+        border-left: 0;
+    }
+
+    .sw_download .guide_desc li:nth-child(n+2) {
+        border-top: 1px solid #ff7d00;
+    }
+
+    /* 다운로드 소프트웨어 - 레이어팝업 */
+    .sw_download ~ .layer_popup .num_list {
+        padding: 0;
+    }
+
+    .sw_download ~ .layer_popup .eshop_3ds ul {
+        padding: 10px 0 0;
+    }
+
+    .sw_download ~ .layer_popup .eshop_3ds ul li {
+        margin-bottom: 6px;
+        padding: 0;
+        line-height: 16px;
+        text-indent: -5px;
+    }
+
+    .img_left .txt {
+        word-break: break-word;
+    }
+
+    .img_left .txt br {
+        display: none;
+    }
+
+    /* 다운로드 소프트웨어 - 레이어팝업 */
+    .layer_popup_swName .sw_name_img {
+        width: auto;
+    }
+
+    .sw_download ~ .layer_popup .innerWrap img {
+        max-width: 100%;
+    }
+
+    .layer_popup_swName h1 br {
+        display: block;
+    }
+
+    /* 2017-11-25 추가 */
+    .sw_eshop_cont .cont03 .section .inner .step .right {
+        margin: 20px auto 0 30px;
+        text-align: left;
+        letter-spacing: -1.5px;
+    }
+
+    .sw_eshop .st_tbl_border.cell_3 li {
+        float: none;
+        width: 100%;
+        border-left-width: 0;
+    }
+
+    .sw_eshop .eshop_3ds li a.btn_view {
+        margin-left: auto;
+        display: block;
+    }
+
+    .sw_eshop .eshop_3ds li a.btn_view:first-of-type {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .alignCenter.col2 a:last-child {
+        margin-top: 5px
+    }
+
+    /* 3ds 상세 팝업 */
+    .layer_popup .dsInfo {
+        padding: 20px;
+    }
+
+    .layer_popup .dsInfo .tit_dsInfo {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .layer_popup .dsInfo p {
+        font-size: 13px;
+    }
+
+    .layer_popup .dsInfo .tbl_action img {
+        width: 30px;
+    }
+
+    .layer_popup .dsInfo .desc_sw {
+        margin: 20px 0;
+    }
+
+    .layer_popup .dsInfo .desc_sw > div {
+        float: none;
+        width: 100%;
+    }
+
+    .layer_popup .dsInfo .desc_sw > div + div {
+        margin-top: 10px;
+    }
+
+    .layer_popup .dsInfo .subTit_dsInfo {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .layer_popup .dsInfo .tbl_dsInfo {
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .layer_popup .dsInfo .tbl_action td span {
+        display: block;
+    }
+
+    .layer_popup .dsInfo .tbl_dsInfo th {
+        padding: 10px 0;
+    }
+
+    .layer_popup .dsInfo .tbl_dsInfo td {
+        padding: 10px;
+    }
+
+    .layer_popup .dsInfo .comment {
+        font-size: 12px;
+    }
+
+    .layer_popup .dsInfo .addition_info .tit_box {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .layer_popup .dsInfo .addition_info .alert {
+        font-size: 12px;
+    }
+
+    .layer_popup .dsInfo .addition_info .subTit_dsInfo {
+        font-weight: bold;
+    }
+
+    .sw_description .specsWrap li {
+        float: none;
+        width: 100%;
+    }
+
+    .sw_description .specsWrap li:nth-of-type(2),
+    .sw_description .specsWrap li:nth-of-type(3) {
+        margin-top: 10px;
+    }
+
+    .eshop_3ds {
+        margin-top: 0;
+    }
+
+    /* qrcode popup */
+    .layer_popup .innerWrap .qr_popup {
+        width: auto;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox {
+        padding: 20px;
+    }
+
+    .layer_popup .innerWrap .qr_popup h1 {
+        font-size: 13px;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox .sw_name_img {
+        margin-top: 20px;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox .wrap_fg.clearfix figure {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox .wrap_fg.clearfix figure + figure {
+        margin-top: 5px;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox .desc {
+        margin-top: 20px;
+        line-height: 150%;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox .list_ex ul li .deco {
+        margin-left: 0;
+        text-indent: 0;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox .list_ex ul li {
+        padding-left: 30px;
+        line-height: 150%;
+        text-indent: -30px;
+    }
+
+    .layer_popup .innerWrap .qr_popup .popBox .list_ex ul li:before {
+        text-indent: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* 버추얼 콘솔 - 레이어팝업 */
+    .layer_popup .innerWrap.vcPopup {
+        left: 0;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .vc_img.qr_img {
+        margin-left: 0;
+        padding: 3%;
+    }
+
+    .vc_img.qr_img,
+    .vc_img.qr_img ~ dl {
+        left: auto;
+    }
+
+    .vc_img.qr_img ~ dl dd:last-child br {
+        display: none;
+    }
+
+    /* 소프트웨어 e-shop */
+    .sw_eshop .eshop_3ds li a.btn_view {
+        width: auto;
+    }
+
+    .layer_popup_update .num_list {
+        width: auto;
+    }
+
+    .layer_popup_update .num_list li p img {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    /*i Phone+ */
+    /* 리스트 공통 */
+    .sw_vc .sw_item.ico_new.ico_new:before {
+        width: 58px;
+        height: 58px;
+        background-size: 100%;
+    }
+
+    /* 다운로드 소프트웨어 - 상단 검색영역 */
+    .checkbox_vc .input_chk ~ label {
+        font-size: 13px;
+        letter-spacing: -0.05em;
+    }
+
+    .sw_vc .eshop_3ds .btn_view.typeWH {
+        width: 280px;
+        font-size: 12px;
+    }
+
+    .sw_icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 10px;
+    }
+
+    .lang_guide .lang_divi {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    /* 다운로드 소프트웨어 - 상단 검색영역 */
+    .sw_download_main label .input_box,
+    .sw_vc label .input_box {
+        margin-right: 6px;
+    }
+
+    /* 다운로드 소프트웨어 - 레이어팝업 */
+    .layer_popup .eshop_3ds {
+        padding: 20px 30px;
+    }
+
+    .img_left .ex_img {
+        margin-right: 0;
+        margin-bottom: 25px;
+        text-align: center;
+        display: block;
+    }
+
+    .img_left .txt {
+        display: block;
+    }
+
+    .down_ver_img figcaption > span {
+        font-size: 13px;
+    }
+
+    .down_ver_img figcaption > span:first-of-type {
+        padding-left: 25px;
+    }
+
+    .vc_img.qr_img ~ dl dd:last-child {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* 리스트 공통 */
+    .sw_item.ico_new.ico_new:before {
+        width: 36px;
+        height: 36px;
+    }
+
+    .sw_vc .sw_item.ico_new.ico_new:before {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* 다운로드 소프트웨어 - 상단 검색영역 */
+    .checkbox_dv .input_chk ~ label {
+        letter-spacing: -0.05em;
+    }
+
+    .checkbox_vc .input_chk ~ label {
+        font-size: 11px;
+        letter-spacing: -0.08em;
+    }
+
+    /* 다운로드 소프트웨어 - 레이어팝업 */
+    .software h2 br {
+        display: block;
+    }
+
+    .lang_guide .lang_divi {
+        margin-bottom: 10px;
+    }
+
+    .lang_guide .lang_divi:first-child span {
+        top: -5px
+    }
+
+    .down_ver_img figcaption > span:last-of-type {
+        left: -12px;
+    }
+
+    .down_ver_img figure {
+        margin-bottom: 15px;
+    }
+
+    .sw_download ~ .layer_popup .txt_round {
+        width: 180px;
+        font-size: 12px;
+    }
+}
+
+
+/* 털실 커비 이야기 플러스 & 루이지 맨션에서 사용되는 상세보기 시 슬라이드가 나오는 경우에 사용되는 스타일 */
+
+/* 20.01.14 발매예정 소프트웨어 페이지 추가 */
+section.release-software {
+    margin-top: 56px;
+}
+
+section.release-software .release-soft ul li {
+    margin: 10px 0;
+}
+
+section.release-software .release-soft .month-box + .month-box {
+    margin-top: 100px;
+}
+
+section.release-software .release-header,
+section.release-software .month-header {
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+section.release-software .release-header.fixed {
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    margin: auto;
+    z-index: 5;
+}
+
+section.release-software .release-header .yyyymm,
+section.release-software .release-header .mm-btn {
+    display: inline-block;
+}
+
+section.release-software .month-header,
+section.release-software .release-header .yyyymm {
+    font-size: 45px;
+    font-weight: 500;
+    color: #aaa;
+}
+
+section.release-software .release-header .yyyymm:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+section.release-software .release-header .yyyymm * {
+    float: left;
+}
+
+section.release-software .release-header .yyyymm .mm {
+    margin-left: 10px;
+}
+
+
+section.release-software .release-header .mm-btn {
+    transition: all 0.5s;
+}
+
+section.release-software .release-header .mm-btn a {
+    display: inline-block;
+    position: relative;
+    outline: none;
+}
+
+section.release-software .release-header .mm-btn a:after {
+    position: absolute;
+    bottom: -16px;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #f2f2f2;
+    transition: all 0.3s;
+}
+
+section.release-software .release-header .mm-btn a span {
+    padding: 14px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #8c8c8c;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    transition: all 0.3s;
+}
+
+section.release-software .release-header .mm-btn a.on:after {
+    background-color: #b40000;
+}
+
+section.release-software .release-header .mm-btn a.on span {
+    background-color: #e60012;
+    color: #fff;
+}
+
+/* ******  type 01 ****** */
+section.release-software .release-soft .sw_item {
+    width: 50%;
+    transition: background 0.5s;
+}
+
+section.release-software .release-soft .sw_item:hover {
+    background-color: #f2f2f2;
+}
+
+section.release-software .release-soft .sw_item:hover .related-thumb img {
+    transform: scale(1.1)
+}
+
+section.release-software .release-soft .info_wrap:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+section.release-software .release-soft .info_wrap > div {
+    float: left;
+}
+
+section.release-software .release-soft .related-thumb {
+    width: 231px;
+    height: 134px;
+    overflow: hidden;
+}
+
+section.release-software .release-soft .related-thumb img {
+    width: 100%;
+    transition: all 0.3s
+}
+
+
+section.release-software .release-soft .info_wrap {
+    height: 135px;
+    padding-left: 15px;
+}
+
+section.release-software .release-soft .info-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - (231px + 40px));
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section.release-software .release-soft .info-box .tit {
+    position: relative;
+    top: 15px;
+    height: fit-content;
+    margin-top: 0;
+    overflow: inherit;
+}
+
+section.release-software .release-soft .info-box .tit.device-switch:before {
+    position: absolute;
+    top: -20px;
+    content: 'Nintendo Switch';
+    font-size: 12px;
+    color: #e60012;
+}
+
+section.release-software .release-soft .info-box .tit.device-3ds:before {
+    position: absolute;
+    top: -20px;
+    content: '닌텐도 3DS';
+    font-size: 12px;
+    color: #e60012;
+}
+
+section.release-software .release-soft .info-box .releaseInfo {
+    height: fit-content;
+    margin-top: 0;
+}
+
+section.release-software .release-soft .releaseInfo span {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: #e60012;
+    color: #fff;
+    border-radius: 3px;
+}
+
+section.release-software .release-soft .releaseInfo span.rel-maker {
+    font-weight: 700;
+    display: block;
+}
+
+section.release-software .release-soft .releaseInfo span.rel-maker,
+section.release-software .release-soft .releaseInfo span.rel-date {
+    padding: 0;
+    background: none;
+    color: #111;
+    line-height: normal;
+}
+
+section.release-software .release-soft .releaseInfo span.rel-date:before {
+    display: inline-block;
+    content: '(';
+}
+
+section.release-software .release-soft .releaseInfo span.rel-date:after {
+    display: inline-block;
+    content: ')';
+}
+
+
+section.release-software.mobile .release-header .mm-btn.hide {
+    right: -45px;
+}
+
+section.release-software.mobile .release-header .mm-btn {
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    display: block;
+    z-index: 5;
+}
+
+section.release-software.mobile .release-header .mm-btn a {
+    display: block;
+    width: 45px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+section.release-software.mobile .release-header .mm-btn a:last-child {
+    margin-bottom: 0;
+}
+
+section.release-software.mobile .release-header .mm-btn a span {
+    display: block;
+    width: 45px;
+    padding: 10px 5px;
+}
+
+section.release-software.mobile .release-header .mm-btn a:after {
+    bottom: 0;
+}
+
+/*section.release-software.mobile .info_wrap {height: auto;}*/
+/*section.release-software.mobile .info_wrap .sw_item {width: 50%;}*/
+/*section.release-software.mobile .release-soft .info-box {min-height: 100px;}*/
+section.release-software.mobile .month-box .related-thumb {
+    float: none;
+}
+
+section.release-software.mobile .release-soft .info_wrap > div {
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+/* ****** */
+
+@media screen and (max-width: 1200px) {
+    section.release-software .release-soft .releaseInfo {
+        display: block;
+    }
+
+    section.release-software h2.main_h2 {
+        padding: 0;
+    }
+
+    section.release-software .release-header.fixed {
+        position: fixed;
+        top: 0;
+        width: calc(100% - 40px);
+        margin: auto;
+        z-index: 30;
+    }
+
+    section.release-software h2.main_h2 .desc {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+
+    /*section.release-software .release-soft .sw_item {width: 100%;}*/
+    /*section.release-software.mobile .release-soft .info-box {min-height: 100px; margin: 15px 0 0 0;}*/
+}
+
+@media screen and (max-width: 900px) {
+    section.release-software.mobile .release-soft .info_wrap {
+        height: auto;
+    }
+
+    section.release-software.mobile .release-soft .info_wrap > div {
+        float: none;
+    }
+
+    section.release-software.mobile .release-soft .info_wrap .info-box {
+        width: 93%;
+        height: 100px;
+        margin: 20px 0;
+    }
+
+    section.release-software.mobile .release-soft .info_wrap .related-thumb {
+        width: 67%;
+        height: auto;
+    }
+
+    section.release-software.mobile .release-soft .sw_item {
+        float: left;
+    }
+}
+
+
+
+.btn_softwareAllView {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 218px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: -1.7em;
+    color: #e60012;
+    border: 2px solid #e60012;
+    background-image: url(/images/renew/common/btnArrowSoftAll.png);
+    background-position: calc(100% - 20px) center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+    .btn_softwareAllView {
+        display: none !important;
+    }
+}
+
+/* 21.06.29 소프트웨어 리스트 검색 박스 내 안내 문구 추가에 따른 css 변경 */
+.sw_download .sch_wrap{
+    margin-bottom: 0;
+    border: none;
+}
+.sw_download .renew_sch_wrap{
+    margin-bottom: 30px;
+    border: 1px solid #d6d6d6;
+}
+.sw_download .src_info{
+    padding: 0 0 18px 40px;
+    line-height: 1.4;
+}
+.sw_download .src_info a{
+    display: inline-block;
+    color: #fff;
+    background: #fe7c0a;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0 2px;
+
+}
+.sw_download .src_info_mo{
+    display: none;
+}
+.sw_download .src_info_mo a{
+    display: inline;
+    color: #fff;
+    background: #fe7c0a;
+}
+@media screen and (max-width: 1024px){
+    .sw_download .src_info{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 767px){
+    .sw_download .src_info{
+        display: none;
+    }
+    .sw_download .src_info_mo{
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        line-height: 1.4;
+    }
+    .sw_download .checkbox_wrap.open > .src_info_mo{
+        display: block;
+    }
+}
+
+/* 21.06.29 소프트웨어 리스트 체험판 표시에 따른 css 수정 */
+@media screen and (max-width: 900px) and (min-width: 768px){
+    .sw_item .type{
+        width: 100%;
+        text-align: right;
+    }
+    .sw_item .tit{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 464px){
+    .sw_item .type{
+        width: 100%;
+        text-align: right;
+    }
+    .sw_item .tit{
+        width: 100%;
+    }
+}

@@ -1,0 +1,275 @@
+﻿var winWidth = $(window).outerWidth();
+var chkMobile = false;
+var menuOpened = false;
+
+$(document).ready(function(){
+	if(winWidth<=1200){
+		chkMobile = true;
+		mobileEvent(); // mobile only
+	}else{
+		pcEvent(); // pc only
+	}
+
+	// 헤더 검색 열기
+	$(".btn_search").on("click",function(e){
+		e.preventDefault();
+		var $btn = $(this);
+		
+		if(!$btn.hasClass("is-opened")){
+			$btn.addClass("is-opened");
+			TweenMax.fromTo($(".box_search"),1,{display:"block", y:"-100%"},{y:"0%",ease: Elastic.easeOut.config(1, 0.5)});
+			$(".box_search input").focus();
+		}
+	})
+
+	$(".box_search .btn_close_searchBox").on("click",function(e){
+		e.preventDefault();
+		
+		$(".btn_search").removeClass("is-opened");
+		TweenMax.to($(".box_search"),0.5,{y:"-100%",ease: Elastic.easeIn.config(1, 1.5),onComplete:function(){$(".box_search").hide()}});
+		
+	})
+
+	$(".btn_gotoTop").on("click",function(e){
+		e.preventDefault();
+
+		$("html, body").animate({"scrollTop":0},1000);
+	})
+})
+
+$(window).resize(function(){
+	winWidth = $(window).outerWidth();
+	if(winWidth<=1200 && chkMobile === false){// mobile only
+		chkMobile = true;
+		clearPcEvent();
+		mobileEvent();
+	}else if(winWidth>1200 && chkMobile === true){// pc only
+		chkMobile = false;
+		clearMobileEvent();
+		pcEvent();
+	}
+})
+
+/* gnb motion - pc */
+function pcEvent(){
+	$("header nav>ul>li").on("mouseenter",function(){
+		$("ul",this).stop().slideDown(300);
+	})
+	
+	$("header nav>ul>li").on("mouseleave",function(){
+		$("ul",this).stop().slideUp(300);
+	})
+}
+
+/* gnb motion - mobile */
+function mobileEvent(){
+	$("header nav>ul>li>a").on("click",function(e){
+		e.preventDefault();
+		var $target = $(this);
+		var $parent = $target.parent();
+		if($parent.hasClass("is-opened")){
+			$parent.removeClass("is-opened");
+			$target.next().stop().slideUp(300);
+		}else{
+			$("header nav>ul>li").removeClass("is-opened");
+			$parent.addClass("is-opened");
+			$("header nav ul ul").slideUp(300);
+			$target.next().stop().slideDown(300);
+		}
+	})
+	
+	$("header .btn_gnb").on("click",function(e){
+		e.preventDefault();
+		var $btnGnb = $(this);
+		if($btnGnb.hasClass("is-folded")){
+			$btnGnb.removeClass("is-folded");
+			$("nav").slideDown(600);
+		}else{
+			$btnGnb.addClass("is-folded");
+			$("nav").slideUp(600);
+		}
+	})
+
+	// 하단 공통 링크
+	$(".bottom_nav>ul>li>a").on("click",function(e){
+		e.preventDefault();
+		var $target = $(this);
+		var $parent = $target.parent();
+		if($parent.hasClass("is-opened")){
+			$parent.removeClass("is-opened");
+			$target.next().stop().slideUp(300);
+		}else{
+			$(".bottom_nav>ul>li").removeClass("is-opened");
+			$parent.addClass("is-opened");
+			$(".bottom_nav ul ul").slideUp(300);
+			$target.next().stop().slideDown(300);
+		}
+	})
+}
+
+//clear pc event
+function clearPcEvent(){
+  $("header nav>ul>li").off("mouseenter");
+  $("header nav").hide();
+
+  $(".bottom_nav>ul ul").hide();
+}
+
+//clear mobile event
+function clearMobileEvent(){
+  $("header nav").show();
+  $("header nav>ul>li>a").off("click");
+  $("header nav>ul ul").hide();
+  $("header nav>ul>li").removeClass("is-opened");
+  $("header .btn_gnb").off("click");
+  $("header .btn_gnb").addClass("is-folded");
+
+  // 하단 공통 링크
+  $(".bottom_nav>ul ul").show();
+  $(".bottom_nav>ul>li").removeClass("is-opened");
+  $(".bottom_nav>ul>li>a").off("click");
+}
+
+/*
+  mobile device 확인
+  return : mobile - true, pc - false
+ */
+function detectMobile(){
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    return true;
+  }else{
+    return false;
+  }
+}
+
+// layer popup open
+function openLayerPopup(){
+  $("html, body").css("overflow","hidden");
+  $(".layer_popup").fadeIn(300,function(){
+    $(".layer_popup .innerWrap").slideDown(500);
+  });
+}
+
+// layer popup open
+function openLayerPopup(){
+  $("html, body").css("overflow","hidden");
+  $(".layer_popup").not(".layer_popup.vcPopup").fadeIn(300,function(){
+    $(".layer_popup .innerWrap").slideDown(500);
+  });
+}
+
+// layer popup close
+function closeLayerPopup(){
+  $(".layer_popup .innerWrap").slideUp(500,function(){
+    $(".layer_popup").fadeOut(300);
+    $("html, body").css("overflow","auto");
+  });
+}
+
+// layer popup open - virtual console
+function openVC(idx){
+  $("html, body").css("overflow","hidden");
+
+  // image
+  $("#virImg").attr("src",$("#image_url"+idx).attr("src"));
+  $("#virImg").attr("alt",$("#image_url"+idx).attr("alt"));
+  // title
+  $("#virGameTitle").text($("#title"+idx).text());
+  // reg_date
+  $("#virDate").text($("#release_date"+idx).text());
+  // company 
+  $("#virPub").text($("#pub_company"+idx).val());
+  // info
+
+  var info = $("#lang"+idx).val()+" / "+$("#cate"+idx).val();
+  if ($("#org_price"+idx).val() != "" && $("#sale_price"+idx).val() != "")
+  {
+	  info+=' / ';
+	  $("#virInfo").text(info);
+	  $("#virInfo").append('<span class="price sale"><span>'+$("#org_price"+idx).val()+'</span> → <em>'+$("#sale_price"+idx).val()+'</em></span>');	  
+  }else if ($("#org_price"+idx).val() != "")
+  {
+	   info+=" / "+$("#org_price"+idx).val();
+	   $("#virInfo").text(info);
+  }
+
+  // device
+  $("#virCate").children().remove();
+  $("#virCate").append($("#device"+idx).clone());
+  $("#vir").fadeIn(300,function(){
+    $("#virWrap").slideDown(500);
+  });
+}
+
+// layer popup open - virtual console
+function openQR(idx){
+  $("html, body").css("overflow","hidden");
+
+  // image
+  $("#qrImg").attr("src",$("#qr_url"+idx).val());
+  // title
+  $("#qrGameTitle").text($("#title"+idx).text());
+  //랭귀지
+  $("#qrLang").text($("#lang"+idx).val());
+  $("#qr").fadeIn(300,function(){
+    $("#qrWrap").slideDown(500);
+  });
+}
+
+// 상세페이지 
+function trial_qrCode(imgName){
+	$("#qr").show();
+	$("#qrGameTitle").text($(".tit_sw").text());
+	$("#qrImg").attr("src","/images/renew/software/qr_code/"+imgName+"_dm_qr.jpg");
+	$("#qrWrap").slideDown(300);
+}
+
+// 2018.05.30 스프트웨어 슬라이드 기능 추가
+$(window).load(function(){
+	setTimeout(function(){
+		if($(".thumb").length != 0){
+			slideThumb();
+		}
+	},100)
+})
+
+function slideThumb(){
+	$(".thumb").each(function(){
+		var $this = $(this);
+		var imgSrc = $("img",this).attr("src");
+		var imgalt = $("img",this).attr("alt");
+		
+		if(imgSrc.match(',')){
+			imgs = imgSrc.split(',');
+			$this.removeClass("thumb").addClass("slider").html("");
+			for(var i=0; i<imgs.length; i++){
+				$this.prepend("<img src='"+imgs[i]+"' alt='"+imgalt+"' />");
+			}
+			var $fadeImg = $this.find("img").eq(1);
+			
+			$this.on("mouseenter",function(){
+				TweenMax.to($this.find("img"),0.3,{scale:1.05, ease: Power0.easeNone});
+			})
+
+			$this.on("mouseleave",function(){
+				TweenMax.to($this.find("img"),0.3,{scale:1, ease: Power0.easeNone});
+			})
+			
+			setTimeout(function(){
+				$fadeImg.addClass("is-show");
+				TweenMax.to($fadeImg,0.5,{autoAlpha:1, ease: Power0.easeNone});
+			},100)
+
+			setInterval(function(){
+				if($fadeImg.hasClass("is-show")){
+					$fadeImg.removeClass("is-show");
+					TweenMax.to($fadeImg,0.5,{autoAlpha:0, ease: Power0.easeNone});
+				}else{
+					$fadeImg.addClass("is-show");
+					TweenMax.to($fadeImg,0.5,{autoAlpha:1, ease: Power0.easeNone});
+				}
+			},3000)
+		}
+	})
+}
